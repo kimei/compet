@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------
+-- Company: 
+-- Engineer:
+--
+-- Create Date:   10:03:27 01/25/2011
+-- Design Name:   
+-- Module Name:   M:/MASTER/COMPET/Trigger/HW/HDL/CRU/TB_CRU.vhd
+-- Project Name:  CRU
+-- Target Device:  
+-- Tool versions:  
+-- Description:   
+-- 
+-- VHDL Test Bench Created by ISE for module: CRU
+-- 
+-- Dependencies:
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+--
+-- Notes: 
+-- This testbench has been automatically generated using types std_logic and
+-- std_logic_vector for the ports of the unit under test.  Xilinx recommends
+-- that these types always be used for the top-level I/O of a design in order
+-- to guarantee that the testbench will bind correctly to the post-implementation 
+-- simulation model.
+--------------------------------------------------------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.all;
+USE ieee.numeric_std.ALL;
+ 
+ENTITY TB_CRU IS
+END TB_CRU;
+ 
+ARCHITECTURE behavior OF TB_CRU IS 
+ 
+    -- Component Declaration for the Unit Under Test (UUT)
+ 
+    COMPONENT CRU
+    PORT(
+         fpga_100m_clk : IN  std_logic;
+         fpga_cpu_reset_b : IN  std_logic;
+         mclk : OUT  std_logic;
+         gclk : OUT  std_logic;
+         mrst : OUT  std_logic;
+         lrst : OUT  std_logic
+        );
+    END COMPONENT;
+    
+
+   --Inputs
+   signal fpga_100m_clk : std_logic := '0';
+   signal fpga_cpu_reset_b : std_logic := '0';
+
+ 	--Outputs
+   signal mclk : std_logic;
+   signal gclk : std_logic;
+   signal mrst : std_logic;
+   signal lrst : std_logic;
+
+   -- Clock period definitions
+   constant fpga_100m_clk_period : time := 1us;
+   constant mclk_period : time := 1us;
+   constant gclk_period : time := 1us;
+ 
+BEGIN
+ 
+	-- Instantiate the Unit Under Test (UUT)
+   uut: CRU PORT MAP (
+          fpga_100m_clk => fpga_100m_clk,
+          fpga_cpu_reset_b => fpga_cpu_reset_b,
+          mclk => mclk,
+          gclk => gclk,
+          mrst => mrst,
+          lrst => lrst
+        );
+
+   -- Clock process definitions
+   fpga_100m_clk_process :process
+   begin
+		fpga_100m_clk <= '0';
+		wait for fpga_100m_clk_period/2;
+		fpga_100m_clk <= '1';
+		wait for fpga_100m_clk_period/2;
+   end process;
+ 
+   mclk_process :process
+   begin
+		mclk <= '0';
+		wait for mclk_period/2;
+		mclk <= '1';
+		wait for mclk_period/2;
+   end process;
+ 
+   gclk_process :process
+   begin
+		gclk <= '0';
+		wait for gclk_period/2;
+		gclk <= '1';
+		wait for gclk_period/2;
+   end process;
+ 
+
+   -- Stimulus process
+   stim_proc: process
+   begin		
+      -- hold reset state for 100ms.
+      wait for 100ms;	
+
+      wait for fpga_100m_clk_period*10;
+
+      -- insert stimulus here 
+
+      wait;
+   end process;
+
+END;
