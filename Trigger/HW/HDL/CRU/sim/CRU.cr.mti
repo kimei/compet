@@ -1,4 +1,20 @@
-M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU_tb.vhd {1 {vcom -work work -2002 -explicit -vopt {M:\MASTER\COMPET\Trigger\HW\HDL\CRU\CRU_tb.vhd}
+M:/MASTER/COMPET/Trigger/HW/HDL/Shared/a2s.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/a2s.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package constants
+-- Compiling entity a2s
+-- Compiling architecture rtl of a2s
+
+} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling package components
+
+} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU_tb.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU_tb.vhd
 Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
 -- Loading package standard
 -- Loading package std_logic_1164
@@ -14,21 +30,14 @@ Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
 -- Loading package components
 -- Loading entity cru
 
-} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd
+} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd
 Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
 -- Loading package standard
 -- Loading package std_logic_1164
 -- Loading package numeric_std
--- Compiling package components
-
-} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/Shared/a2s.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/a2s.vhd
-Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
--- Loading package standard
--- Loading package std_logic_1164
--- Loading package numeric_std
--- Loading package constants
--- Compiling entity a2s
--- Compiling architecture rtl of a2s
+-- Loading package vcomponents
+-- Compiling entity pll_all
+-- Compiling architecture behavioral of pll_all
 
 } {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/Shared/constants.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/constants.vhd
 Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
@@ -36,17 +45,5 @@ Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
 -- Loading package std_logic_1164
 -- Loading package numeric_std
 -- Compiling package constants
-
-} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd {1 {vcom -work work -93 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd
-Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
--- Loading package standard
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package std_logic_unsigned
--- Loading package vcomponents
--- Loading package numeric_std
--- Loading package components
--- Compiling entity cru
--- Compiling architecture behavioral of cru
 
 } {} {}}

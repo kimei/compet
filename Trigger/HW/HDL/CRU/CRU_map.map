@@ -10,7 +10,7 @@ Target Device  : xc5vlx50t
 Target Package : ff1136
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.46.12.2 $
-Mapped Date    : Tue Jan 25 13:31:09 2011
+Mapped Date    : Wed Jan 26 13:38:29 2011
 
 Mapping design into LUTs...
 Running directed packing...
@@ -20,55 +20,55 @@ INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
 Running timing-driven packing...
 
 Phase 1.1
-Phase 1.1 (Checksum:1a) REAL time: 4 secs 
+Phase 1.1 (Checksum:1a) REAL time: 7 secs 
 
 Phase 2.7
-Phase 2.7 (Checksum:1a) REAL time: 6 secs 
+Phase 2.7 (Checksum:1a) REAL time: 9 secs 
 
 Phase 3.31
-Phase 3.31 (Checksum:1a) REAL time: 6 secs 
+Phase 3.31 (Checksum:1a) REAL time: 9 secs 
 
 Phase 4.33
-Phase 4.33 (Checksum:1a) REAL time: 6 secs 
+Phase 4.33 (Checksum:1a) REAL time: 9 secs 
 
 Phase 5.32
-Phase 5.32 (Checksum:1a) REAL time: 6 secs 
+Phase 5.32 (Checksum:1a) REAL time: 9 secs 
 
 Phase 6.2
 ............
 .
-Phase 6.2 (Checksum:2aea0) REAL time: 7 secs 
+Phase 6.2 (Checksum:2aea0) REAL time: 9 secs 
 
 Phase 7.30
-Phase 7.30 (Checksum:2aea0) REAL time: 7 secs 
+Phase 7.30 (Checksum:2aea0) REAL time: 9 secs 
 
 Phase 8.3
 ...
-Phase 8.3 (Checksum:4b288) REAL time: 7 secs 
+Phase 8.3 (Checksum:4b288) REAL time: 9 secs 
 
 Phase 9.5
-Phase 9.5 (Checksum:4b288) REAL time: 7 secs 
+Phase 9.5 (Checksum:4b288) REAL time: 9 secs 
 
 Phase 10.8
-Phase 10.8 (Checksum:4b288) REAL time: 7 secs 
+Phase 10.8 (Checksum:4b288) REAL time: 10 secs 
 
 Phase 11.29
-Phase 11.29 (Checksum:4b288) REAL time: 7 secs 
+Phase 11.29 (Checksum:4b288) REAL time: 10 secs 
 
 Phase 12.5
-Phase 12.5 (Checksum:4b288) REAL time: 7 secs 
+Phase 12.5 (Checksum:4b288) REAL time: 10 secs 
 
 Phase 13.18
-Phase 13.18 (Checksum:4b281) REAL time: 7 secs 
+Phase 13.18 (Checksum:4b281) REAL time: 10 secs 
 
 Phase 14.5
-Phase 14.5 (Checksum:4b281) REAL time: 7 secs 
+Phase 14.5 (Checksum:4b281) REAL time: 10 secs 
 
 Phase 15.34
-Phase 15.34 (Checksum:4b281) REAL time: 7 secs 
+Phase 15.34 (Checksum:4b281) REAL time: 10 secs 
 
-REAL time consumed by placer: 7 secs 
-CPU  time consumed by placer: 5 secs 
+REAL time consumed by placer: 10 secs 
+CPU  time consumed by placer: 6 secs 
 
 Design Summary
 --------------
@@ -88,8 +88,8 @@ Specific Feature Utilization:
     Number used as BUFGs:                        2
   Number of PLL_ADVs:                            1 out of       6   16%
 
-Peak Memory Usage:  312 MB
-Total REAL time to MAP completion:  20 secs 
+Peak Memory Usage:  313 MB
+Total REAL time to MAP completion:  25 secs 
 Total CPU time to MAP completion:   15 secs 
 
 Mapping completed.

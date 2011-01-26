@@ -1,7 +1,7 @@
 Release 10.1.03 par K.39 (nt)
 Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
 
-fyspc-epf02::  Tue Jan 25 13:31:41 2011
+fyspc-epf02::  Wed Jan 26 13:39:05 2011
 
 par -w -intstyle ise -ol std -t 1 CRU_map.ncd CRU.ncd CRU.pcf 
 
@@ -63,7 +63,7 @@ Phase 7: 0 unrouted; (0)      REAL time: 13 secs
 Phase 8: 0 unrouted; (0)      REAL time: 13 secs 
 
 Total REAL time to Router completion: 13 secs 
-Total CPU time to Router completion: 13 secs 
+Total CPU time to Router completion: 12 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -92,7 +92,7 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 42 secs 
+Total REAL time to PAR completion: 41 secs 
 Total CPU time to PAR completion: 20 secs 
 
 Peak Memory Usage:  243 MB

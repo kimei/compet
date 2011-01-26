@@ -52,8 +52,8 @@ begin
 		LOCKED_OUT => clk_lock
 	);
 
---a2s1: a2s PORT MAP();
---a2s1: a2s PORT MAP();
+a2s1: a2s PORT MAP();
+a2s1: a2s PORT MAP();
 
 end Behavioral;
 

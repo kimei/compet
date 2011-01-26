@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle ise -v 3 -s 1 -xml CRU
+CRU.ncd -o CRU.twr CRU.pcf
+
+Design file:              CRU.ncd
+Physical constraint file: CRU.pcf
+Device,package,speed:     xc5vlx50t,ff1136,-1 (PRODUCTION 1.62 2008-08-19, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+fpga_100m_clk  |gclk           |    9.201|
+fpga_100m_clk  |mclk           |    9.186|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Jan 25 13:32:38 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 224 MB
+
+
+
