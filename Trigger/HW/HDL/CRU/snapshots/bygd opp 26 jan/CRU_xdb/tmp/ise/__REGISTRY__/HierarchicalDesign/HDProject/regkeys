@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx50t-ff1136-1 CRU.ngc CRU.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+CRU_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

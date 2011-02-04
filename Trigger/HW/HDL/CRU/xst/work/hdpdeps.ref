@@ -1,23 +1,27 @@
-V3 15
-FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd 2011/01/25.10:07:01 K.39
-EN work/CRU 1296045478 \
+V3 20
+FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd 2011/02/03.15:13:41 K.39
+EN work/CRU 1296742503 \
       FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd \
       PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
       PB ieee/STD_LOGIC_UNSIGNED 1217055547 LB UNISIM PH unisim/VCOMPONENTS 1217055545 \
-      PH work/components 1296045475
-AR work/CRU/Behavioral 1296045479 \
-      FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd EN work/CRU 1296045478 \
-      CP PLL_ALL
-FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd 2011/01/26.13:37:48 K.39
-EN work/PLL_ALL 1296045476 \
+      PH work/components 1296742500
+AR work/CRU/Behavioral 1296742504 \
+      FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd EN work/CRU 1296742503 \
+      CP PLL_ALL CP OBUFDS CP ODDR
+FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd 2011/01/27.13:47:21 K.39
+EN work/PLL_ALL 1296742501 \
       FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd \
       PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545 LB UNISIM \
       PH unisim/VCOMPONENTS 1217055545
-AR work/PLL_ALL/BEHAVIORAL 1296045477 \
+AR work/PLL_ALL/BEHAVIORAL 1296742502 \
       FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd \
-      EN work/PLL_ALL 1296045476 CP IBUFG CP BUFG CP PLL_ADV
-FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd 2011/01/18.15:20:49 K.39
-PH work/components 1296045475 \
+      EN work/PLL_ALL 1296742501 CP IBUFG CP BUFG CP PLL_ADV
+FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd 2011/01/31.09:38:30 K.39
+PH work/components 1296742500 \
       FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd \
-      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545 CD PLL_ALL \
-      CD a2s
+      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545 \
+      PH work/constants 1296742499 CD PLL_ALL CD a2s CD OBUFDS
+FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/Shared/constants.vhd 2011/01/18.13:37:19 K.39
+PH work/constants 1296742499 \
+      FL //aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/Shared/constants.vhd \
+      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545

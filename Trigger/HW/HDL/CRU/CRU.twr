@@ -4,7 +4,7 @@ Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
 
 C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
 M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle ise -v 3 -s 1 -xml CRU
-CRU.ncd -o CRU.twr CRU.pcf
+CRU.ncd -o CRU.twr CRU.pcf -ucf CRU.ucf
 
 Design file:              CRU.ncd
 Physical constraint file: CRU.pcf
@@ -31,23 +31,43 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
+Clock fpga_100m_clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+lrst        |   11.101(R)|gclk_OBUF         |   0.000|
+mclk        |    7.571(R)|mclk_s            |   0.000|
+            |    7.571(F)|mclk_s            |   0.000|
+mclk_b      |    7.571(R)|mclk_s            |   0.000|
+            |    7.571(F)|mclk_s            |   0.000|
+mrst        |   11.237(R)|gclk_OBUF         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock fpga_100m_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+fpga_100m_clk  |    3.235|         |         |         |
+---------------+---------+---------+---------+---------+
+
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-fpga_100m_clk  |gclk           |    9.201|
-fpga_100m_clk  |mclk           |    9.186|
+fpga_100m_clk  |gclk           |    9.252|
 ---------------+---------------+---------+
 
 
-Analysis completed Wed Jan 26 13:39:59 2011 
+Analysis completed Thu Feb 03 15:17:17 2011 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 224 MB
+Peak Memory Usage: 227 MB
 
 
 

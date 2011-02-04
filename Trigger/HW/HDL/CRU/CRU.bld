@@ -6,6 +6,7 @@ M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle ise -dd _ngo -nt timestamp
 -i -p xc5vlx50t-ff1136-1 CRU.ngc CRU.ngd
 
 Reading NGO file "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ngc" ...
+Reading in constraint information from 'CRU.ucf'...
 Gathering constraint information from source properties...
 Done.
 
@@ -27,7 +28,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 77696 kilobytes
+Total memory usage is 77760 kilobytes
 
 Writing NGD file "CRU.ngd" ...
 

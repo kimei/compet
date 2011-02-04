@@ -1,0 +1,5 @@
+xst -ise "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise" -intstyle ise -ifn "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.xst" -ofn "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.syr"
+ngdbuild -ise "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "CRU.ngc" CRU.ngd
+map -ise "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o CRU_map.ncd CRU.ngd CRU.pcf
+par -ise "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise" -w -intstyle ise -ol std -t 1 CRU_map.ncd CRU.ncd CRU.pcf
+trce -ise "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise" -intstyle ise -v 3 -s 1 -xml CRU CRU.ncd -o CRU.twr CRU.pcf

@@ -1,2 +1,3 @@
 work	../Shared/components.vhd
+work	../Shared/constants.vhd
 work	CRU.vhd

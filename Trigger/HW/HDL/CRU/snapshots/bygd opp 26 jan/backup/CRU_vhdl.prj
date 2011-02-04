@@ -1,0 +1,3 @@
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\Trigger\HW\HDL\Shared\components.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\Trigger\HW\HDL\CRU\PLL_ALL.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\Trigger\HW\HDL\CRU\CRU.vhd"

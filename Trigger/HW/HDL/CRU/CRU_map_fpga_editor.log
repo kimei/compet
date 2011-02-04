@@ -1,0 +1,58 @@
+#:C19    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 K.39
+#Current Working Directory:
+#:D   M:\MASTER\COMPET\Trigger\HW\HDL\CRU
+#Date/Time:
+#:T   Thu Jan 27 12:59:50 2011
+#------------------------------
+	#Reading M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU_map.ncd...
+	#Loading device for application Rf_Device from file '5vlx50t.nph' in environment C:\Xilinx\10.1\ISE.
+	#   "CRU" is an NCD, version 3.2, device xc5vlx50t, package ff1136, speed -1
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'Inst_PLL_ALL/CLKOUT0_BUFG_INST'
+	#3
+unselect -all
+	#4
+unselect -all
+	#5
+unselect -all
+	#6
+select site 'TIEOFF_X36Y31'
+	#site "TIEOFF_X36Y31",  type = TIEOFF  (RPM grid X156Y62)
+	#7
+unselect -all
+	#8
+select site 'PCIE_X0Y0'
+	#site "PCIE_X0Y0",  type = PCIE  (RPM grid X157Y60)
+	#9
+unselect -all
+	#10
+select site 'SLICE_X51Y35'
+	#site "SLICE_X51Y35",  type = SLICEL  (RPM grid X131Y70)
+	#11
+unselect -all
+	#12
+select site 'SLICE_X51Y35'
+	#site "SLICE_X51Y35",  type = SLICEL  (RPM grid X131Y70)
+	#13
+post block
+	#14
+unselect -all
+	#15
+unselect -all
+	#16
+select -k comp 'fpga_100m_clk'
+	#17
+unselect comp 'fpga_100m_clk'
+	#18
+select -k comp 'Inst_PLL_ALL/PLL_ADV_INST'
+	#19
+post find
+	#20
+unpost find

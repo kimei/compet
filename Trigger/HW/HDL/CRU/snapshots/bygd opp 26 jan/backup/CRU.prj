@@ -1,0 +1,3 @@
+vhdl work "../Shared/components.vhd"
+vhdl work "PLL_ALL.vhd"
+vhdl work "CRU.vhd"

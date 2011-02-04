@@ -9,14 +9,6 @@
 
 </msg>
 
-<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">mrst</arg> has no load.
-</msg>
-
-<msg type="warning" file="LIT" num="395" delta="unknown" >The above <arg fmt="%s" index="1">warning</arg> message <arg fmt="%s" index="2">base_net_load_rule</arg> is repeated <arg fmt="%d" index="3">1</arg> more times for the following (max. 5 shown):
-<arg fmt="%s" index="4">lrst</arg>
-To see the details of these <arg fmt="%s" index="5">warning</arg> messages, please use the -detail switch.
-</msg>
-
 <msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
 </msg>
 

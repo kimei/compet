@@ -2,11 +2,28 @@ Asterisk (*) preceding a constraint indicates it was not met.
    This may be due to a setup or hold violation.
 
 ------------------------------------------------------------------------------------------------------
-  Constraint                                | Requested  | Actual     | Logic  | Absolute   |Number of
-                                            |            |            | Levels | Slack      |errors   
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net gcl | SETUP   |         N/A|     3.323ns|     N/A|           0
+  k_OBUF                                    | HOLD    |     0.485ns|            |       0|           0
 ------------------------------------------------------------------------------------------------------
 
 
+Derived Constraint Report
+Derived Constraints for Inst_PLL_ALL/CLKIN1_IBUFG
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|Inst_PLL_ALL/CLKIN1_IBUFG      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| Inst_PLL_ALL/CLKOUT1_BUF      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| Inst_PLL_ALL/CLKOUT0_BUF      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
 All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
 
 

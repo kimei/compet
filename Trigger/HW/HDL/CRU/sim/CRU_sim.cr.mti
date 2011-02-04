@@ -1,0 +1,59 @@
+M:/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/components.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package constants
+-- Compiling package components
+
+} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/Shared/a2s.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/a2s.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package constants
+-- Compiling entity a2s
+-- Compiling architecture rtl of a2s
+
+} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU_tb.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU_tb.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity cru_tb
+-- Compiling architecture tb of cru_tb
+
+} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package vcomponents
+-- Compiling entity pll_all
+-- Compiling architecture behavioral of pll_all
+
+} {} {}} M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd {0 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package vcomponents
+-- Loading package numeric_std
+-- Loading package constants
+-- Loading package components
+-- Compiling entity cru
+-- Compiling architecture behavioral of cru
+** Error: M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd(76): (vcom-1078) Identifier "obufds" is not directly visible.
+   Potentially visible declarations are:
+        work.components.obufds (component declaration)
+        unisim.vcomponents.obufds (component declaration)
+** Error: M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd(111): VHDL Compiler exiting
+
+} {13.0 14.0 17.0 18.0} {}} M:/MASTER/COMPET/Trigger/HW/HDL/Shared/constants.vhd {1 {vcom -work work -2002 -explicit -vopt M:/MASTER/COMPET/Trigger/HW/HDL/Shared/constants.vhd
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling package constants
+
+} {} {}}

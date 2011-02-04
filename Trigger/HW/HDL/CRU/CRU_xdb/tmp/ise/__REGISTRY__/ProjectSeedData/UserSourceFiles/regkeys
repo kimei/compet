@@ -1,5 +1,5 @@
 NUM_USER_FILES
-6
+7
 s
 user_file_1
 CRU.vhd
@@ -20,5 +20,5 @@ user_file_6
 COREgen/PLL_ALL.xaw
 s
 user_file_7
-PLL_ALL.vhd
+CRU.ucf
 s

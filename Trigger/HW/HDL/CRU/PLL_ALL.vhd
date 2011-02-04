@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 10.1.03
 --  \   \         Application : xaw2vhdl
 --  /   /         Filename : PLL_ALL.vhd
--- /___/   /\     Timestamp : 01/26/2011 13:37:48
+-- /___/   /\     Timestamp : 01/27/2011 13:47:22
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -67,10 +67,10 @@ begin
             CLKIN2_PERIOD => 10.000,
             CLKOUT0_DIVIDE => 8,
             CLKOUT1_DIVIDE => 8,
-            CLKOUT0_PHASE => 90.000,
+            CLKOUT0_PHASE => 0.000,
             CLKOUT1_PHASE => 0.000,
             CLKOUT0_DUTY_CYCLE => 0.500,
-            CLKOUT1_DUTY_CYCLE => 0.750,
+            CLKOUT1_DUTY_CYCLE => 0.500,
             COMPENSATION => "SYSTEM_SYNCHRONOUS",
             DIVCLK_DIVIDE => 1,
             CLKFBOUT_MULT => 8,

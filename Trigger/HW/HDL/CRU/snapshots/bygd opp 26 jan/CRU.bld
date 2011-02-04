@@ -1,0 +1,34 @@
+Release 10.1.03 ngdbuild K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise
+M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle ise -dd _ngo -nt timestamp
+-i -p xc5vlx50t-ff1136-1 CRU.ngc CRU.ngd
+
+Reading NGO file "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 77696 kilobytes
+
+Writing NGD file "CRU.ngd" ...
+
+Writing NGDBUILD log file "CRU.bld"...

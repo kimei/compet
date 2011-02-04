@@ -6,7 +6,7 @@
 -- Author     :   <kimei@fyspc-epf02>
 -- Company    : 
 -- Created    : 2011-01-25
--- Last update: 2011-01-25
+-- Last update: 2011-01-27
 -- Platform   : 
 -- Standard   : VHDL'87
 -------------------------------------------------------------------------------
@@ -37,6 +37,7 @@ architecture TB of CRU_tb is
       fpga_100m_clk    : in  STD_LOGIC;
       fpga_cpu_reset_b : in  STD_LOGIC;
       mclk             : out STD_LOGIC;
+      mclk_b           : out STD_LOGIC;
       gclk             : out STD_LOGIC;
       mrst             : out STD_LOGIC;
       lrst             : out STD_LOGIC);
@@ -46,6 +47,8 @@ architecture TB of CRU_tb is
   signal fpga_100m_clk    : STD_LOGIC;
   signal fpga_cpu_reset_b : STD_LOGIC;
   signal mclk             : STD_LOGIC;
+
+  signal mclk_b           : STD_LOGIC;
   signal gclk             : STD_LOGIC;
   signal mrst             : STD_LOGIC;
   signal lrst             : STD_LOGIC;
@@ -61,6 +64,7 @@ begin  -- TB
       fpga_100m_clk    => fpga_100m_clk,
       fpga_cpu_reset_b => fpga_cpu_reset_b,
       mclk             => mclk,
+      mclk_b           => mclk_b,      
       gclk             => gclk,
       mrst             => mrst,
       lrst             => lrst);
@@ -72,7 +76,7 @@ begin  -- TB
   WaveGen_Proc: process
   begin
   fpga_cpu_reset_b  <= '1';
-	wait for 30 ns;
+	wait for 60 ns;
   fpga_cpu_reset_b  <= '0';
 
     wait;
@@ -80,12 +84,3 @@ begin  -- TB
 
 
 end TB;
-
--------------------------------------------------------------------------------
-
-configuration CRU_tb_TB_cfg of CRU_tb is
-  for TB
-  end for;
-end CRU_tb_TB_cfg;
-
--------------------------------------------------------------------------------

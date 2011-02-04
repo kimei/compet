@@ -1,12 +1,7 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /cru_tb/dut/inst_pll_all/clkfbout_clkfbin
-add wave -noupdate /cru_tb/dut/inst_pll_all/clkin1_ibufg
-add wave -noupdate /cru_tb/dut/inst_pll_all/clkout0_buf
-add wave -noupdate /cru_tb/dut/inst_pll_all/clkout1_buf
-add wave -noupdate /cru_tb/fpga_100m_clk
-add wave -noupdate /cru_tb/fpga_cpu_reset_b
-add wave -noupdate /cru_tb/dut/clk_lock
+add wave -noupdate /cru_tb/dut/*
+
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {620000 ps} 0}
 configure wave -namecolwidth 150

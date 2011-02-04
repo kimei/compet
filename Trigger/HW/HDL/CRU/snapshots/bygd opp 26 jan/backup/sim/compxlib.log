@@ -1,0 +1,3302 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 10.1.03 (K.39)
+   \   \         APPLICATION : compxlib
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    CREATED ON  : Tue Jan 25 11:07:08 2011
+   \___\/\___\
+
+Release 10.1.03 - COMPXLIB K.39
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Library Source => 'C:\Xilinx\10.1\ISE'
+Compilation Mode = FAST
+Scheduling library compilation for VIRTEX5 
+
+Signature:-
+------------------------------------------------------------------------------
+compxlib -s mti_se
+         -arch virtex5
+         -lib xilinxcorelib
+         -l vhdl
+         -dir C:\Xilinx\10.1\ISE
+         -log compxlib.log
+------------------------------------------------------------------------------
+MTI => Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+Compiling Xilinx HDL Libraries for ModelSim SE Simulator
+Language => vhdl
+Backing up setup files if any...
+ Get MODELSIM environment variable
+MODELSIM: ( => modelsim.ini )
+Using MODELSIM ( => modelsim.ini )
+Output directory => 'C:\Xilinx\10.1\ISE\vhdl\mti_se'
+
+--> Compiling vhdl XilinxCoreLib library
+    > XilinxCoreLib compiled to C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib
+
+==============================================================================
+
+Modifying modelsim.ini
+
+Modifying modelsim.ini
+
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Compiling package prims_constants_v9_1
+-- Loading package std_logic_1164
+-- Loading package textio
+-- Loading package prims_constants_v9_1
+-- Compiling package prims_utils_v9_1
+-- Compiling package body prims_utils_v9_1
+-- Loading package prims_utils_v9_1
+-- Compiling package pkg_baseblox_v9_1
+-- Compiling package body pkg_baseblox_v9_1
+-- Loading package pkg_baseblox_v9_1
+-- Loading package prims_utils_v9_1
+-- Loading package pkg_baseblox_v9_1
+-- Compiling entity c_reg_fd_v9_1
+-- Compiling architecture behavioral of c_reg_fd_v9_1
+-- Compiling package c_reg_fd_v9_1_comp
+-- Loading package c_reg_fd_v9_1_comp
+-- Compiling entity c_reg_fd_v9_1_xst
+-- Compiling architecture behavioral of c_reg_fd_v9_1_xst
+-- Compiling package c_reg_fd_v9_1_xst_comp
+-- Loading package c_reg_fd_v9_1_xst_comp
+-- Compiling entity dds_compiler_v2_1_reg
+-- Compiling architecture synth of dds_compiler_v2_1_reg
+-- Compiling package xcc_utils_v9_1
+-- Compiling package body xcc_utils_v9_1
+-- Loading package xcc_utils_v9_1
+-- Compiling package iputils_conv
+-- Compiling package body iputils_conv
+-- Loading package iputils_conv
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling package pkg_dds_compiler_v2_1
+-- Compiling package body pkg_dds_compiler_v2_1
+-- Loading package pkg_dds_compiler_v2_1
+-- Compiling package dds_compiler_v2_1_sim_comps
+-- Loading package numeric_std
+-- Loading package math_real
+-- Loading package xcc_utils_v9_1
+-- Loading package iputils_conv
+-- Loading package pkg_dds_compiler_v2_1
+-- Loading package dds_compiler_v2_1_sim_comps
+-- Compiling entity dds_compiler_v2_1
+-- Compiling architecture behavioral of dds_compiler_v2_1
+-- Compiling package dds_compiler_v2_1_comp
+-- Loading package dds_compiler_v2_1_comp
+-- Compiling entity dds_compiler_v2_1_xst
+-- Compiling architecture behavioral of dds_compiler_v2_1_xst
+-- Compiling package dds_compiler_v2_1_xst_comp
+-- Compiling package sid_v5_1_comp_pkg
+-- Compiling package body sid_v5_1_comp_pkg
+-- Loading package sid_v5_1_comp_pkg
+-- Compiling package prims_constants_v9_0
+-- Loading package prims_constants_v9_0
+-- Compiling package prims_utils_v9_0
+-- Compiling package body prims_utils_v9_0
+-- Loading package prims_utils_v9_0
+-- Loading package prims_utils_v9_0
+-- Compiling package sid_const_pkg_behav_v5_1
+-- Compiling package sid_mif_pkg_behav_v5_1
+-- Compiling package body sid_mif_pkg_behav_v5_1
+-- Loading package sid_mif_pkg_behav_v5_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(8551):         WHILE (NOT(ENDFILE(meminitfile)) AND (num_lines < total_lines)) LOOP
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(8551): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_meminit_file".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(8552):           READLINE(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(8552): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_meminit_file".
+-- Loading package sid_const_pkg_behav_v5_1
+-- Loading package sid_mif_pkg_behav_v5_1
+-- Compiling package sid_pkg_behav_v5_1
+-- Compiling package body sid_pkg_behav_v5_1
+-- Loading package sid_pkg_behav_v5_1
+-- Loading package sid_pkg_behav_v5_1
+-- Compiling entity sid_bhv_forney_v5_1
+-- Compiling architecture behavioral of sid_bhv_forney_v5_1
+-- Compiling entity sid_bhv_rectangular_block_v5_1
+-- Compiling architecture behavioral of sid_bhv_rectangular_block_v5_1
+-- Compiling entity sid_v5_1
+-- Compiling architecture behavioral of sid_v5_1
+-- Loading package sid_v5_1_comp_pkg
+-- Compiling package sid_v5_1_comp
+-- Loading package sid_v5_1_comp
+-- Compiling entity sid_v5_1_xst
+-- Compiling architecture behavioral of sid_v5_1_xst
+-- Compiling package sid_v5_1_xst_comp
+-- Compiling package tcc_encoder_3gpp_v3_1_comp
+-- Compiling package tcc_encoder_3gpp_v3_1_xst_comp
+-- Compiling package cic_compiler_v1_1_pkg
+-- Compiling package body cic_compiler_v1_1_pkg
+-- Loading package cic_compiler_v1_1_pkg
+-- Loading package std_logic_unsigned
+-- Loading package cic_compiler_v1_1_pkg
+-- Compiling entity cic_compiler_v1_1_decimate_bhv
+-- Compiling architecture behavioral of cic_compiler_v1_1_decimate_bhv
+-- Compiling entity cic_compiler_v1_1_interpolate_bhv
+-- Compiling architecture behavioral of cic_compiler_v1_1_interpolate_bhv
+-- Compiling package cic_compiler_v1_1_sim_comps
+-- Loading package cic_compiler_v1_1_sim_comps
+-- Compiling entity cic_compiler_v1_1
+-- Compiling architecture behavioral of cic_compiler_v1_1
+-- Compiling package cic_compiler_v1_1_comp
+-- Compiling package body cic_compiler_v1_1_comp
+-- Loading package cic_compiler_v1_1_comp
+-- Loading package cic_compiler_v1_1_comp
+-- Compiling entity cic_compiler_v1_1_xst
+-- Compiling architecture behavioral of cic_compiler_v1_1_xst
+-- Compiling package cic_compiler_v1_1_xst_comp
+-- Compiling package dft_v2_1_comp
+-- Compiling package dft_v2_1_xst_comp
+-- Compiling entity dvb_s2_fec_encoder_v1_3
+-- Compiling architecture behavioral of dvb_s2_fec_encoder_v1_3
+-- Compiling package dvb_s2_fec_encoder_v1_3_comp
+-- Compiling package dvb_s2_fec_encoder_v1_3_xst_comp
+-- Compiling package tcc_encoder_3gpp2_v2_0_comp
+-- Compiling package tcc_encoder_3gpp2_v2_0_xst_comp
+-- Compiling package dlcr_3gpp_v1_0_comp
+-- Compiling package dlcr_3gpp_v1_0_xst_comp
+-- Compiling package tcc_decoder_toplevel_pkg
+-- Compiling package body tcc_decoder_toplevel_pkg
+-- Loading package tcc_decoder_toplevel_pkg
+-- Loading package tcc_decoder_toplevel_pkg
+-- Compiling entity tcc_decoder_v2_1
+-- Compiling architecture behavioral of tcc_decoder_v2_1
+-- Compiling package tcc_decoder_v2_1_comp
+-- Loading package tcc_decoder_v2_1_comp
+-- Compiling entity tcc_decoder_v2_1_xst
+-- Compiling architecture behavioral of tcc_decoder_v2_1_xst
+-- Compiling package tcc_decoder_v2_1_xst_comp
+-- Compiling package rs_encoder_v6_1_consts
+-- Compiling package body rs_encoder_v6_1_consts
+-- Loading package rs_encoder_v6_1_consts
+-- Loading package rs_encoder_v6_1_consts
+-- Compiling entity rs_encoder_v6_1
+-- Compiling architecture behavioral of rs_encoder_v6_1
+-- Compiling package rs_encoder_v6_1_comp
+-- Loading package rs_encoder_v6_1_comp
+-- Compiling entity rs_encoder_v6_1_xst
+-- Compiling architecture behavioral of rs_encoder_v6_1_xst
+-- Compiling package rs_encoder_v6_1_xst_comp
+-- Compiling package viterbi_v6_1_comp
+-- Compiling package viterbi_v6_1_xst_comp
+-- Compiling package tcc_decoder_3gpp_v3_1_comp
+-- Compiling package body tcc_decoder_3gpp_v3_1_comp
+-- Loading package tcc_decoder_3gpp_v3_1_comp
+-- Compiling package tcc_decoder_3gpp_v3_1_xst_comp
+-- Compiling package body tcc_decoder_3gpp_v3_1_xst_comp
+-- Loading package tcc_decoder_3gpp_v3_1_xst_comp
+-- Compiling package viterbi_v6_2_comp
+-- Compiling package viterbi_v6_2_xst_comp
+-- Compiling entity xfft_v5_0
+-- Compiling architecture behavioral of xfft_v5_0
+-- Compiling package xfft_v5_0_comp
+-- Loading package xfft_v5_0_comp
+-- Compiling entity xfft_v5_0_xst
+-- Compiling architecture behavioral of xfft_v5_0_xst
+-- Compiling package xfft_v5_0_xst_comp
+-- Compiling package tcc_enc_802_16e_v2_1_comp
+-- Compiling package tcc_enc_802_16e_v2_1_xst_comp
+-- Compiling entity xfft_v4_1
+-- Compiling architecture behavioral of xfft_v4_1
+-- Compiling package xfft_v4_1_comp
+-- Loading package xfft_v4_1_comp
+-- Compiling entity xfft_v4_1_xst
+-- Compiling architecture behavioral of xfft_v4_1_xst
+-- Compiling package xfft_v4_1_xst_comp
+-- Compiling package cic_compiler_v1_0_pkg
+-- Compiling package body cic_compiler_v1_0_pkg
+-- Loading package cic_compiler_v1_0_pkg
+-- Loading package cic_compiler_v1_0_pkg
+-- Compiling package cic_compiler_v1_0_sim_comps
+-- Loading package cic_compiler_v1_0_sim_comps
+-- Compiling entity cic_compiler_v1_0
+-- Compiling architecture behavioral of cic_compiler_v1_0
+-- Compiling package cic_compiler_v1_0_comp
+-- Compiling package body cic_compiler_v1_0_comp
+-- Loading package cic_compiler_v1_0_comp
+-- Loading package cic_compiler_v1_0_comp
+-- Compiling entity cic_compiler_v1_0_xst
+-- Compiling architecture behavioral of cic_compiler_v1_0_xst
+-- Compiling package cic_compiler_v1_0_xst_comp
+-- Compiling entity decimate_behave
+-- Compiling architecture behavioral of decimate_behave
+-- Compiling entity interpolate_behave
+-- Compiling architecture behavioral of interpolate_behave
+-- Compiling entity addr_gen_3gpp2_v2_0
+-- Compiling architecture behavioral of addr_gen_3gpp2_v2_0
+-- Compiling package addr_gen_3gpp2_v2_0_comp
+-- Loading package addr_gen_3gpp2_v2_0_comp
+-- Compiling entity addr_gen_3gpp2_v2_0_xst
+-- Compiling architecture behavioral of addr_gen_3gpp2_v2_0_xst
+-- Compiling package addr_gen_3gpp2_v2_0_xst_comp
+-- Compiling entity dds_compiler_v2_0_reg
+-- Compiling architecture synth of dds_compiler_v2_0_reg
+-- Compiling package pkg_dds_compiler_v2_0
+-- Compiling package body pkg_dds_compiler_v2_0
+-- Loading package pkg_dds_compiler_v2_0
+-- Compiling package dds_compiler_v2_0_sim_comps
+-- Loading package pkg_dds_compiler_v2_0
+-- Loading package dds_compiler_v2_0_sim_comps
+-- Compiling entity dds_compiler_v2_0
+-- Compiling architecture behavioral of dds_compiler_v2_0
+-- Compiling package dds_compiler_v2_0_comp
+-- Loading package dds_compiler_v2_0_comp
+-- Compiling entity dds_compiler_v2_0_xst
+-- Compiling architecture behavioral of dds_compiler_v2_0_xst
+-- Compiling package dds_compiler_v2_0_xst_comp
+-- Compiling entity tcc_dec_802_16e_basestation_v3_0
+-- Compiling architecture behavioral of tcc_dec_802_16e_basestation_v3_0
+-- Compiling package tcc_dec_802_16e_basestation_v3_0_comp
+-- Loading package tcc_dec_802_16e_basestation_v3_0_comp
+-- Compiling entity tcc_dec_802_16e_basestation_v3_0_xst
+-- Compiling architecture behavioral of tcc_dec_802_16e_basestation_v3_0_xst
+-- Compiling package tcc_dec_802_16e_basestation_v3_0_xst_comp
+-- Compiling package convolution_pack_v6_1
+-- Compiling package body convolution_pack_v6_1
+-- Loading package convolution_pack_v6_1
+-- Loading package convolution_pack_v6_1
+-- Compiling entity convolution_v6_1
+-- Compiling architecture behavioral of convolution_v6_1
+-- Compiling package convolution_v6_1_comp
+-- Compiling package convolution_v6_1_xst_comp
+-- Compiling entity searcher_3gpp_v1_0
+-- Compiling architecture behavioral of searcher_3gpp_v1_0
+-- Compiling package searcher_3gpp_v1_0_comp
+-- Loading package searcher_3gpp_v1_0_comp
+-- Compiling entity searcher_3gpp_v1_0_xst
+-- Compiling architecture behavioral of searcher_3gpp_v1_0_xst
+-- Compiling package searcher_3gpp_v1_0_xst_comp
+-- Compiling package addr_gen_802_16e_v2_1_comp
+-- Compiling package addr_gen_802_16e_v2_1_xst_comp
+-- Compiling entity rach_3gpp_v1_0
+-- Compiling architecture behavioral of rach_3gpp_v1_0
+-- Compiling package rach_3gpp_v1_0_comp
+-- Loading package rach_3gpp_v1_0_comp
+-- Compiling entity rach_3gpp_v1_0_xst
+-- Compiling architecture behavioural of rach_3gpp_v1_0_xst
+-- Compiling package rach_3gpp_v1_0_xst_comp
+-- Compiling package fir_compiler_v3_2_comp
+-- Compiling package fir_compiler_v3_2_xst_comp
+-- Compiling package fir_compiler_v3_0_comp
+-- Compiling package fir_compiler_v3_0_xst_comp
+-- Loading package vcomponents
+-- Compiling package pkg_name
+-- Compiling package body pkg_name
+-- Loading package pkg_name
+-- Compiling package sim_pkg
+-- Compiling package body sim_pkg
+-- Loading package sim_pkg
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32711):     file_open(mif_status,filepointer,mif_file,read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32711): (vcom-1283) Cannot reference file "filepointer" inside pure function "ram_content".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32713):     while (not(endfile(filepointer)) and (lines < depth)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32713): (vcom-1283) Cannot reference file "filepointer" inside pure function "ram_content".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32715):       readline(filepointer, dataline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32715): (vcom-1283) Cannot reference file "filepointer" inside pure function "ram_content".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32716):       exit when endfile(filepointer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32716): (vcom-1283) Cannot reference file "filepointer" inside pure function "ram_content".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32752):     file_close(filepointer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(32752): (vcom-1283) Cannot reference file "filepointer" inside pure function "ram_content".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33118):   file_open(mif_status,filepointer,filename,read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33118): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33120):   while (not(endfile(filepointer)) and (lines < number_of_values+offset)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33120): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33121):     readline(filepointer, dataline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33121): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33133):   file_close(filepointer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33133): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33159):   file_open(mif_status,filepointer,filename,read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33159): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data_bin".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33161):   while (not(endfile(filepointer)) and (lines < number_of_values+offset)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33161): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data_bin".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33162):     readline(filepointer, dataline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33162): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data_bin".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33173):   file_close(filepointer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33173): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_coef_data_bin".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33194):   file_open(mif_status,filepointer,filename,write_mode); 
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33194): (vcom-1283) Cannot reference file "filepointer" inside pure function "write_coef_data_hex".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33203):     writeline(filepointer,write_line);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33203): (vcom-1283) Cannot reference file "filepointer" inside pure function "write_coef_data_hex".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33206):   file_close(filepointer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33206): (vcom-1283) Cannot reference file "filepointer" inside pure function "write_coef_data_hex".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33226):   file_open(mif_status,filepointer,filename,write_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33226): (vcom-1283) Cannot reference file "filepointer" inside pure function "write_coef_data".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33244):     writeline(filepointer,write_line);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33244): (vcom-1283) Cannot reference file "filepointer" inside pure function "write_coef_data".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33247):   file_close(filepointer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33247): (vcom-1283) Cannot reference file "filepointer" inside pure function "write_coef_data".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33266):         file_open(mif_status,filepointer,filename,read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33266): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_mem_mif_file".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33270):         while (not(endfile(filepointer)) and (lines < number_of_values+offset)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33270): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_mem_mif_file".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33275):                 readline(filepointer, dataline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33275): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_mem_mif_file".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33297):         file_close(filepointer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33297): (vcom-1283) Cannot reference file "filepointer" inside pure function "read_mem_mif_file".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33313):         file_open(mif_status,inpfile,filename,read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33313): (vcom-1283) Cannot reference file "inpfile" inside pure function "get_number_of_inputs".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33315):         while (not(endfile(inpfile))) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33315): (vcom-1283) Cannot reference file "inpfile" inside pure function "get_number_of_inputs".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33316):                 readline(inpfile, oneline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33316): (vcom-1283) Cannot reference file "inpfile" inside pure function "get_number_of_inputs".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33320):         file_close(inpfile);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33320): (vcom-1283) Cannot reference file "inpfile" inside pure function "get_number_of_inputs".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33755):   if (get_number_of_inputs(elab_dir&mif_file)<param.num_taps*param.num_filts) then
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33755): (vcom-1284) Cannot call side-effect function "get_number_of_inputs" from pure function "gen_mif_files".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33760):     report int_to_str(get_number_of_inputs(elab_dir&mif_file) ) severity note;
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33760): (vcom-1284) Cannot call side-effect function "get_number_of_inputs" from pure function "gen_mif_files".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33776):                                      filter*param.num_taps);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(33776): (vcom-1284) Cannot call side-effect function "read_coef_data" from pure function "gen_mif_files".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(34251):                                     mac_coefficients(mac)                  );
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(34251): (vcom-1284) Cannot call side-effect function "write_coef_data" from pure function "gen_mif_files".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(34270):                                     half_band_centre_value);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(34270): (vcom-1284) Cannot call side-effect function "write_coef_data" from pure function "gen_mif_files".
+-- Compiling package fir_compiler_v3_1_comp
+-- Compiling package fir_compiler_v3_1_xst_comp
+-- Compiling package addr_gen_3gpp_top_level_pkg_v4_1
+-- Loading package addr_gen_3gpp_top_level_pkg_v4_1
+-- Compiling package addr_gen_3gpp_v4_1_comp
+-- Compiling package body addr_gen_3gpp_v4_1_comp
+-- Loading package addr_gen_3gpp_v4_1_comp
+-- Compiling package addr_gen_3gpp_v4_1_xst_comp
+-- Compiling package body addr_gen_3gpp_v4_1_xst_comp
+-- Loading package addr_gen_3gpp_v4_1_xst_comp
+-- Compiling package convolution_pack_v6_0
+-- Compiling package body convolution_pack_v6_0
+-- Loading package convolution_pack_v6_0
+-- Loading package convolution_pack_v6_0
+-- Compiling entity convolution_v6_0
+-- Compiling architecture behavioral of convolution_v6_0
+-- Compiling package convolution_v6_0_comp
+-- Compiling package convolution_v6_0_xst_comp
+-- Compiling package rs_encoder_v6_0_consts
+-- Compiling package body rs_encoder_v6_0_consts
+-- Loading package rs_encoder_v6_0_consts
+-- Loading package rs_encoder_v6_0_consts
+-- Compiling entity rs_encoder_v6_0
+-- Compiling architecture behavioral of rs_encoder_v6_0
+-- Compiling package rs_encoder_v6_0_comp
+-- Loading package rs_encoder_v6_0_comp
+-- Compiling entity rs_encoder_v6_0_xst
+-- Compiling architecture behavioral of rs_encoder_v6_0_xst
+-- Compiling package rs_encoder_v6_0_xst_comp
+-- Compiling entity ldpc_802_16_enc_v1_0
+-- Compiling architecture behavioral of ldpc_802_16_enc_v1_0
+-- Compiling package ldpc_802_16_enc_v1_0_comp
+-- Compiling package ldpc_802_16_enc_v1_0_xst_comp
+-- Compiling package sid_v5_0_comp_pkg
+-- Compiling package body sid_v5_0_comp_pkg
+-- Loading package sid_v5_0_comp_pkg
+-- Compiling package sid_const_pkg_behav_v5_0
+-- Compiling package sid_mif_pkg_behav_v5_0
+-- Compiling package body sid_mif_pkg_behav_v5_0
+-- Loading package sid_mif_pkg_behav_v5_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(43048):         WHILE (NOT(ENDFILE(meminitfile)) AND (num_lines < total_lines)) LOOP
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(43048): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_meminit_file".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(43049):           READLINE(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(43049): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_meminit_file".
+-- Loading package sid_const_pkg_behav_v5_0
+-- Loading package sid_mif_pkg_behav_v5_0
+-- Compiling package sid_pkg_behav_v5_0
+-- Compiling package body sid_pkg_behav_v5_0
+-- Loading package sid_pkg_behav_v5_0
+-- Loading package sid_pkg_behav_v5_0
+-- Compiling entity sid_bhv_forney_v5_0
+-- Compiling architecture behavioral of sid_bhv_forney_v5_0
+-- Compiling entity sid_bhv_rectangular_block_v5_0
+-- Compiling architecture behavioral of sid_bhv_rectangular_block_v5_0
+-- Compiling entity sid_v5_0
+-- Compiling architecture behavioral of sid_v5_0
+-- Loading package sid_v5_0_comp_pkg
+-- Compiling package sid_v5_0_comp
+-- Loading package sid_v5_0_comp
+-- Compiling entity sid_v5_0_xst
+-- Compiling architecture behavioral of sid_v5_0_xst
+-- Compiling package sid_v5_0_xst_comp
+-- Compiling entity xfft_v4_0
+-- Compiling architecture behavioral of xfft_v4_0
+-- Compiling package xfft_v4_0_comp
+-- Loading package xfft_v4_0_comp
+-- Compiling entity xfft_v4_0_xst
+-- Compiling architecture behavioral of xfft_v4_0_xst
+-- Compiling package xfft_v4_0_xst_comp
+-- Compiling entity dds_compiler_v1_1_reg
+-- Compiling architecture synth of dds_compiler_v1_1_reg
+-- Compiling package pkg_dds_compiler_v1_1
+-- Compiling package body pkg_dds_compiler_v1_1
+-- Loading package pkg_dds_compiler_v1_1
+-- Compiling package dds_compiler_v1_1_sim_comps
+-- Loading package pkg_dds_compiler_v1_1
+-- Loading package dds_compiler_v1_1_sim_comps
+-- Compiling entity dds_compiler_v1_1
+-- Compiling architecture behavioral of dds_compiler_v1_1
+-- Compiling package dds_compiler_v1_1_comp
+-- Loading package dds_compiler_v1_1_comp
+-- Compiling entity dds_compiler_v1_1_xst
+-- Compiling architecture behavioral of dds_compiler_v1_1_xst
+-- Compiling package dds_compiler_v1_1_xst_comp
+-- Compiling entity addr_gen_802_16e_v2_0
+-- Compiling architecture behavioral of addr_gen_802_16e_v2_0
+-- Compiling package addr_gen_802_16e_v2_0_comp
+-- Loading package addr_gen_802_16e_v2_0_comp
+-- Compiling entity addr_gen_802_16e_v2_0_xst
+-- Compiling architecture behavioral of addr_gen_802_16e_v2_0_xst
+-- Compiling package addr_gen_802_16e_v2_0_xst_comp
+-- Compiling entity addr_gen_802_16e_v1_1
+-- Compiling architecture behavioral of addr_gen_802_16e_v1_1
+-- Compiling package addr_gen_802_16e_v1_1_comp
+-- Loading package addr_gen_802_16e_v1_1_comp
+-- Compiling entity addr_gen_802_16e_v1_1_xst
+-- Compiling architecture behavioral of addr_gen_802_16e_v1_1_xst
+-- Compiling package addr_gen_802_16e_v1_1_xst_comp
+-- Compiling package addr_gen_3gpp_top_level_pkg_v4_0
+-- Loading package addr_gen_3gpp_top_level_pkg_v4_0
+-- Compiling package addr_gen_3gpp_v4_0_comp
+-- Compiling package body addr_gen_3gpp_v4_0_comp
+-- Loading package addr_gen_3gpp_v4_0_comp
+-- Compiling package addr_gen_3gpp_v4_0_xst_comp
+-- Compiling package body addr_gen_3gpp_v4_0_xst_comp
+-- Loading package addr_gen_3gpp_v4_0_xst_comp
+-- Compiling package viterbi_v6_0_comp
+-- Compiling package viterbi_v6_0_xst_comp
+-- Compiling package tcc_encoder_3gpp_v3_0_comp
+-- Compiling package tcc_encoder_3gpp_v3_0_xst_comp
+-- Compiling package fir_compiler_v1_0_comp
+-- Compiling package fir_compiler_v1_0_xst_comp
+-- Compiling package tcc_decoder_3gpp_v3_0_comp
+-- Compiling package body tcc_decoder_3gpp_v3_0_comp
+-- Loading package tcc_decoder_3gpp_v3_0_comp
+-- Compiling package tcc_decoder_3gpp_v3_0_xst_comp
+-- Compiling package body tcc_decoder_3gpp_v3_0_xst_comp
+-- Loading package tcc_decoder_3gpp_v3_0_xst_comp
+-- Compiling entity dvb_s2_fec_encoder_v1_2
+-- Compiling architecture behavioral of dvb_s2_fec_encoder_v1_2
+-- Compiling package dvb_s2_fec_encoder_v1_2_comp
+-- Compiling package dvb_s2_fec_encoder_v1_2_xst_comp
+-- Compiling package addr_gen_3gpp_top_level_pkg_v3_0
+-- Loading package addr_gen_3gpp_top_level_pkg_v3_0
+-- Compiling package addr_gen_3gpp_v3_0_comp
+-- Compiling package body addr_gen_3gpp_v3_0_comp
+-- Loading package addr_gen_3gpp_v3_0_comp
+-- Compiling package addr_gen_3gpp_v3_0_xst_comp
+-- Compiling package body addr_gen_3gpp_v3_0_xst_comp
+-- Loading package addr_gen_3gpp_v3_0_xst_comp
+-- Compiling package prims_constants_v8_0
+-- Loading package prims_constants_v8_0
+-- Compiling package convolution_pack_v5_0
+-- Compiling package body convolution_pack_v5_0
+-- Loading package convolution_pack_v5_0
+-- Loading package convolution_pack_v5_0
+-- Compiling entity convolution_v5_0
+-- Compiling architecture behavioral of convolution_v5_0
+-- Compiling package convolution_v5_0_comp
+-- Compiling package convolution_v5_0_xst_comp
+-- Compiling package floating_point_v2_0_consts
+-- Loading package floating_point_v2_0_consts
+-- Compiling package floating_point_pkg_v2_0
+-- Compiling package body floating_point_pkg_v2_0
+-- Loading package floating_point_pkg_v2_0
+-- Loading package floating_point_pkg_v2_0
+-- Compiling entity flt_pt_operator_v2_0
+-- Compiling architecture behavioral of flt_pt_operator_v2_0
+-- Compiling entity floating_point_v2_0_xst
+-- Compiling architecture behavioral of floating_point_v2_0_xst
+-- Compiling package floating_point_v2_0_xst_comp
+-- Loading package floating_point_v2_0_xst_comp
+-- Compiling entity floating_point_v2_0
+-- Compiling architecture behavioral of floating_point_v2_0
+-- Compiling package floating_point_v2_0_comp
+-- Compiling package fir_compiler_v2_0_comp
+-- Compiling package fir_compiler_v2_0_xst_comp
+-- Compiling package xfft_v3_2_comp
+-- Compiling package body xfft_v3_2_comp
+-- Loading package xfft_v3_2_comp
+-- Compiling package iputils_std_logic_arith
+-- Compiling package body iputils_std_logic_arith
+-- Loading package iputils_std_logic_arith
+-- Loading package iputils_std_logic_arith
+-- Compiling package iputils_std_logic_unsigned
+-- Compiling package body iputils_std_logic_unsigned
+-- Loading package iputils_std_logic_unsigned
+-- Compiling package prims_constants_v7_0
+-- Compiling package prims_utils_v7_0
+-- Loading package prims_constants_v7_0
+-- Compiling package body prims_utils_v7_0
+-- Loading package prims_utils_v7_0
+-- Loading package prims_utils_v7_0
+-- Compiling entity pipeline_v7_0
+-- Compiling architecture behavioral of pipeline_v7_0
+-- Compiling entity c_reg_fd_v7_0
+-- Compiling architecture behavioral of c_reg_fd_v7_0
+-- Compiling package c_reg_fd_v7_0_comp
+-- Loading package c_reg_fd_v7_0_comp
+-- Compiling entity c_mux_bit_v7_0
+-- Compiling architecture behavioral of c_mux_bit_v7_0
+-- Compiling package c_mux_bit_v7_0_comp
+-- Loading package c_mux_bit_v7_0_comp
+-- Compiling entity c_shift_fd_v7_0
+-- Compiling architecture behavioral of c_shift_fd_v7_0
+-- Compiling package c_shift_fd_v7_0_comp
+-- Compiling package c_sin_cos_v5_1_pack
+-- Compiling package body c_sin_cos_v5_1_pack
+-- Loading package c_sin_cos_v5_1_pack
+-- Compiling entity pipe_bhv_v5_1
+-- Compiling architecture behavioral of pipe_bhv_v5_1
+-- Compiling package pipe_bhv_v5_1_comp
+-- Loading package iputils_std_logic_unsigned
+-- Loading package c_shift_fd_v7_0_comp
+-- Loading package c_sin_cos_v5_1_pack
+-- Loading package pipe_bhv_v5_1_comp
+-- Compiling entity c_sin_cos_v5_1
+-- Compiling architecture behavioral of c_sin_cos_v5_1
+-- Loading entity c_shift_fd_v7_0
+-- Loading entity pipe_bhv_v5_1
+-- Loading entity c_reg_fd_v7_0
+-- Compiling package c_sin_cos_v5_1_comp
+-- Compiling package floating_point_v1_0_consts
+-- Loading package floating_point_v1_0_consts
+-- Compiling package floating_point_pkg_v1_0
+-- Compiling package body floating_point_pkg_v1_0
+-- Loading package floating_point_pkg_v1_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(64301):   end function;
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(64301): Function 'flt_pt_get_embedded' may complete without a RETURN at line 64286.
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(64301): Function 'flt_pt_get_embedded' may complete without a RETURN at line 64296.
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(64319):   end function;
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(64319): Function 'flt_pt_get_usedsp48' may complete without a RETURN at line 64312.
+-- Loading package floating_point_pkg_v1_0
+-- Compiling entity flt_pt_operator
+-- Compiling architecture behavioral of flt_pt_operator
+-- Compiling entity floating_point_v1_0_xst
+-- Compiling architecture behavioral of floating_point_v1_0_xst
+-- Compiling package floating_point_v1_0_xst_comp
+-- Loading package floating_point_v1_0_xst_comp
+-- Compiling entity floating_point_v1_0
+-- Compiling architecture behavioral of floating_point_v1_0
+-- Compiling package floating_point_v1_0_comp
+-- Compiling package family
+-- Compiling package body family
+-- Loading package family
+-- Compiling package mult_const_pkg_v7_0
+-- Loading package mult_const_pkg_v7_0
+-- Compiling package parm_v7_0_services
+-- Compiling package body parm_v7_0_services
+-- Loading package parm_v7_0_services
+-- Loading package parm_v7_0_services
+-- Compiling package ccm_v7_0_services
+-- Compiling package body ccm_v7_0_services
+-- Loading package ccm_v7_0_services
+-- Loading package ccm_v7_0_services
+-- Compiling package sqm_v7_0_services
+-- Compiling package body sqm_v7_0_services
+-- Loading package sqm_v7_0_services
+-- Loading package sqm_v7_0_services
+-- Compiling package mult_gen_v7_0_services
+-- Compiling package body mult_gen_v7_0_services
+-- Loading package mult_gen_v7_0_services
+-- Loading package family
+-- Loading package mult_gen_v7_0_services
+-- Compiling package cmpy_v2_1_pkg
+-- Compiling package body cmpy_v2_1_pkg
+-- Loading package cmpy_v2_1_pkg
+-- Compiling package iputils_std_logic_signed
+-- Compiling package body iputils_std_logic_signed
+-- Loading package iputils_std_logic_signed
+-- Loading package cmpy_v2_1_pkg
+-- Loading package iputils_std_logic_signed
+-- Compiling entity cmpy_v2_1
+-- Compiling architecture behavioral of cmpy_v2_1
+-- Compiling package cmpy_v2_1_comp
+-- Compiling package sid_const_pkg_behav_v3_1
+-- Compiling package sid_mif_pkg_behav_v3_1
+-- Compiling package body sid_mif_pkg_behav_v3_1
+-- Loading package sid_mif_pkg_behav_v3_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(68064): :=0;IO0OOOI1IIIlIOIIOO0Il00I1lOOlIIIII:=0;WHILE(NOT(ENDFILE(MEMINITFILE))AND(IOl1I1O0IIO001llOlll1I1lOI1l0IIIII<IOl0I10010lIIIl000I1O1IO1IlOIIIIII))LOOP READLINE(MEMINITFILE,IIl1O1I0001l1001OllOOII0I10l1IIIII);READ(IIl1O1I0001l1001OllOOII0I10l1IIIII,IOl1Ol11IlIl0110l0OOll000lI11IIIII,
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(68064): (vcom-1283) Cannot reference file "meminitfile" inside pure function "iooiooi00l1oooli1ooo0i00ol0iliiiii".
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(68064): (vcom-1283) Cannot reference file "meminitfile" inside pure function "iooiooi00l1oooli1ooo0i00ol0iliiiii".
+-- Loading package sid_const_pkg_behav_v3_1
+-- Loading package sid_mif_pkg_behav_v3_1
+-- Compiling package sid_pkg_behav_v3_1
+-- Compiling package body sid_pkg_behav_v3_1
+-- Loading package sid_pkg_behav_v3_1
+-- Loading package sid_pkg_behav_v3_1
+-- Compiling entity sid_bhv_forney_v3_1
+-- Compiling architecture behavioral of sid_bhv_forney_v3_1
+-- Compiling entity sid_bhv_rectangular_block_v3_1
+-- Compiling architecture behavioral of sid_bhv_rectangular_block_v3_1
+-- Compiling entity sid_v3_1
+-- Compiling architecture behavioral of sid_v3_1
+-- Compiling package sid_v3_1_comp
+-- Compiling package body sid_v3_1_comp
+-- Loading package sid_v3_1_comp
+-- Compiling package c_dds_v4_2_comp
+-- Compiling package ul_utils
+-- Compiling package body ul_utils
+-- Loading package ul_utils
+-- Compiling package math_int
+-- Compiling package body math_int
+-- Loading package math_int
+-- Loading package ul_utils
+-- Compiling package mac_fir_v5_0_comp
+-- Compiling package rs_encoder_v5_0_comp
+-- Compiling package body rs_encoder_v5_0_comp
+-- Loading package rs_encoder_v5_0_comp
+-- Loading package rs_encoder_v5_0_comp
+-- Compiling entity rs_encoder_v5_0
+-- Compiling architecture behavioral of rs_encoder_v5_0
+-- Compiling package mac_fir_v4_0_comp
+-- Compiling package mac_fir_v3_0_comp
+-- Compiling package rs_ftns_pkg_v5_1
+-- Compiling package body rs_ftns_pkg_v5_1
+-- Loading package rs_ftns_pkg_v5_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(71046): IO1OIOI0I1l11O0IllIOllII1llIIOIIII>0 AND IO1OIOI0I1l11O0IllIOllII1llIIOIIII<=IIlO0IOl0I0I0lI0OOll1l1l1lO0IIIIII)THEN II0Ol0OI111lIO001O0IIlO110IlIOIIII:=IO1OIOI0I1l11O0IllIOllII1llIIOIIII;ELSE II0Ol0OI111lIO001O0IIlO110IlIOIIII:=IIlO0IOl0I0I0lI0OOll1l1l1lO0IIIIII;END IF;II1ll00lO01110lOI1I0IOO0IlO0IIIIII:=0;IOIIOIIO1lIIOOl0IlO11I00II110IIIII:=0;WHILE(NOT(ENDFILE(MEMINITFILE
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(71046): (vcom-1283) Cannot reference file "meminitfile" inside pure function "io01l1ll0iloll0i00lll11l0olliiiiii".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(71047): ))AND(II1ll00lO01110lOI1I0IOO0IlO0IIIIII<II0Ol0OI111lIO001O0IIlO110IlIOIIII))LOOP READLINE(MEMINITFILE,IO00lII1lIll0OllOlI1l1O0OI100IIIII);READ(IO00lII1lIll0OllOlI1l1O0OI100IIIII,IO0I011OOl0OOO000O0I0O0OO0OllIIIII,II10ll00IlO1IIOIOIO10II0lI1l0IIIII);ASSERT II10ll00IlO1IIOIOIO10II0lI1l0IIIII REPORT
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(71047): (vcom-1283) Cannot reference file "meminitfile" inside pure function "io01l1ll0iloll0i00lll11l0olliiiiii".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(71052):  TO(II0IOOI1Il101lO1O010O0O0IO10IOIIII-1));BEGIN IF(II0IOOI1Il101lO1O010O0O0IO10IOIIII>0)THEN III1O0Ol0IOOO0IllIOOO000O1lO0IIIII:=IO01l1ll0IlOll0I00lll11l0OllIIIIII(IOO1l1010O10O10I0llO11O100O1IOIIII,II0IOOI1Il101lO1O010O0O0IO10IOIIII,IOIlOIOl1lO1l001Ol10IO01OIlI1IIIII,II0IOOI1Il101lO1O010O0O0IO10IOIIII);IIl1IIO111llI0l1O1OI00lIl1I0OIIIII:=
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(71052): (vcom-1284) Cannot call side-effect function "io01l1ll0iloll0i00lll11l0olliiiiii" from pure function "iol0l10li11io10li1oi1ioi01oo0iiiii".
+-- Loading package rs_ftns_pkg_v5_1
+-- Compiling entity rs_decoder_v5_1
+-- Compiling architecture behavioral of rs_decoder_v5_1
+-- Compiling package rs_decoder_v5_1_comp
+-- Compiling package body rs_decoder_v5_1_comp
+-- Loading package rs_decoder_v5_1_comp
+-- Compiling package c_sin_cos_v4_1_pack
+-- Compiling package body c_sin_cos_v4_1_pack
+-- Loading package c_sin_cos_v4_1_pack
+-- Compiling package prims_constants_v5_0
+-- Compiling package prims_utils_v5_0
+-- Loading package prims_constants_v5_0
+-- Compiling package body prims_utils_v5_0
+-- Loading package prims_utils_v5_0
+-- Loading package prims_utils_v5_0
+-- Compiling entity pipeline_v5_0
+-- Compiling architecture behavioral of pipeline_v5_0
+-- Compiling entity c_reg_fd_v5_0
+-- Compiling architecture behavioral of c_reg_fd_v5_0
+-- Compiling package c_reg_fd_v5_0_comp
+-- Loading package c_reg_fd_v5_0_comp
+-- Compiling entity c_mux_bit_v5_0
+-- Compiling architecture behavioral of c_mux_bit_v5_0
+-- Compiling package c_mux_bit_v5_0_comp
+-- Loading package c_mux_bit_v5_0_comp
+-- Compiling entity c_shift_fd_v5_0
+-- Compiling architecture behavioral of c_shift_fd_v5_0
+-- Compiling package c_shift_fd_v5_0_comp
+-- Compiling entity pipe_bhv_v4_1
+-- Compiling architecture behavioral of pipe_bhv_v4_1
+-- Compiling package pipe_bhv_v4_1_comp
+-- Loading package c_shift_fd_v5_0_comp
+-- Loading package c_sin_cos_v4_1_pack
+-- Loading package pipe_bhv_v4_1_comp
+-- Compiling entity c_sin_cos_v4_1
+-- Compiling architecture behavioral of c_sin_cos_v4_1
+-- Loading entity c_shift_fd_v5_0
+-- Loading entity pipe_bhv_v4_1
+-- Loading entity c_reg_fd_v5_0
+-- Compiling package c_sin_cos_v4_1_comp
+-- Compiling entity c_addsub_v5_0
+-- Compiling architecture behavioral of c_addsub_v5_0
+-- Compiling package c_addsub_v5_0_comp
+-- Loading package c_addsub_v5_0_comp
+-- Compiling entity c_accum_v5_0
+-- Compiling architecture behavioral of c_accum_v5_0
+-- Compiling package c_accum_v5_0_comp
+-- Compiling entity dither_v4_1
+-- Compiling architecture rtl of dither_v4_1
+-- Compiling package dither_v4_1_comp
+-- Loading package dither_v4_1_comp
+-- Compiling entity dither_add_v4_1
+-- Compiling architecture structural of dither_add_v4_1
+-- Loading entity dither_v4_1
+-- Loading entity c_addsub_v5_0
+-- Compiling package dither_add_v4_1_comp
+-- Compiling package mult_const_pkg_v5_0
+-- Loading package mult_const_pkg_v5_0
+-- Compiling package parm_v5_0_services
+-- Compiling package body parm_v5_0_services
+-- Loading package parm_v5_0_services
+-- Loading package parm_v5_0_services
+-- Compiling package ccm_v5_0_services
+-- Compiling package body ccm_v5_0_services
+-- Loading package ccm_v5_0_services
+-- Loading package ccm_v5_0_services
+-- Compiling package sqm_v5_0_services
+-- Compiling package body sqm_v5_0_services
+-- Loading package sqm_v5_0_services
+-- Loading package sqm_v5_0_services
+-- Compiling package mult_gen_v5_0_services
+-- Compiling package body mult_gen_v5_0_services
+-- Loading package mult_gen_v5_0_services
+-- Loading package mult_gen_v5_0_services
+-- Compiling package c_dds_v4_1_pack
+-- Compiling package body c_dds_v4_1_pack
+-- Loading package c_dds_v4_1_pack
+-- Compiling package mem_init_file_pack_v5_0
+-- Compiling package body mem_init_file_pack_v5_0
+-- Loading package mem_init_file_pack_v5_0
+-- Loading package mem_init_file_pack_v5_0
+-- Compiling entity c_shift_ram_v5_0
+-- Compiling architecture behavioral of c_shift_ram_v5_0
+-- Compiling package c_shift_ram_v5_0_comp
+-- Compiling package mult_pkg_v5_0
+-- Compiling package body mult_pkg_v5_0
+-- Loading package mult_pkg_v5_0
+-- Loading package mult_pkg_v5_0
+-- Compiling entity mult_gen_v5_0_non_seq
+-- Compiling architecture behavioral of mult_gen_v5_0_non_seq
+-- Compiling package mult_gen_v5_0_non_seq_comp
+-- Loading package mult_gen_v5_0_non_seq_comp
+-- Compiling entity mult_gen_v5_0_seq
+-- Compiling architecture behavioral of mult_gen_v5_0_seq
+-- Compiling package mult_gen_v5_0_seq_comp
+-- Loading package mult_gen_v5_0_seq_comp
+-- Compiling entity mult_gen_v5_0
+-- Compiling architecture behavioral of mult_gen_v5_0
+-- Compiling package mult_gen_v5_0_comp
+-- Compiling entity c_twos_comp_v5_0
+-- Compiling architecture behavioral of c_twos_comp_v5_0
+-- Compiling package c_twos_comp_v5_0_comp
+-- Loading package c_twos_comp_v5_0_comp
+-- Compiling entity dds_round_v4_1
+-- Compiling architecture structural of dds_round_v4_1
+-- Loading entity c_twos_comp_v5_0
+-- Compiling package dds_round_v4_1_comp
+-- Loading package c_shift_ram_v5_0_comp
+-- Loading package c_dds_v4_1_pack
+-- Loading package mult_gen_v5_0_comp
+-- Loading package dds_round_v4_1_comp
+-- Compiling entity c_eff_v4_1
+-- Compiling architecture c_eff_v4_1 of c_eff_v4_1
+-- Loading entity c_shift_ram_v5_0
+-- Loading entity dds_round_v4_1
+-- Loading entity mult_gen_v5_0
+-- Compiling package c_eff_v4_1_comp
+-- Loading package c_sin_cos_v4_1_comp
+-- Loading package c_accum_v5_0_comp
+-- Loading package dither_add_v4_1_comp
+-- Loading package c_eff_v4_1_comp
+-- Compiling entity c_dds_v4_1
+-- Compiling architecture behavioral of c_dds_v4_1
+-- Loading entity dither_add_v4_1
+-- Loading entity c_eff_v4_1
+-- Loading entity c_accum_v5_0
+-- Loading entity c_sin_cos_v4_1
+-- Compiling package c_dds_v4_1_comp
+-- Compiling package c_sin_cos_v4_0_pack
+-- Compiling package body c_sin_cos_v4_0_pack
+-- Loading package c_sin_cos_v4_0_pack
+-- Compiling entity pipe_bhv_v4_0
+-- Compiling architecture behavioral of pipe_bhv_v4_0
+-- Compiling package pipe_bhv_v4_0_comp
+-- Loading package c_sin_cos_v4_0_pack
+-- Loading package pipe_bhv_v4_0_comp
+-- Compiling entity c_sin_cos_v4_0
+-- Compiling architecture behavioral of c_sin_cos_v4_0
+-- Compiling package c_sin_cos_v4_0_comp
+-- Compiling entity dither_v4_0
+-- Compiling architecture rtl of dither_v4_0
+-- Compiling package dither_v4_0_comp
+-- Loading package dither_v4_0_comp
+-- Compiling entity dither_add_v4_0
+-- Compiling architecture structural of dither_add_v4_0
+-- Loading entity dither_v4_0
+-- Compiling package dither_add_v4_0_comp
+-- Compiling package c_dds_v4_0_pack
+-- Compiling package body c_dds_v4_0_pack
+-- Loading package c_dds_v4_0_pack
+-- Loading package c_sin_cos_v4_0_comp
+-- Loading package dither_add_v4_0_comp
+-- Loading package c_dds_v4_0_pack
+-- Compiling entity c_dds_v4_0
+-- Compiling architecture behavioral of c_dds_v4_0
+-- Loading entity c_sin_cos_v4_0
+-- Loading entity dither_add_v4_0
+-- Compiling package dds_v4_0_comp
+-- Compiling package ddc_v1_0_pack
+-- Compiling package body ddc_v1_0_pack
+-- Loading package ddc_v1_0_pack
+-- Loading package ddc_v1_0_pack
+-- Compiling package ddc_v1_0_comp
+-- Compiling package c_dds_v5_0_comp
+-- Compiling package prims_constants_v4_0
+-- Compiling package prims_utils_v4_0
+-- Loading package prims_constants_v4_0
+-- Compiling package body prims_utils_v4_0
+-- Loading package prims_utils_v4_0
+-- Loading package prims_utils_v4_0
+-- Compiling entity pipeline_v4_0
+-- Compiling architecture behavioral of pipeline_v4_0
+-- Compiling entity c_reg_fd_v4_0
+-- Compiling architecture behavioral of c_reg_fd_v4_0
+-- Compiling package c_reg_fd_v4_0_comp
+-- Loading package c_reg_fd_v4_0_comp
+-- Compiling entity c_gate_bit_v4_0
+-- Compiling architecture behavioral of c_gate_bit_v4_0
+-- Compiling package c_gate_bit_v4_0_comp
+-- Compiling entity c_shift_ram_v4_0
+-- Compiling architecture behavioral of c_shift_ram_v4_0
+-- Compiling package c_shift_ram_v4_0_comp
+-- Compiling entity c_mux_bus_v4_0
+-- Compiling architecture behavioral of c_mux_bus_v4_0
+-- Compiling package c_mux_bus_v4_0_comp
+-- Compiling entity c_addsub_v4_0
+-- Compiling architecture behavioral of c_addsub_v4_0
+-- Compiling package c_addsub_v4_0_comp
+-- Compiling entity c_compare_v4_0
+-- Compiling architecture behavioral of c_compare_v4_0
+-- Compiling package c_compare_v4_0_comp
+-- Loading package c_addsub_v4_0_comp
+-- Loading package c_compare_v4_0_comp
+-- Loading package c_mux_bus_v4_0_comp
+-- Compiling entity c_counter_binary_v4_0
+-- Compiling architecture behavioral of c_counter_binary_v4_0
+-- Compiling package c_counter_binary_v4_0_comp
+-- Compiling entity c_mux_bit_v4_0
+-- Compiling architecture behavioral of c_mux_bit_v4_0
+-- Compiling package c_mux_bit_v4_0_comp
+-- Compiling entity c_dist_mem_v5_0
+-- Compiling architecture behavioral of c_dist_mem_v5_0
+-- Compiling package c_dist_mem_v5_0_comp
+-- Compiling package blkmemdp_pkg_v4_0
+-- Compiling package body blkmemdp_pkg_v4_0
+-- Loading package blkmemdp_pkg_v4_0
+-- Compiling package mem_init_file_pack_v4_0
+-- Compiling package body mem_init_file_pack_v4_0
+-- Loading package mem_init_file_pack_v4_0
+-- Loading package vital_timing
+-- Loading package mem_init_file_pack_v4_0
+-- Loading package blkmemdp_pkg_v4_0
+-- Compiling entity blkmemdp_v4_0
+-- Compiling architecture behavioral of blkmemdp_v4_0
+-- Compiling package blkmemdp_v4_0_comp
+-- Compiling entity c_twos_comp_v4_0
+-- Compiling architecture behavioral of c_twos_comp_v4_0
+-- Compiling package c_twos_comp_v4_0_comp
+-- Compiling package mult_const_pkg_v4_0
+-- Loading package mult_const_pkg_v4_0
+-- Compiling package parm_v4_0_services
+-- Compiling package body parm_v4_0_services
+-- Loading package parm_v4_0_services
+-- Loading package parm_v4_0_services
+-- Compiling package ccm_v4_0_services
+-- Compiling package body ccm_v4_0_services
+-- Loading package ccm_v4_0_services
+-- Loading package ccm_v4_0_services
+-- Compiling package sqm_v4_0_services
+-- Compiling package body sqm_v4_0_services
+-- Loading package sqm_v4_0_services
+-- Loading package sqm_v4_0_services
+-- Compiling package mult_gen_v4_0_services
+-- Compiling package body mult_gen_v4_0_services
+-- Loading package mult_gen_v4_0_services
+-- Loading package mult_gen_v4_0_services
+-- Compiling package mult_pkg_v4_0
+-- Compiling package body mult_pkg_v4_0
+-- Loading package mult_pkg_v4_0
+-- Loading package mult_pkg_v4_0
+-- Compiling entity mult_gen_v4_0
+-- Compiling architecture behavioral of mult_gen_v4_0
+-- Compiling package mult_gen_v4_0_comp
+-- Compiling package vfft32_pkg_v3
+-- Compiling package body vfft32_pkg_v3
+-- Loading package vfft32_pkg_v3
+-- Loading package vfft32_pkg_v3
+-- Compiling package vfft32_comps_v3
+-- Loading package vfft32_comps_v3
+-- Compiling entity flip_flop_v3
+-- Compiling architecture behavioral of flip_flop_v3
+-- Compiling entity flip_flop_sclr_v3
+-- Compiling architecture behavioral of flip_flop_sclr_v3
+-- Compiling entity flip_flop_sclr_sset_v3
+-- Compiling architecture behavioral of flip_flop_sclr_sset_v3
+-- Compiling entity flip_flop_ainit_sclr_v3
+-- Compiling architecture behavioral of flip_flop_ainit_sclr_v3
+-- Compiling entity state_machine_v3
+-- Compiling architecture behavioral of state_machine_v3
+-- Loading package c_gate_bit_v4_0_comp
+-- Compiling entity or_a_b_32_v3
+-- Compiling architecture behavioral of or_a_b_32_v3
+-- Compiling entity or_a_b_c_32_v3
+-- Compiling architecture behavioral of or_a_b_c_32_v3
+-- Compiling entity xor_a_b_32_v3
+-- Compiling architecture behavioral of xor_a_b_32_v3
+-- Compiling entity nand_a_b_32_v3
+-- Compiling architecture behavioral of nand_a_b_32_v3
+-- Compiling entity and_a_b_32_v3
+-- Compiling architecture behavioral of and_a_b_32_v3
+-- Compiling entity and_a_notb_32_v3
+-- Compiling architecture behavioral of and_a_notb_32_v3
+-- Compiling entity srflop_v3
+-- Compiling architecture behavioral of srflop_v3
+-- Loading package c_shift_ram_v4_0_comp
+-- Compiling entity delay_wrapper_v3
+-- Compiling architecture behavioral of delay_wrapper_v3
+-- Loading package c_counter_binary_v4_0_comp
+-- Compiling entity hand_shaking_v3
+-- Compiling architecture behavioral of hand_shaking_v3
+-- Loading package c_mux_bit_v4_0_comp
+-- Compiling entity addr_gen_v3
+-- Compiling architecture behavioral of addr_gen_v3
+-- Loading package c_dist_mem_v5_0_comp
+-- Compiling entity dmem_wkg_r_i_v3
+-- Compiling architecture behavioral of dmem_wkg_r_i_v3
+-- Compiling entity mem_address_v3
+-- Compiling architecture behavioral of mem_address_v3
+-- Compiling entity mem_ctrl_v3
+-- Compiling architecture behavioral of mem_ctrl_v3
+-- Loading package blkmemdp_v4_0_comp
+-- Compiling entity mem_wkg_r_i_v3
+-- Compiling architecture behavioral of mem_wkg_r_i_v3
+-- Compiling entity working_memory_v3
+-- Compiling architecture behavioral of working_memory_v3
+-- Loading package c_twos_comp_v4_0_comp
+-- Compiling entity conj_reg_v3
+-- Compiling architecture behavioral of conj_reg_v3
+-- Compiling entity input_working_result_memory_v3
+-- Compiling architecture behavioral of input_working_result_memory_v3
+-- Loading package mult_gen_v4_0_comp
+-- Compiling entity complex_mult_v3
+-- Compiling architecture behavioral of complex_mult_v3
+-- Compiling entity complex_reg_conj_v3
+-- Compiling architecture behavioral of complex_reg_conj_v3
+-- Compiling entity butterfly_v3
+-- Compiling architecture behavioral of butterfly_v3
+-- Compiling entity butterfly_32_v3
+-- Compiling architecture behavioral of butterfly_32_v3
+-- Compiling entity bflyw0_v3
+-- Compiling architecture behavioral of bflyw0_v3
+-- Compiling entity bflyw_j_v3
+-- Compiling architecture behavioral of bflyw_j_v3
+-- Compiling entity fft4_32_v3
+-- Compiling architecture behavioral of fft4_32_v3
+-- Compiling entity bfly_buffer_v3
+-- Compiling architecture behavioral of bfly_buffer_v3
+-- Compiling entity bfly_buf_fft_v3
+-- Compiling architecture behavioral of bfly_buf_fft_v3
+-- Compiling entity phase_factor_adgen_v3
+-- Compiling architecture behavioral of phase_factor_adgen_v3
+-- Compiling entity phase_factors_v3
+-- Compiling architecture behavioral of phase_factors_v3
+-- Compiling entity result_memory_v3
+-- Compiling architecture behavioral of result_memory_v3
+-- Compiling entity vfft32_v3_0
+-- Compiling architecture behavioral of vfft32_v3_0
+-- Compiling package vfft32_v3_0_comp
+-- Compiling entity c_addsub_v7_0
+-- Compiling architecture behavioral of c_addsub_v7_0
+-- Compiling package c_addsub_v7_0_comp
+-- Compiling entity c_gate_bus_v7_0
+-- Compiling architecture behavioral of c_gate_bus_v7_0
+-- Compiling package c_gate_bus_v7_0_comp
+-- Compiling entity c_gate_bit_v7_0
+-- Compiling architecture behavioral of c_gate_bit_v7_0
+-- Compiling package c_gate_bit_v7_0_comp
+-- Compiling package prims_comps_v7_0
+-- Compiling entity c_compare_v7_0
+-- Compiling architecture behavioral of c_compare_v7_0
+-- Compiling package c_compare_v7_0_comp
+-- Compiling package iputils_mem87
+-- Compiling package body iputils_mem87
+-- Loading package iputils_mem87
+-- Loading package iputils_mem87
+-- Compiling entity c_dist_mem_v7_1
+-- Compiling architecture behavioral of c_dist_mem_v7_1
+-- Compiling package c_dist_mem_v7_1_comp
+-- Compiling package blkmemdp_pkg_v6_1
+-- Compiling package body blkmemdp_pkg_v6_1
+-- Loading package blkmemdp_pkg_v6_1
+-- Compiling package blkmemdp_mem_init_file_pack_v6_1
+-- Compiling package body blkmemdp_mem_init_file_pack_v6_1
+-- Loading package blkmemdp_mem_init_file_pack_v6_1
+-- Loading package blkmemdp_mem_init_file_pack_v6_1
+-- Loading package blkmemdp_pkg_v6_1
+-- Compiling entity blkmemdp_v6_1
+-- Compiling architecture behavioral of blkmemdp_v6_1
+-- Compiling package blkmemdp_v6_1_comp
+-- Compiling package mult_pkg_v7_0
+-- Compiling package body mult_pkg_v7_0
+-- Loading package mult_pkg_v7_0
+-- Loading package mult_pkg_v7_0
+-- Compiling entity mult_gen_v7_0_non_seq
+-- Compiling architecture behavioral of mult_gen_v7_0_non_seq
+-- Compiling package mult_gen_v7_0_non_seq_comp
+-- Loading package mult_gen_v7_0_non_seq_comp
+-- Compiling entity mult_gen_v7_0_seq
+-- Compiling architecture behavioral of mult_gen_v7_0_seq
+-- Compiling package mult_gen_v7_0_seq_comp
+-- Loading package mult_gen_v7_0_seq_comp
+-- Compiling entity mult_gen_v7_0
+-- Compiling architecture behavioral of mult_gen_v7_0
+-- Compiling package mult_gen_v7_0_comp
+-- Compiling entity c_mux_bus_v7_0
+-- Compiling architecture behavioral of c_mux_bus_v7_0
+-- Compiling package c_mux_bus_v7_0_comp
+-- Compiling entity c_shift_ram_v7_0
+-- Compiling architecture behavioral of c_shift_ram_v7_0
+-- Compiling package c_shift_ram_v7_0_comp
+-- Compiling package cmpy_v2_0_pkg
+-- Compiling package body cmpy_v2_0_pkg
+-- Loading package cmpy_v2_0_pkg
+-- Loading package cmpy_v2_0_pkg
+-- Compiling entity cmpy_v2_0
+-- Compiling architecture behavioral of cmpy_v2_0
+-- Compiling package cmpy_v2_0_comp
+-- Compiling entity c_twos_comp_v7_0
+-- Compiling architecture behavioral of c_twos_comp_v7_0
+-- Compiling package c_twos_comp_v7_0_comp
+-- Compiling package c_sin_cos_v5_0_pack
+-- Compiling package body c_sin_cos_v5_0_pack
+-- Loading package c_sin_cos_v5_0_pack
+-- Compiling entity pipe_bhv_v5_0
+-- Compiling architecture behavioral of pipe_bhv_v5_0
+-- Compiling package pipe_bhv_v5_0_comp
+-- Loading package c_sin_cos_v5_0_pack
+-- Loading package pipe_bhv_v5_0_comp
+-- Compiling entity c_sin_cos_v5_0
+-- Compiling architecture behavioral of c_sin_cos_v5_0
+-- Loading entity pipe_bhv_v5_0
+-- Compiling package c_sin_cos_v5_0_comp
+-- Compiling entity c_gate_bit_bus_v7_0
+-- Compiling architecture behavioral of c_gate_bit_bus_v7_0
+-- Compiling package c_gate_bit_bus_v7_0_comp
+-- Loading package c_addsub_v7_0_comp
+-- Compiling entity c_accum_v7_0
+-- Compiling architecture behavioral of c_accum_v7_0
+-- Compiling package c_accum_v7_0_comp
+-- Loading package c_gate_bus_v7_0_comp
+-- Loading package c_gate_bit_v7_0_comp
+-- Loading package prims_comps_v7_0
+-- Loading package c_compare_v7_0_comp
+-- Loading package c_dist_mem_v7_1_comp
+-- Loading package blkmemdp_v6_1_comp
+-- Loading package mult_gen_v7_0_comp
+-- Loading package c_mux_bus_v7_0_comp
+-- Loading package c_shift_ram_v7_0_comp
+-- Loading package cmpy_v2_0_comp
+-- Loading package c_twos_comp_v7_0_comp
+-- Loading package c_sin_cos_v5_0_comp
+-- Loading package c_gate_bit_bus_v7_0_comp
+-- Loading package c_accum_v7_0_comp
+-- Compiling package fft31_pkg
+-- Compiling package body fft31_pkg
+-- Loading package fft31_pkg
+-- Compiling package fft31_synth_pkg
+-- Compiling package body fft31_synth_pkg
+-- Loading package fft31_synth_pkg
+-- Compiling package fft31_bb_comps
+-- Compiling package fft31_synth_comps
+-- Compiling package fft31_comps
+-- Compiling entity fft31_equ_rtl
+-- Compiling architecture xilinx of fft31_equ_rtl
+-- Compiling entity fft31_fde_rtl
+-- Compiling architecture xilinx of fft31_fde_rtl
+-- Compiling entity fft31_fdre_rtl
+-- Compiling architecture xilinx of fft31_fdre_rtl
+-- Compiling entity fft31_reg_rs_rtl
+-- Compiling architecture xilinx of fft31_reg_rs_rtl
+-- Compiling entity fft31_reg_re_rtl
+-- Compiling architecture xilinx of fft31_reg_re_rtl
+-- Loading package fft31_synth_comps
+-- Compiling entity fft31_cnt_tc_rtl
+-- Compiling architecture xilinx of fft31_cnt_tc_rtl
+-- Compiling entity fft31_cnt_tc_rtl_a
+-- Compiling architecture xilinx of fft31_cnt_tc_rtl_a
+-- Compiling entity fft31_r22_cnt_ctrl
+-- Compiling architecture xilinx of fft31_r22_cnt_ctrl
+-- Loading package fft31_synth_pkg
+-- Compiling entity fft31_r22_flow_ctrl
+-- Compiling architecture xilinx of fft31_r22_flow_ctrl
+-- Compiling entity fft31_flow_control_a
+-- Compiling architecture xilinx of fft31_flow_control_a
+-- Compiling entity fft31_flow_control_b
+-- Compiling architecture xilinx of fft31_flow_control_b
+-- Compiling entity fft31_flow_control_c
+-- Compiling architecture xilinx of fft31_flow_control_c
+-- Compiling entity fft31_c_lut
+-- Compiling architecture xilinx of fft31_c_lut
+-- Loading package fft31_comps
+-- Compiling entity fft31_c_lut_reg
+-- Compiling architecture xilinx of fft31_c_lut_reg
+-- Compiling entity fft31_c_lut_reg_sclr
+-- Compiling architecture xilinx of fft31_c_lut_reg_sclr
+-- Compiling entity fft31_fde
+-- Compiling architecture xilinx of fft31_fde
+-- Compiling entity fft31_reg_fde
+-- Compiling architecture xilinx of fft31_reg_fde
+-- Compiling entity fft31_reg_fde_sclr
+-- Compiling architecture xilinx of fft31_reg_fde_sclr
+-- Compiling entity fft31_reg_fde_sr_1
+-- Compiling architecture xilinx of fft31_reg_fde_sr_1
+-- Compiling entity fft31_adder
+-- Compiling architecture xilinx of fft31_adder
+-- Compiling entity fft31_adder_bypass
+-- Compiling architecture xilinx of fft31_adder_bypass
+-- Compiling entity fft31_compare
+-- Compiling architecture xilinx of fft31_compare
+-- Compiling entity fft31_sub_byp
+-- Compiling architecture xilinx of fft31_sub_byp
+-- Compiling entity fft31_sub_byp_j
+-- Compiling architecture xilinx of fft31_sub_byp_j
+-- Compiling entity fft31_subtracter
+-- Compiling architecture xilinx of fft31_subtracter
+-- Compiling entity fft31_xor_bit_gate
+-- Compiling architecture xilinx of fft31_xor_bit_gate
+-- Compiling entity fft31_xnor_bit_gate
+-- Compiling architecture xilinx of fft31_xnor_bit_gate
+-- Compiling entity fft31_mux_bus
+-- Compiling architecture xilinx of fft31_mux_bus
+-- Compiling entity fft31_mux_bus_sclr
+-- Compiling architecture xilinx of fft31_mux_bus_sclr
+-- Compiling entity fft31_mux_bus16
+-- Compiling architecture xilinx of fft31_mux_bus16
+-- Compiling entity fft31_mux_bus2
+-- Compiling architecture xilinx of fft31_mux_bus2
+-- Compiling entity fft31_mux_bus8
+-- Compiling architecture xilinx of fft31_mux_bus8
+-- Compiling entity fft31_mux_bus2_1
+-- Compiling architecture xilinx of fft31_mux_bus2_1
+-- Compiling entity fft31_ones_comp
+-- Compiling architecture xilinx of fft31_ones_comp
+-- Compiling entity fft31_twos_comp
+-- Compiling architecture xilinx of fft31_twos_comp
+-- Compiling entity fft31_and_gate
+-- Compiling architecture xilinx of fft31_and_gate
+-- Compiling entity fft31_and_bus_gate
+-- Compiling architecture xilinx of fft31_and_bus_gate
+-- Compiling entity fft31_and2
+-- Compiling architecture xilinx of fft31_and2
+-- Compiling entity fft31_shift_ram
+-- Compiling architecture xilinx of fft31_shift_ram
+-- Compiling entity fft31_shift_ram_1
+-- Compiling architecture xilinx of fft31_shift_ram_1
+-- Compiling entity fft31_shift_ram_sclr
+-- Compiling architecture xilinx of fft31_shift_ram_sclr
+-- Compiling entity fft31_shift_ram_1_sclr
+-- Compiling architecture xilinx of fft31_shift_ram_1_sclr
+-- Loading package fft31_pkg
+-- Compiling entity fft31_mult
+-- Compiling architecture xilinx of fft31_mult
+-- Compiling entity fft31_dpm
+-- Compiling architecture xilinx of fft31_dpm
+-- Compiling entity fft31_dist_mem
+-- Compiling architecture xilinx of fft31_dist_mem
+-- Compiling entity fft31_sin_cos
+-- Compiling architecture xilinx of fft31_sin_cos
+-- Compiling entity fft31_max2_2
+-- Compiling architecture xilinx of fft31_max2_2
+-- Compiling entity fft31_comp8
+-- Compiling architecture xilinx of fft31_comp8
+-- Compiling entity fft31_range_r2
+-- Compiling architecture xilinx of fft31_range_r2
+-- Compiling entity fft31_range_r4
+-- Compiling architecture xilinx of fft31_range_r4
+-- Compiling entity fft31_arith_shift1
+-- Compiling architecture xilinx of fft31_arith_shift1
+-- Compiling entity fft31_arith_shift3
+-- Compiling architecture xilinx of fft31_arith_shift3
+-- Compiling entity fft31_r2_ranger
+-- Compiling architecture xilinx of fft31_r2_ranger
+-- Compiling entity fft31_in_ranger
+-- Compiling architecture xilinx of fft31_in_ranger
+-- Compiling entity fft31_r4_ranger
+-- Compiling architecture xilinx of fft31_r4_ranger
+-- Compiling entity fft31_scale_logic
+-- Compiling architecture xilinx of fft31_scale_logic
+-- Compiling entity fft31_r2_ovflo_gen
+-- Compiling architecture xilinx of fft31_r2_ovflo_gen
+-- Compiling entity fft31_overflow_gen
+-- Compiling architecture xilinx of fft31_overflow_gen
+-- Compiling entity fft31_butterfly_dsp48
+-- Compiling architecture xilinx of fft31_butterfly_dsp48
+-- Compiling entity fft31_butterfly_dsp48_bypass
+-- Compiling architecture xilinx of fft31_butterfly_dsp48_bypass
+-- Compiling entity fft31_butterfly
+-- Compiling architecture xilinx of fft31_butterfly
+-- Compiling entity fft31_butterfly_j
+-- Compiling architecture xilinx of fft31_butterfly_j
+-- Compiling entity fft31_bfly_byp
+-- Compiling architecture xilinx of fft31_bfly_byp
+-- Compiling entity fft31_bfly_byp_j
+-- Compiling architecture xilinx of fft31_bfly_byp_j
+-- Compiling entity fft31_complex_mult3
+-- Compiling architecture xilinx of fft31_complex_mult3
+-- Compiling entity fft31_complex_mult4
+-- Compiling architecture xilinx of fft31_complex_mult4
+-- Compiling entity fft31_dragonfly_dsp48
+-- Compiling architecture xilinx of fft31_dragonfly_dsp48
+-- Compiling entity fft31_dragonfly_dsp48_bypass
+-- Compiling architecture xilinx of fft31_dragonfly_dsp48_bypass
+-- Compiling entity fft31_dragonfly
+-- Compiling architecture xilinx of fft31_dragonfly
+-- Compiling entity fft31_dfly_byp
+-- Compiling architecture xilinx of fft31_dfly_byp
+-- Compiling entity fft31_unbiased_round
+-- Compiling architecture xilinx of fft31_unbiased_round
+-- Compiling entity fft31_pe4
+-- Compiling architecture xilinx of fft31_pe4
+-- Compiling entity fft31_io_addr_gen
+-- Compiling architecture xilinx of fft31_io_addr_gen
+-- Compiling entity fft31_rw_addr_gen
+-- Compiling architecture xilinx of fft31_rw_addr_gen
+-- Compiling entity fft31_rw_addr_gen_b
+-- Compiling architecture xilinx of fft31_rw_addr_gen_b
+-- Compiling entity fft31_tw_gen_p2
+-- Compiling architecture xilinx of fft31_tw_gen_p2
+-- Compiling entity fft31_tw_gen_p4
+-- Compiling architecture xilinx of fft31_tw_gen_p4
+-- Loading package fft31_bb_comps
+-- Compiling entity fft31_tw_addr_gen
+-- Compiling architecture xilinx of fft31_tw_addr_gen
+-- Compiling entity fft31_out_addr_gen
+-- Compiling architecture xilinx of fft31_out_addr_gen
+-- Compiling entity fft31_out_addr_gen_b
+-- Compiling architecture xilinx of fft31_out_addr_gen_b
+-- Compiling entity fft31_in_switch4
+-- Compiling architecture xilinx of fft31_in_switch4
+-- Compiling entity fft31_out_switch4
+-- Compiling architecture xilinx of fft31_out_switch4
+-- Compiling entity fft31_r2_pe
+-- Compiling architecture xilinx of fft31_r2_pe
+-- Compiling entity fft31_r2_tw_addr
+-- Compiling architecture xilinx of fft31_r2_tw_addr
+-- Compiling entity fft31_r2_in_addr
+-- Compiling architecture xilinx of fft31_r2_in_addr
+-- Compiling entity fft31_r2_rw_addr
+-- Compiling architecture xilinx of fft31_r2_rw_addr
+-- Compiling entity fft31_r22_cmplx_mult
+-- Compiling architecture xilinx of fft31_r22_cmplx_mult
+-- Compiling entity fft31_r22_bfly_byp
+-- Compiling architecture xilinx of fft31_r22_bfly_byp
+-- Compiling entity fft31_r22_memory
+-- Compiling architecture xilinx of fft31_r22_memory
+-- Compiling entity fft31_r22_tw_gen
+-- Compiling architecture xilinx of fft31_r22_tw_gen
+-- Compiling entity fft31_r22_ovflo
+-- Compiling architecture xilinx of fft31_r22_ovflo
+-- Compiling entity fft31_r22_bf1_last_even
+-- Compiling architecture xilinx of fft31_r22_bf1_last_even
+-- Compiling entity fft31_r22_bf1_last_odd
+-- Compiling architecture xilinx of fft31_r22_bf1_last_odd
+-- Compiling entity fft31_r22_bf1_penult_odd
+-- Compiling architecture xilinx of fft31_r22_bf1_penult_odd
+-- Compiling entity fft31_r22_bf1_sp
+-- Compiling architecture xilinx of fft31_r22_bf1_sp
+-- Compiling entity fft31_r22_bf1
+-- Compiling architecture xilinx of fft31_r22_bf1
+-- Compiling entity fft31_r22_bf2_last_even
+-- Compiling architecture xilinx of fft31_r22_bf2_last_even
+-- Compiling entity fft31_r22_bf2_penult_even
+-- Compiling architecture xilinx of fft31_r22_bf2_penult_even
+-- Compiling entity fft31_r22_bf2_penult_odd
+-- Compiling architecture xilinx of fft31_r22_bf2_penult_odd
+-- Compiling entity fft31_r22_bf2_sp
+-- Compiling architecture xilinx of fft31_r22_bf2_sp
+-- Compiling entity fft31_r22_bf2
+-- Compiling architecture xilinx of fft31_r22_bf2
+-- Compiling entity fft31_r22_pe
+-- Compiling architecture xilinx of fft31_r22_pe
+-- Compiling entity fft31_r22_pe_last
+-- Compiling architecture xilinx of fft31_r22_pe_last
+-- Compiling entity xfft_v3_1_a
+-- Compiling architecture xilinx of xfft_v3_1_a
+-- Compiling entity xfft_v3_1_b
+-- Compiling architecture xilinx of xfft_v3_1_b
+-- Compiling entity xfft_v3_1_c
+-- Compiling architecture xilinx of xfft_v3_1_c
+-- Compiling entity xfft_v3_1_d
+-- Compiling architecture xilinx of xfft_v3_1_d
+-- Compiling entity xfft_v3_1
+-- Compiling architecture behavioral of xfft_v3_1
+-- Compiling package xfft_v3_1_comp
+-- Compiling package body xfft_v3_1_comp
+-- Loading package xfft_v3_1_comp
+-- Compiling package prims_constants_v2_0
+-- Loading package prims_constants_v2_0
+-- Compiling package mac_v4_0_comp
+-- Compiling package mac_fir_v2_0_comp
+-- Compiling package mac_fir_v2_0_pack
+-- Compiling package c_mac_v3_1_comp
+-- Compiling entity inverter
+-- Compiling architecture virtexii of inverter
+-- Compiling entity cmplx_butterfly
+-- Compiling architecture virtexii of cmplx_butterfly
+-- Compiling entity dragonfly
+-- Compiling architecture virtexii of dragonfly
+-- Compiling entity cmplx_mult
+-- Compiling architecture virtexii of cmplx_mult
+-- Compiling entity arithmetic_shift
+-- Compiling architecture virtexii of arithmetic_shift
+-- Compiling entity unbias_round
+-- Compiling architecture virtexii of unbias_round
+-- Compiling entity pe0
+-- Compiling architecture virtexii of pe0
+-- Compiling entity pe1
+-- Compiling architecture virtexii of pe1
+-- Compiling entity xfft1024_v1_1
+-- Compiling architecture behav_vhdl of xfft1024_v1_1
+-- Compiling package xfft1024_v1_1_comp
+-- Compiling package mac_fir_v5_1_comp
+-- Loading package mac_fir_v5_1_comp
+-- Compiling entity mac_fir_v5_1_xst
+-- Compiling architecture xilinx of mac_fir_v5_1_xst
+-- Compiling package mac_fir_v5_1_xst_comp
+-- Compiling package prims_constants_v6_0
+-- Compiling package prims_utils_v6_0
+-- Loading package prims_constants_v6_0
+-- Compiling package body prims_utils_v6_0
+-- Loading package prims_utils_v6_0
+-- Loading package prims_utils_v6_0
+-- Compiling entity pipeline_v6_0
+-- Compiling architecture behavioral of pipeline_v6_0
+-- Compiling entity c_reg_fd_v6_0
+-- Compiling architecture behavioral of c_reg_fd_v6_0
+-- Compiling package c_reg_fd_v6_0_comp
+-- Loading package c_reg_fd_v6_0_comp
+-- Compiling entity c_mux_bit_v6_0
+-- Compiling architecture behavioral of c_mux_bit_v6_0
+-- Compiling package c_mux_bit_v6_0_comp
+-- Loading package c_mux_bit_v6_0_comp
+-- Compiling entity c_shift_fd_v6_0
+-- Compiling architecture behavioral of c_shift_fd_v6_0
+-- Compiling package c_shift_fd_v6_0_comp
+-- Compiling package c_sin_cos_v4_2_pack
+-- Compiling package body c_sin_cos_v4_2_pack
+-- Loading package c_sin_cos_v4_2_pack
+-- Compiling entity pipe_bhv_v4_2
+-- Compiling architecture behavioral of pipe_bhv_v4_2
+-- Compiling package pipe_bhv_v4_2_comp
+-- Loading package c_shift_fd_v6_0_comp
+-- Loading package c_sin_cos_v4_2_pack
+-- Loading package pipe_bhv_v4_2_comp
+-- Compiling entity c_sin_cos_v4_2
+-- Compiling architecture behavioral of c_sin_cos_v4_2
+-- Loading entity c_shift_fd_v6_0
+-- Loading entity pipe_bhv_v4_2
+-- Loading entity c_reg_fd_v6_0
+-- Compiling package c_sin_cos_v4_2_comp
+-- Compiling package tcc_decoder_3gpp_behv_pkg_v1_0
+-- Compiling package body tcc_decoder_3gpp_behv_pkg_v1_0
+-- Loading package tcc_decoder_3gpp_behv_pkg_v1_0
+-- Loading package tcc_decoder_3gpp_behv_pkg_v1_0
+-- Compiling entity tcc_decoder_3gpp_v1_0
+-- Compiling architecture behavioral of tcc_decoder_3gpp_v1_0
+-- Compiling package tcc_decoder_3gpp_v1_0_comp
+-- Compiling package body tcc_decoder_3gpp_v1_0_comp
+-- Loading package tcc_decoder_3gpp_v1_0_comp
+-- Compiling package c_mac_v3_0_comp
+-- Compiling package tcc_decoder_behv_pkg_v1_0
+-- Compiling package body tcc_decoder_behv_pkg_v1_0
+-- Loading package tcc_decoder_behv_pkg_v1_0
+-- Loading package tcc_decoder_behv_pkg_v1_0
+-- Compiling entity tcc_decoder_v1_0
+-- Compiling architecture behavioral of tcc_decoder_v1_0
+-- Compiling package tcc_decoder_v1_0_comp
+-- Compiling package body tcc_decoder_v1_0_comp
+-- Loading package tcc_decoder_v1_0_comp
+-- Compiling package tcc_encoder_v1_0_comp
+-- Compiling package cic_pack_v3_0
+-- Loading package cic_pack_v3_0
+-- Compiling entity c_cic_v3_0
+-- Compiling architecture behavioral of c_cic_v3_0
+-- Compiling package c_cic_v3_0_comp
+-- Compiling package da_2d_dct_pack_v2_0
+-- Compiling package body da_2d_dct_pack_v2_0
+-- Loading package da_2d_dct_pack_v2_0
+-- Compiling package da_1d_dct_pack_v2_1
+-- Compiling package body da_1d_dct_pack_v2_1
+-- Loading package da_1d_dct_pack_v2_1
+-- Loading package da_1d_dct_pack_v2_1
+-- Compiling entity c_da_1d_dct_v2_1
+-- Compiling architecture behavioral of c_da_1d_dct_v2_1
+-- Compiling package da_1d_dct_v2_1_comp
+-- Loading package da_1d_dct_v2_1_comp
+-- Loading package da_2d_dct_pack_v2_0
+-- Compiling entity c_da_2d_dct_v2_0
+-- Compiling architecture behavioral of c_da_2d_dct_v2_0
+-- Compiling package da_2d_dct_v2_0_comp
+-- Compiling package mult_const_pkg_v6_0
+-- Loading package mult_const_pkg_v6_0
+-- Compiling package parm_v6_0_services
+-- Compiling package body parm_v6_0_services
+-- Loading package parm_v6_0_services
+-- Loading package parm_v6_0_services
+-- Compiling package ccm_v6_0_services
+-- Compiling package body ccm_v6_0_services
+-- Loading package ccm_v6_0_services
+-- Loading package ccm_v6_0_services
+-- Compiling package sqm_v6_0_services
+-- Compiling package body sqm_v6_0_services
+-- Loading package sqm_v6_0_services
+-- Loading package sqm_v6_0_services
+-- Compiling package mult_gen_v6_0_services
+-- Compiling package body mult_gen_v6_0_services
+-- Loading package mult_gen_v6_0_services
+-- Compiling entity cordic_v2_0
+-- Loading package mult_gen_v6_0_services
+-- Compiling package cordic_pack_beh_v2_0
+-- Compiling package body cordic_pack_beh_v2_0
+-- Loading package cordic_pack_beh_v2_0
+-- Loading package cordic_pack_beh_v2_0
+-- Compiling architecture behavioral of cordic_v2_0
+-- Compiling package cordic_v2_0_comp
+-- Compiling entity cordic_v3_0
+-- Compiling package cordic_pack_beh
+-- Compiling package body cordic_pack_beh
+-- Loading package cordic_pack_beh
+-- Loading package cordic_pack_beh
+-- Compiling architecture behavioral of cordic_v3_0
+-- Compiling package cordic_v3_0_comp
+-- Compiling package sid_const_pkg_behav_v3_0
+-- Compiling package sid_mif_pkg_behav_v3_0
+-- Compiling package body sid_mif_pkg_behav_v3_0
+-- Loading package sid_mif_pkg_behav_v3_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(180099):  IIIO10O1ll1l0O0IOl0l1lllO0lI1IIIII:=II0IOOI1Il101lO1O010O0O0IO10IOIIII;ELSE IIIO10O1ll1l0O0IOl0l1lllO0lI1IIIII:=IOO1l1010O10O10I0llO11O100O1IOIIII;END IF;IIIlOO0OOl101Ol0Oll10O1lOIIO0IIIII:=0;IIIIlI10IO0IlIll11O0O1OII0OIIOIIII:=0;WHILE(NOT(ENDFILE(MEMINITFILE))AND(IIIlOO0OOl101Ol0Oll10O1lOIIO0IIIII<IIIO10O1ll1l0O0IOl0l1lllO0lI1IIIII))
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(180099): (vcom-1283) Cannot reference file "meminitfile" inside pure function "ioo1i1li11ol1l1oollliiii1l1ioiiiii".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(180100): LOOP READLINE(MEMINITFILE,IOOIOOI00l1OOOlI1OOO0I00Ol0IlIIIII);READ(IOOIOOI00l1OOOlI1OOO0I00Ol0IlIIIII,IIl1O1I0001l1001OllOOII0I10l1IIIII,III0OI0OlIOOl1Ol1I0l00O0lI1IIIIIII);ASSERT III0OI0OlIOOl1Ol1I0l00O0lI1IIIIIII REPORT
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(180100): (vcom-1283) Cannot reference file "meminitfile" inside pure function "ioo1i1li11ol1l1oollliiii1l1ioiiiii".
+-- Loading package sid_const_pkg_behav_v3_0
+-- Loading package sid_mif_pkg_behav_v3_0
+-- Compiling package sid_pkg_behav_v3_0
+-- Compiling package body sid_pkg_behav_v3_0
+-- Loading package sid_pkg_behav_v3_0
+-- Loading package sid_pkg_behav_v3_0
+-- Compiling entity sid_bhv_forney_v3_0
+-- Compiling architecture behavioral of sid_bhv_forney_v3_0
+-- Compiling entity sid_bhv_rectangular_block_v3_0
+-- Compiling architecture behavioral of sid_bhv_rectangular_block_v3_0
+-- Compiling entity sid_v3_0
+-- Compiling architecture behavioral of sid_v3_0
+-- Compiling package sid_v3_0_comp
+-- Compiling package body sid_v3_0_comp
+-- Loading package sid_v3_0_comp
+-- Compiling package sid_const_pkg_behav_turbo_v1_0
+-- Loading package sid_const_pkg_behav_turbo_v1_0
+-- Compiling package sid_pkg_behav_turbo_v1_0
+-- Compiling package body sid_pkg_behav_turbo_v1_0
+-- Loading package sid_pkg_behav_turbo_v1_0
+-- Loading package sid_pkg_behav_turbo_v1_0
+-- Compiling entity sid_turbo_v1_0
+-- Compiling architecture behavioral of sid_turbo_v1_0
+-- Compiling package sid_turbo_v1_0_comp
+-- Compiling package sid_const_pkg_behav_v4_0
+-- Compiling package sid_mif_pkg_behav_v4_0
+-- Compiling package body sid_mif_pkg_behav_v4_0
+-- Loading package sid_mif_pkg_behav_v4_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(181386): :=0;IO0OOOI1IIIlIOIIOO0Il00I1lOOlIIIII:=0;WHILE(NOT(ENDFILE(MEMINITFILE))AND(IOl1I1O0IIO001llOlll1I1lOI1l0IIIII<IOl0I10010lIIIl000I1O1IO1IlOIIIIII))LOOP READLINE(MEMINITFILE,IIl1O1I0001l1001OllOOII0I10l1IIIII);READ(IIl1O1I0001l1001OllOOII0I10l1IIIII,IOl1Ol11IlIl0110l0OOll000lI11IIIII,
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(181386): (vcom-1283) Cannot reference file "meminitfile" inside pure function "iooiooi00l1oooli1ooo0i00ol0iliiiii".
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(181386): (vcom-1283) Cannot reference file "meminitfile" inside pure function "iooiooi00l1oooli1ooo0i00ol0iliiiii".
+-- Loading package sid_const_pkg_behav_v4_0
+-- Loading package sid_mif_pkg_behav_v4_0
+-- Compiling package sid_pkg_behav_v4_0
+-- Compiling package body sid_pkg_behav_v4_0
+-- Loading package sid_pkg_behav_v4_0
+-- Loading package sid_pkg_behav_v4_0
+-- Compiling entity sid_bhv_forney_v4_0
+-- Compiling architecture behavioral of sid_bhv_forney_v4_0
+-- Compiling entity sid_bhv_rectangular_block_v4_0
+-- Compiling architecture behavioral of sid_bhv_rectangular_block_v4_0
+-- Compiling entity sid_v4_0
+-- Compiling architecture behavioral of sid_v4_0
+-- Compiling package sid_v4_0_comp
+-- Compiling package body sid_v4_0_comp
+-- Loading package sid_v4_0_comp
+-- Compiling package convolution_pack_v4_0
+-- Compiling package body convolution_pack_v4_0
+-- Loading package convolution_pack_v4_0
+-- Loading package convolution_pack_v4_0
+-- Compiling entity convolution_v4_0
+-- Compiling architecture behavioral of convolution_v4_0
+-- Compiling package convolution_v4_0_comp
+-- Compiling package convolution_pack_v3_0
+-- Compiling package body convolution_pack_v3_0
+-- Loading package convolution_pack_v3_0
+-- Loading package convolution_pack_v3_0
+-- Compiling entity convolution_v3_0
+-- Compiling architecture behavioral of convolution_v3_0
+-- Compiling package convolution_v3_0_comp
+-- Compiling package bit_correlator_comps
+-- Compiling package bit_correlator_pack_v3_0
+-- Compiling package body bit_correlator_pack_v3_0
+-- Loading package bit_correlator_pack_v3_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(183265): 		WHILE (NOT(endfile(pattern_file)) AND (lines <= number_of_values)) LOOP
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(183265): (vcom-1283) Cannot reference file "pattern_file" inside pure function "read_pattern_mask".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(183266): 			readline(pattern_file, hexline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(183266): (vcom-1283) Cannot reference file "pattern_file" inside pure function "read_pattern_mask".
+-- Loading package bit_correlator_pack_v3_0
+-- Compiling entity c_bit_correlator_v3_0
+-- Compiling architecture behavioral of c_bit_correlator_v3_0
+-- Compiling package viterbi_pack_v5
+-- Compiling package body viterbi_pack_v5
+-- Loading package viterbi_pack_v5
+-- Loading package viterbi_pack_v5
+-- Compiling entity viterbi_v5_0
+-- Compiling architecture behavioral of viterbi_v5_0
+-- Compiling package viterbi_v5_0_comp
+-- Compiling package dafir_pack_v6_0
+-- Loading package dafir_pack_v6_0
+-- Compiling entity c_da_fir_v6_0
+-- Compiling architecture behavioral of c_da_fir_v6_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(185793):     WHILE (NOT(endfile(coeffile)) AND (lines <= number_of_values)) LOOP
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(185793): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(185794):       readline(coeffile, hexline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(185794): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(185832):     filter_coefficients := read_coefficients(filename, orig_number_of_taps, nrz_coef );
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(185832): (vcom-1284) Cannot call side-effect function "read_coefficients" from pure function "assign_filter_coefficients".
+-- Compiling package da_fir_comps
+-- Compiling package dafir_pack_v8_0
+-- Loading package dafir_pack_v8_0
+-- Compiling entity c_da_fir_v8_0
+-- Compiling architecture behavioral of c_da_fir_v8_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(187106):     WHILE (NOT(endfile(coeffile)) AND (lines <= number_of_values)) LOOP
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(187106): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(187107):       readline(coeffile, hexline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(187107): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(187144):     filter_coefficients := read_coefficients(filename, orig_number_of_taps, nrz_coef );
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(187144): (vcom-1284) Cannot call side-effect function "read_coefficients" from pure function "assign_filter_coefficients".
+-- Compiling package c_da_fir_v8_0_comp
+-- Compiling package dafir_pack_v9_0
+-- Loading package dafir_pack_v9_0
+-- Compiling entity c_da_fir_v9_0
+-- Compiling architecture behavioral of c_da_fir_v9_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(188563):     WHILE (NOT(endfile(coeffile)) AND (lines <= number_of_values)) LOOP
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(188563): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(188564):       readline(coeffile, hexline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(188564): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(188601):     filter_coefficients := read_coefficients(filename, orig_number_of_taps, nrz_coef );
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(188601): (vcom-1284) Cannot call side-effect function "read_coefficients" from pure function "assign_filter_coefficients".
+-- Compiling package c_da_fir_v9_0_comp
+-- Loading package c_da_fir_v9_0_comp
+-- Compiling entity c_da_fir_v9_0_xst
+-- Compiling architecture xilinx of c_da_fir_v9_0_xst
+-- Compiling package c_da_fir_v9_0_xst_comp
+-- Compiling package dafir_pack_v7_0
+-- Loading package dafir_pack_v7_0
+-- Compiling entity c_da_fir_v7_0
+-- Compiling architecture behavioral of c_da_fir_v7_0
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(190204):     WHILE (NOT(endfile(coeffile)) AND (lines <= number_of_values)) LOOP
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(190204): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(190205):       readline(coeffile, hexline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(190205): (vcom-1283) Cannot reference file "coeffile" inside pure function "read_coefficients".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(190242):     filter_coefficients := read_coefficients(filename, orig_number_of_taps, nrz_coef );
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(190242): (vcom-1284) Cannot call side-effect function "read_coefficients" from pure function "assign_filter_coefficients".
+-- Compiling package c_da_fir_v7_0_comp
+-- Compiling entity sdivider_v3_0
+-- Compiling architecture behavioral of sdivider_v3_0
+-- Compiling package sdivider_v3_0_comp
+-- Compiling package vfft_utils
+-- Compiling entity xdsp_cnt10
+-- Compiling architecture behv of xdsp_cnt10
+-- Compiling entity xdsp_cnt11
+-- Compiling architecture behv of xdsp_cnt11
+-- Compiling entity xdsp_cnt12
+-- Compiling architecture behv of xdsp_cnt12
+-- Compiling entity xdsp_cnt2
+-- Compiling architecture behv of xdsp_cnt2
+-- Compiling entity xdsp_cnt4
+-- Compiling architecture behv of xdsp_cnt4
+-- Compiling entity xdsp_cnt5
+-- Compiling architecture behv of xdsp_cnt5
+-- Compiling entity xdsp_cnt8
+-- Compiling architecture behv of xdsp_cnt8
+-- Compiling entity xdsp_cnt9
+-- Compiling architecture behv of xdsp_cnt9
+-- Compiling entity xdsp_cos1024
+-- Compiling architecture behv of xdsp_cos1024
+-- Compiling entity xdsp_cos256
+-- Compiling architecture behv of xdsp_cos256
+-- Compiling entity xdsp_cos64
+-- Compiling architecture behv of xdsp_cos64
+-- Compiling entity xdsp_coss16
+-- Compiling architecture behv of xdsp_coss16
+-- Compiling entity xdsp_mul16x17
+-- Compiling architecture behv of xdsp_mul16x17
+-- Compiling entity xdsp_mul16x17z4
+-- Compiling architecture behv of xdsp_mul16x17z4
+-- Compiling entity xdsp_mux2w1
+-- Compiling architecture mux1 of xdsp_mux2w1
+-- Compiling entity xdsp_mux2w16
+-- Compiling architecture behv of xdsp_mux2w16
+-- Compiling entity xdsp_mux2w16r
+-- Compiling architecture behv of xdsp_mux2w16r
+-- Compiling entity xdsp_mux2w4
+-- Compiling architecture behv of xdsp_mux2w4
+-- Compiling entity xdsp_mux2w4r
+-- Compiling architecture behv of xdsp_mux2w4r
+-- Compiling entity xdsp_mux3w1
+-- Compiling architecture mux1 of xdsp_mux3w1
+-- Compiling entity xdsp_mux4w16
+-- Compiling architecture behv of xdsp_mux4w16
+-- Compiling entity xdsp_mux4w16r
+-- Compiling architecture behv of xdsp_mux4w16r
+-- Compiling entity xdsp_radd16
+-- Compiling architecture behv of xdsp_radd16
+-- Compiling entity xdsp_radd16c
+-- Compiling architecture behv of xdsp_radd16c
+-- Compiling entity xdsp_radd17
+-- Compiling architecture behv of xdsp_radd17
+-- Compiling entity xdsp_ramd16a4
+-- Compiling architecture behv of xdsp_ramd16a4
+-- Compiling entity xdsp_reg16
+-- Compiling architecture behavioral of xdsp_reg16
+-- Compiling entity xdsp_reg16b
+-- Compiling architecture behavioral of xdsp_reg16b
+-- Compiling entity xdsp_reg16l
+-- Compiling architecture behavioral of xdsp_reg16l
+-- Compiling entity xdsp_reg4
+-- Compiling architecture behavioral of xdsp_reg4
+-- Compiling entity xdsp_rsub16
+-- Compiling architecture behv of xdsp_rsub16
+-- Compiling entity xdsp_rsub16b
+-- Compiling architecture behv of xdsp_rsub16b
+-- Compiling entity xdsp_rsub16c
+-- Compiling architecture behv of xdsp_rsub16c
+-- Compiling entity xdsp_rsub17
+-- Compiling architecture behv of xdsp_rsub17
+-- Compiling entity xdsp_rsub17b
+-- Compiling architecture behv of xdsp_rsub17b
+-- Compiling entity xdsp_sin1024
+-- Compiling architecture behv of xdsp_sin1024
+-- Compiling entity xdsp_sin256
+-- Compiling architecture behv of xdsp_sin256
+-- Compiling entity xdsp_sin64
+-- Compiling architecture behv of xdsp_sin64
+-- Compiling entity xdsp_sinn16
+-- Compiling architecture behv of xdsp_sinn16
+-- Compiling entity xdsp_tcompw16
+-- Compiling architecture behv of xdsp_tcompw16
+-- Compiling entity xdsp_tcompw16b
+-- Compiling architecture behv of xdsp_tcompw16b
+-- Compiling entity xdsp_tcompw17
+-- Compiling architecture behv of xdsp_tcompw17
+-- Compiling entity xdsp_triginv
+-- Compiling architecture behv of xdsp_triginv
+-- Compiling package fft_defsx_1024
+-- Loading package fft_defsx_1024
+-- Compiling entity cmplx_reg16_conj
+-- Compiling architecture struct of cmplx_reg16_conj
+-- Compiling entity cmplx_reg16_conjb
+-- Compiling architecture struct of cmplx_reg16_conjb
+-- Compiling entity cmplx_reg16_conjc
+-- Compiling architecture struct of cmplx_reg16_conjc
+-- Compiling entity state_mach
+-- Compiling architecture behavioral of state_mach
+-- Compiling entity fflce
+-- Compiling architecture fflce_arch of fflce
+-- Compiling entity ffrce
+-- Compiling architecture ffrce_arch of ffrce
+-- Compiling entity z19w1
+-- Compiling architecture z19w1_arch of z19w1
+-- Compiling entity z20w1
+-- Compiling architecture struct of z20w1
+-- Compiling entity z47w1
+-- Compiling architecture struct of z47w1
+-- Compiling entity z49w1
+-- Compiling architecture struct of z49w1
+-- Compiling entity z17w1
+-- Compiling architecture struct of z17w1
+-- Compiling entity xmul16x17
+-- Compiling architecture struct of xmul16x17
+-- Compiling entity shift_reg2b
+-- Compiling architecture shift_reg2b_arch of shift_reg2b
+-- Compiling entity xmux4w16r
+-- Compiling architecture behv of xmux4w16r
+-- Compiling entity xmux4w16rb
+-- Compiling architecture behv of xmux4w16rb
+-- Compiling entity xmux2w16r
+-- Compiling architecture struct of xmux2w16r
+-- Compiling entity bflyw0_16
+-- Compiling architecture struct of bflyw0_16
+-- Compiling entity bflywj_16
+-- Compiling architecture struct of bflywj_16
+-- Compiling entity bflyw0_17
+-- Compiling architecture struct of bflyw0_17
+-- Compiling entity fft4
+-- Compiling architecture struct of fft4
+-- Compiling entity dragonfly_1024
+-- Compiling architecture struct of dragonfly_1024
+-- Compiling entity phase_agen_1024
+-- Compiling architecture phase_agen_arch of phase_agen_1024
+-- Compiling entity phase_factors_1024
+-- Compiling architecture phase_factors_arch of phase_factors_1024
+-- Compiling entity fft_dbl_bufr_1024
+-- Compiling architecture struct of fft_dbl_bufr_1024
+-- Compiling entity fft4_engine
+-- Compiling architecture struct of fft4_engine
+-- Compiling entity index_map_1024
+-- Compiling architecture behv of index_map_1024
+-- Compiling entity fft_cntrlx_1024
+-- Compiling architecture behv of fft_cntrlx_1024
+-- Compiling entity fft_rd_agenx_1024
+-- Compiling architecture fft_rd_agen1 of fft_rd_agenx_1024
+-- Compiling entity fft_wr_agenx_1024
+-- Compiling architecture fft_wr_agen1 of fft_wr_agenx_1024
+-- Compiling package fft_defs_64
+-- Compiling entity z16w1
+-- Compiling architecture struct of z16w1
+-- Compiling entity z18w1
+-- Compiling architecture struct of z18w1
+-- Compiling entity xmul16x17z
+-- Compiling architecture struct of xmul16x17z
+-- Compiling entity xmux2w16
+-- Compiling architecture struct of xmux2w16
+-- Compiling entity xmux4w16
+-- Compiling architecture struct of xmux4w16
+-- Loading package fft_defs_64
+-- Compiling entity dragonfly_64
+-- Compiling architecture struct of dragonfly_64
+-- Compiling entity fft_rd_agen_64
+-- Compiling architecture struct of fft_rd_agen_64
+-- Compiling entity fft_wr_agen_64
+-- Compiling architecture struct of fft_wr_agen_64
+-- Compiling entity phase_agen_64
+-- Compiling architecture behv of phase_agen_64
+-- Compiling entity fft_cntrl_64
+-- Compiling architecture virtex_fft_cntrl of fft_cntrl_64
+-- Compiling entity phase_factors_64
+-- Compiling architecture phase_factors_arch of phase_factors_64
+-- Compiling package fft_defsx_256
+-- Compiling entity dragonfly_256
+-- Compiling architecture struct of dragonfly_256
+-- Loading package fft_defsx_256
+-- Compiling entity phase_agen_256
+-- Compiling architecture phase_agen_arch of phase_agen_256
+-- Compiling entity phase_factors_256
+-- Compiling architecture phase_factors_arch of phase_factors_256
+-- Compiling entity fft_dbl_bufr
+-- Compiling architecture struct of fft_dbl_bufr
+-- Compiling entity index_map_256
+-- Compiling architecture behv of index_map_256
+-- Compiling entity fft_cntrlx_256
+-- Compiling architecture behv of fft_cntrlx_256
+-- Compiling entity fft_rd_agenx_256
+-- Compiling architecture fft_rd_agen_256 of fft_rd_agenx_256
+-- Compiling entity fft_wr_agenx_256
+-- Compiling architecture fft_wr_agen_256 of fft_wr_agenx_256
+-- Compiling package fft_defs_16
+-- Compiling entity z4w1
+-- Compiling architecture struct of z4w1
+-- Compiling entity z36w1
+-- Compiling architecture struct of z36w1
+-- Compiling entity z46w1
+-- Compiling architecture struct of z46w1
+-- Compiling entity xmux4w16br
+-- Compiling architecture behv of xmux4w16br
+-- Loading package fft_defs_16
+-- Compiling entity fft4_16
+-- Compiling architecture struct of fft4_16
+-- Compiling entity fft4b
+-- Compiling architecture struct of fft4b
+-- Compiling entity dragonfly_16
+-- Compiling architecture struct of dragonfly_16
+-- Compiling entity input_dbl_bufr
+-- Compiling architecture struct of input_dbl_bufr
+-- Compiling entity fft_dbl_bufr_16
+-- Compiling architecture struct of fft_dbl_bufr_16
+-- Compiling entity bitrev_bufr
+-- Compiling architecture struct of bitrev_bufr
+-- Compiling entity fft_cntrl_16
+-- Compiling architecture virtex_fft_cntrl of fft_cntrl_16
+-- Loading package vfft_utils
+-- Compiling entity vfft1024
+-- Compiling architecture behavioral of vfft1024
+-- Compiling package vfft1024_comp
+-- Compiling entity vfft16
+-- Compiling architecture behavioral of vfft16
+-- Compiling package vfft16_comp
+-- Compiling entity vfft256
+-- Compiling architecture behavioral of vfft256
+-- Compiling package vfft256_comp
+-- Compiling entity vfft64
+-- Compiling architecture behavioral of vfft64
+-- Compiling package vfft64_comp
+-- Compiling entity blk_mem_gen_v2_7_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v2_7_output_stage
+-- Compiling entity blk_mem_gen_v2_7
+-- Compiling architecture behavioral of blk_mem_gen_v2_7
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211628):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211628): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211630):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211630): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211632):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211632): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211642):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(211642): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Loading package std_logic_textio
+-- Compiling package blk_mem_gen_v2_7_comp
+-- Loading package blk_mem_gen_v2_7_comp
+-- Compiling entity blk_mem_gen_v2_7_xst
+-- Compiling architecture behavioral of blk_mem_gen_v2_7_xst
+-- Compiling package blk_mem_gen_v2_7_xst_comp
+-- Compiling entity dist_mem_gen_v3_4
+-- Compiling architecture behavioral of dist_mem_gen_v3_4
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213525):       file_open(mif_status, meminitfile, filename, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213525): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213537):          if not(endfile(meminitfile)) and i < depth then
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213537): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213540):             readline(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213540): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213571):       file_close(meminitfile);      
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213571): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213659):          memory_content := read_mif(filename, def_data, depth, width);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(213659): (vcom-1284) Cannot call side-effect function "read_mif" from pure function "init_mem".
+-- Compiling package dist_mem_gen_v3_4_comp
+-- Loading package dist_mem_gen_v3_4_comp
+-- Compiling entity dist_mem_gen_v3_4_xst
+-- Compiling architecture behavioral of dist_mem_gen_v3_4_xst
+-- Compiling package dist_mem_gen_v3_4_xst_comp
+-- Compiling package iputils_misc
+-- Compiling package body iputils_misc
+-- Loading package iputils_misc
+-- Loading package iputils_misc
+-- Compiling entity fifo_generator_v4_3_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v4_3_bhv_as
+-- Compiling entity fifo_generator_v4_3_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v4_3_bhv_ss
+-- Compiling entity fifo_generator_v4_3_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v4_3_bhv_preload0
+-- Loading entity fifo_generator_v4_3_bhv_as
+-- Loading entity fifo_generator_v4_3_bhv_ss
+-- Compiling entity fifo_generator_v4_3
+-- Compiling architecture behavioral of fifo_generator_v4_3
+-- Compiling package fifo_generator_v4_3_comp
+-- Loading package fifo_generator_v4_3_comp
+-- Compiling entity fifo_generator_v4_3_xst
+-- Compiling architecture behavioral of fifo_generator_v4_3_xst
+-- Compiling package fifo_generator_v4_3_xst_comp
+-- Compiling package pkg_mult_gen_v10_0
+-- Compiling package body pkg_mult_gen_v10_0
+-- Loading package pkg_mult_gen_v10_0
+-- Loading package pkg_mult_gen_v10_0
+-- Compiling entity mult_gen_v10_0
+-- Compiling architecture behavioral of mult_gen_v10_0
+-- Compiling package mult_gen_v10_0_comp
+-- Loading package mult_gen_v10_0_comp
+-- Compiling entity mult_gen_v10_0_xst
+-- Compiling architecture behavioral of mult_gen_v10_0_xst
+-- Compiling package mult_gen_v10_0_xst_comp
+-- Compiling entity fifo_generator_v4_2_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v4_2_bhv_as
+-- Compiling entity fifo_generator_v4_2_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v4_2_bhv_ss
+-- Compiling entity fifo_generator_v4_2_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v4_2_bhv_preload0
+-- Loading entity fifo_generator_v4_2_bhv_as
+-- Loading entity fifo_generator_v4_2_bhv_ss
+-- Compiling entity fifo_generator_v4_2
+-- Compiling architecture behavioral of fifo_generator_v4_2
+-- Compiling package fifo_generator_v4_2_comp
+-- Loading package fifo_generator_v4_2_comp
+-- Compiling entity fifo_generator_v4_2_xst
+-- Compiling architecture behavioral of fifo_generator_v4_2_xst
+-- Compiling package fifo_generator_v4_2_xst_comp
+-- Compiling entity fifo_generator_v4_1_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v4_1_bhv_as
+-- Compiling entity fifo_generator_v4_1_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v4_1_bhv_ss
+-- Compiling entity fifo_generator_v4_1_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v4_1_bhv_preload0
+-- Loading entity fifo_generator_v4_1_bhv_as
+-- Loading entity fifo_generator_v4_1_bhv_ss
+-- Compiling entity fifo_generator_v4_1
+-- Compiling architecture behavioral of fifo_generator_v4_1
+-- Compiling package fifo_generator_v4_1_comp
+-- Loading package fifo_generator_v4_1_comp
+-- Compiling entity fifo_generator_v4_1_xst
+-- Compiling architecture behavioral of fifo_generator_v4_1_xst
+-- Compiling package fifo_generator_v4_1_xst_comp
+-- Compiling entity dist_mem_gen_v3_3
+-- Compiling architecture behavioral of dist_mem_gen_v3_3
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231642):       file_open(mif_status, meminitfile, filename, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231642): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231654):          if not(endfile(meminitfile)) and i < depth then
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231654): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231657):             readline(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231657): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231688):       file_close(meminitfile);      
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231688): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231776):          memory_content := read_mif(filename, def_data, depth, width);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(231776): (vcom-1284) Cannot call side-effect function "read_mif" from pure function "init_mem".
+-- Compiling package dist_mem_gen_v3_3_comp
+-- Loading package dist_mem_gen_v3_3_comp
+-- Compiling entity dist_mem_gen_v3_3_xst
+-- Compiling architecture behavioral of dist_mem_gen_v3_3_xst
+-- Compiling package dist_mem_gen_v3_3_xst_comp
+-- Compiling entity fifo_generator_v3_3_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v3_3_bhv_as
+-- Compiling entity fifo_generator_v3_3_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v3_3_bhv_ss
+-- Compiling entity fifo_generator_v3_3_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v3_3_bhv_preload0
+-- Loading entity fifo_generator_v3_3_bhv_as
+-- Loading entity fifo_generator_v3_3_bhv_ss
+-- Compiling entity fifo_generator_v3_3
+-- Compiling architecture behavioral of fifo_generator_v3_3
+-- Compiling package fifo_generator_v3_3_comp
+-- Loading package fifo_generator_v3_3_comp
+-- Compiling entity fifo_generator_v3_3_xst
+-- Compiling architecture behavioral of fifo_generator_v3_3_xst
+-- Compiling package fifo_generator_v3_3_xst_comp
+-- Compiling entity blk_mem_gen_v2_4_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v2_4_output_stage
+-- Compiling entity blk_mem_gen_v2_4
+-- Compiling architecture behavioral of blk_mem_gen_v2_4
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237285):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237285): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237287):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237287): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237289):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237289): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237299):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(237299): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Compiling package blk_mem_gen_v2_4_comp
+-- Loading package blk_mem_gen_v2_4_comp
+-- Compiling entity blk_mem_gen_v2_4_xst
+-- Compiling architecture behavioral of blk_mem_gen_v2_4_xst
+-- Compiling package blk_mem_gen_v2_4_xst_comp
+-- Compiling entity blk_mem_gen_v2_5_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v2_5_output_stage
+-- Compiling entity blk_mem_gen_v2_5
+-- Compiling architecture behavioral of blk_mem_gen_v2_5
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239440):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239440): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239442):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239442): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239444):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239444): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239454):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(239454): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Compiling package blk_mem_gen_v2_5_comp
+-- Loading package blk_mem_gen_v2_5_comp
+-- Compiling entity blk_mem_gen_v2_5_xst
+-- Compiling architecture behavioral of blk_mem_gen_v2_5_xst
+-- Compiling package blk_mem_gen_v2_5_xst_comp
+-- Compiling entity blk_mem_gen_v2_6_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v2_6_output_stage
+-- Compiling entity blk_mem_gen_v2_6
+-- Compiling architecture behavioral of blk_mem_gen_v2_6
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241629):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241629): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241631):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241631): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241633):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241633): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241643):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(241643): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Compiling package blk_mem_gen_v2_6_comp
+-- Loading package blk_mem_gen_v2_6_comp
+-- Compiling entity blk_mem_gen_v2_6_xst
+-- Compiling architecture behavioral of blk_mem_gen_v2_6_xst
+-- Compiling package blk_mem_gen_v2_6_xst_comp
+-- Compiling package floating_point_v3_0_consts
+-- Loading package floating_point_v3_0_consts
+-- Compiling package floating_point_pkg_v3_0
+-- Compiling package body floating_point_pkg_v3_0
+-- Loading package floating_point_pkg_v3_0
+-- Loading package floating_point_pkg_v3_0
+-- Compiling entity flt_pt_operator_v3_0
+-- Compiling architecture behavioral of flt_pt_operator_v3_0
+-- Compiling entity floating_point_v3_0_xst
+-- Compiling architecture behavioral of floating_point_v3_0_xst
+-- Compiling package floating_point_v3_0_xst_comp
+-- Loading package floating_point_v3_0_xst_comp
+-- Compiling entity floating_point_v3_0
+-- Compiling architecture behavioral of floating_point_v3_0
+-- Compiling package floating_point_v3_0_comp
+-- Compiling entity c_addsub_v9_1
+-- Compiling architecture behavioral of c_addsub_v9_1
+-- Compiling package c_addsub_v9_1_comp
+-- Loading package c_addsub_v9_1_comp
+-- Compiling entity c_accum_v9_1
+-- Compiling architecture behavioral of c_accum_v9_1
+-- Compiling package c_accum_v9_1_comp
+-- Loading package c_accum_v9_1_comp
+-- Compiling entity c_accum_v9_1_xst
+-- Compiling architecture behavioral of c_accum_v9_1_xst
+-- Compiling package c_accum_v9_1_xst_comp
+-- Compiling entity fifo_generator_v3_1_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v3_1_bhv_as
+-- Compiling entity fifo_generator_v3_1_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v3_1_bhv_ss
+-- Compiling entity fifo_generator_v3_1_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v3_1_bhv_preload0
+-- Loading entity fifo_generator_v3_1_bhv_as
+-- Loading entity fifo_generator_v3_1_bhv_ss
+-- Compiling entity fifo_generator_v3_1
+-- Compiling architecture behavioral of fifo_generator_v3_1
+-- Compiling package fifo_generator_v3_1_comp
+-- Loading package fifo_generator_v3_1_comp
+-- Compiling entity fifo_generator_v3_1_xst
+-- Compiling architecture behavioral of fifo_generator_v3_1_xst
+-- Compiling package fifo_generator_v3_1_xst_comp
+-- Compiling entity c_compare_v9_1
+-- Compiling architecture behavioral of c_compare_v9_1
+-- Compiling package c_compare_v9_1_comp
+-- Compiling entity c_mux_bus_v9_1
+-- Compiling architecture behavioral of c_mux_bus_v9_1
+-- Compiling package c_mux_bus_v9_1_comp
+-- Loading package c_compare_v9_1_comp
+-- Loading package c_mux_bus_v9_1_comp
+-- Compiling entity c_counter_binary_v9_1
+-- Compiling architecture behavioral of c_counter_binary_v9_1
+-- Compiling package c_counter_binary_v9_1_comp
+-- Loading package c_counter_binary_v9_1_comp
+-- Compiling entity c_counter_binary_v9_1_xst
+-- Compiling architecture behavioral of c_counter_binary_v9_1_xst
+-- Compiling package c_counter_binary_v9_1_xst_comp
+-- Compiling package c_compare_v9_0_rtl_comp
+-- Compiling package pkg_baseblox_v9_0
+-- Compiling package body pkg_baseblox_v9_0
+-- Loading package pkg_baseblox_v9_0
+-- Loading package pkg_baseblox_v9_0
+-- Compiling entity c_reg_fd_v9_0
+-- Compiling architecture behavioral of c_reg_fd_v9_0
+-- Compiling package c_reg_fd_v9_0_comp
+-- Loading package c_reg_fd_v9_0_comp
+-- Compiling entity c_compare_v9_0
+-- Compiling architecture behavioral of c_compare_v9_0
+-- Compiling package c_compare_v9_0_comp
+-- Loading package c_compare_v9_0_comp
+-- Compiling entity c_compare_v9_0_xst
+-- Compiling architecture behavioral of c_compare_v9_0_xst
+-- Compiling package c_compare_v9_0_xst_comp
+-- Compiling entity c_shift_ram_v9_0
+-- Compiling architecture behavioral of c_shift_ram_v9_0
+-- Compiling package c_shift_ram_v9_0_comp
+-- Loading package c_shift_ram_v9_0_comp
+-- Compiling entity c_shift_ram_v9_0_xst
+-- Compiling architecture behavioral of c_shift_ram_v9_0_xst
+-- Compiling package c_shift_ram_v9_0_xst_comp
+-- Compiling entity c_shift_ram_v9_1
+-- Compiling architecture behavioral of c_shift_ram_v9_1
+-- Compiling package c_shift_ram_v9_1_comp
+-- Loading package c_shift_ram_v9_1_comp
+-- Compiling entity c_shift_ram_v9_1_xst
+-- Compiling architecture behavioral of c_shift_ram_v9_1_xst
+-- Compiling package c_shift_ram_v9_1_xst_comp
+-- Compiling entity c_addsub_v9_0
+-- Compiling architecture behavioral of c_addsub_v9_0
+-- Compiling package c_addsub_v9_0_comp
+-- Compiling entity c_mux_bus_v9_0
+-- Compiling architecture behavioral of c_mux_bus_v9_0
+-- Compiling package c_mux_bus_v9_0_comp
+-- Loading package c_addsub_v9_0_comp
+-- Loading package c_mux_bus_v9_0_comp
+-- Compiling entity c_counter_binary_v9_0
+-- Compiling architecture behavioral of c_counter_binary_v9_0
+-- Compiling package c_counter_binary_v9_0_comp
+-- Loading package c_counter_binary_v9_0_comp
+-- Compiling entity c_counter_binary_v9_0_xst
+-- Compiling architecture behavioral of c_counter_binary_v9_0_xst
+-- Compiling package c_counter_binary_v9_0_xst_comp
+-- Compiling entity c_accum_v9_0
+-- Compiling architecture behavioral of c_accum_v9_0
+-- Compiling package c_accum_v9_0_comp
+-- Loading package c_accum_v9_0_comp
+-- Compiling entity c_accum_v9_0_xst
+-- Compiling architecture behavioral of c_accum_v9_0_xst
+-- Compiling package c_accum_v9_0_xst_comp
+-- Compiling entity c_mux_bus_v9_1_xst
+-- Compiling architecture behavioral of c_mux_bus_v9_1_xst
+-- Compiling package c_mux_bus_v9_1_xst_comp
+-- Compiling package c_compare_v9_1_rtl_comp
+-- Compiling entity c_compare_v9_1_xst
+-- Compiling architecture behavioral of c_compare_v9_1_xst
+-- Compiling package c_compare_v9_1_xst_comp
+-- Compiling entity c_mux_bus_v9_0_xst
+-- Compiling architecture behavioral of c_mux_bus_v9_0_xst
+-- Compiling package c_mux_bus_v9_0_xst_comp
+-- Compiling entity fifo_generator_v2_3_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v2_3_bhv_as
+-- Compiling entity fifo_generator_v2_3_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v2_3_bhv_ss
+-- Compiling entity fifo_generator_v2_3_bhv_fifo16
+-- Compiling architecture behavioral of fifo_generator_v2_3_bhv_fifo16
+-- Compiling entity fifo_generator_v2_3_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v2_3_bhv_preload0
+-- Loading entity fifo_generator_v2_3_bhv_as
+-- Loading entity fifo_generator_v2_3_bhv_ss
+-- Loading entity fifo_generator_v2_3_bhv_fifo16
+-- Compiling entity fifo_generator_v2_3
+-- Compiling architecture behavioral of fifo_generator_v2_3
+-- Compiling package fifo_generator_v2_3_comp
+-- Compiling entity fifo_generator_v3_2_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v3_2_bhv_as
+-- Compiling entity fifo_generator_v3_2_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v3_2_bhv_ss
+-- Compiling entity fifo_generator_v3_2_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v3_2_bhv_preload0
+-- Loading entity fifo_generator_v3_2_bhv_as
+-- Loading entity fifo_generator_v3_2_bhv_ss
+-- Compiling entity fifo_generator_v3_2
+-- Compiling architecture behavioral of fifo_generator_v3_2
+-- Compiling package fifo_generator_v3_2_comp
+-- Loading package fifo_generator_v3_2_comp
+-- Compiling entity fifo_generator_v3_2_xst
+-- Compiling architecture behavioral of fifo_generator_v3_2_xst
+-- Compiling package fifo_generator_v3_2_xst_comp
+-- Compiling package pkg_div_gen_v1_0
+-- Compiling package body pkg_div_gen_v1_0
+-- Loading package pkg_div_gen_v1_0
+-- Compiling package prims_utils_v8_0
+-- Compiling package body prims_utils_v8_0
+-- Loading package prims_utils_v8_0
+-- Compiling package pkg_div_repmult_v1_0
+-- Compiling package body pkg_div_repmult_v1_0
+-- Loading package pkg_div_repmult_v1_0
+-- Compiling package pkg_baseblox_v8_0
+-- Compiling package body pkg_baseblox_v8_0
+-- Loading package pkg_baseblox_v8_0
+-- Loading package prims_utils_v8_0
+-- Loading package pkg_baseblox_v8_0
+-- Compiling entity c_reg_fd_v8_0
+-- Compiling architecture behavioral of c_reg_fd_v8_0
+-- Compiling package c_reg_fd_v8_0_comp
+-- Loading package pkg_div_repmult_v1_0
+-- Loading package c_reg_fd_v8_0_comp
+-- Compiling entity div_repmult_v1_0
+-- Compiling architecture behavioral of div_repmult_v1_0
+-- Compiling package div_repmult_v1_0_comp
+-- Compiling entity sdivider_v4_0
+-- Compiling architecture behavioral of sdivider_v4_0
+-- Compiling package sdivider_v4_0_comp
+-- Loading package pkg_div_gen_v1_0
+-- Loading package div_repmult_v1_0_comp
+-- Loading package sdivider_v4_0_comp
+-- Compiling entity div_gen_v1_0
+-- Compiling architecture behavioral of div_gen_v1_0
+-- Compiling package div_gen_v1_0_comp
+-- Loading package div_gen_v1_0_comp
+-- Compiling entity div_gen_v1_0_xst
+-- Compiling architecture behavioral of div_gen_v1_0_xst
+-- Compiling package div_gen_v1_0_xst_comp
+-- Compiling entity div_repmult_v1_0_xst
+-- Compiling architecture behavioral of div_repmult_v1_0_xst
+-- Compiling package div_repmult_v1_0_xst_comp
+-- Compiling entity c_gate_bit_v9_1
+-- Compiling architecture behavioral of c_gate_bit_v9_1
+-- Compiling package c_gate_bit_v9_1_comp
+-- Loading package c_gate_bit_v9_1_comp
+-- Compiling entity c_gate_bit_v9_1_xst
+-- Compiling architecture behavioral of c_gate_bit_v9_1_xst
+-- Compiling package c_gate_bit_v9_1_xst_comp
+-- Compiling entity blk_mem_gen_v2_3_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v2_3_output_stage
+-- Compiling entity blk_mem_gen_v2_3
+-- Compiling architecture behavioral of blk_mem_gen_v2_3
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288924):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288924): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288926):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288926): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288928):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288928): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288938):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(288938): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Compiling package blk_mem_gen_v2_3_comp
+-- Loading package blk_mem_gen_v2_3_comp
+-- Compiling entity blk_mem_gen_v2_3_xst
+-- Compiling architecture behavioral of blk_mem_gen_v2_3_xst
+-- Compiling package blk_mem_gen_v2_3_xst_comp
+-- Compiling entity c_mux_bit_v9_1
+-- Compiling architecture behavioral of c_mux_bit_v9_1
+-- Compiling package c_mux_bit_v9_1_comp
+-- Loading package c_mux_bit_v9_1_comp
+-- Compiling entity c_mux_bit_v9_1_xst
+-- Compiling architecture behavioral of c_mux_bit_v9_1_xst
+-- Compiling package c_mux_bit_v9_1_xst_comp
+-- Compiling entity blk_mem_gen_v1_1_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v1_1_output_stage
+-- Compiling entity blk_mem_gen_v1_1
+-- Compiling architecture behavioral of blk_mem_gen_v1_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291783):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291783): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291785):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291785): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291787):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291787): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291797):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(291797): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Compiling entity c_addsub_v9_0_xst
+-- Compiling architecture behavioral of c_addsub_v9_0_xst
+-- Compiling package c_addsub_v9_0_xst_comp
+-- Compiling package mult_gen_const_pkg_v8_0
+-- Loading package mult_gen_const_pkg_v8_0
+-- Compiling package parm_v8_0_services
+-- Compiling package body parm_v8_0_services
+-- Loading package parm_v8_0_services
+-- Loading package parm_v8_0_services
+-- Compiling package ccm_v8_0_services
+-- Compiling package body ccm_v8_0_services
+-- Loading package ccm_v8_0_services
+-- Loading package ccm_v8_0_services
+-- Compiling package mult_gen_v8_0_services
+-- Compiling package body mult_gen_v8_0_services
+-- Loading package mult_gen_v8_0_services
+-- Loading package mult_gen_v8_0_services
+-- Compiling package mult_pkg_v8_0
+-- Compiling package body mult_pkg_v8_0
+-- Loading package mult_pkg_v8_0
+-- Loading package mult_pkg_v8_0
+-- Compiling entity mult_gen_v8_0_non_seq
+-- Compiling architecture behavioral of mult_gen_v8_0_non_seq
+-- Compiling package mult_gen_v8_0_non_seq_comp
+-- Compiling package iputils_family
+-- Compiling package body iputils_family
+-- Loading package iputils_family
+-- Loading package mult_gen_v8_0_non_seq_comp
+-- Loading package iputils_family
+-- Compiling entity mult_gen_v8_0
+-- Compiling architecture behavioral of mult_gen_v8_0
+-- Compiling package mult_gen_v8_0_comp
+-- Loading package mult_gen_v8_0_comp
+-- Compiling entity mult_gen_v8_0_xst
+-- Compiling architecture behavioral of mult_gen_v8_0_xst
+-- Compiling package mult_gen_v8_0_xst_comp
+-- Compiling entity blk_mem_gen_v2_1_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v2_1_output_stage
+-- Compiling entity blk_mem_gen_v2_1
+-- Compiling architecture behavioral of blk_mem_gen_v2_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298751):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298751): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298753):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298753): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298755):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298755): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298765):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(298765): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Compiling package blk_mem_gen_v2_1_comp
+-- Loading package blk_mem_gen_v2_1_comp
+-- Compiling entity blk_mem_gen_v2_1_xst
+-- Compiling architecture behavioral of blk_mem_gen_v2_1_xst
+-- Compiling package blk_mem_gen_v2_1_xst_comp
+-- Compiling entity c_addsub_v9_1_xst
+-- Compiling architecture behavioral of c_addsub_v9_1_xst
+-- Compiling package c_addsub_v9_1_xst_comp
+-- Compiling entity example
+-- Compiling architecture synth of example
+-- Compiling package pkg_sdivider_v4_0
+-- Compiling package body pkg_sdivider_v4_0
+-- Loading package pkg_sdivider_v4_0
+-- Compiling entity sdivider_v4_0_xst
+-- Compiling architecture behavioral of sdivider_v4_0_xst
+-- Compiling package sdivider_v4_0_xst_comp
+-- Compiling entity c_mux_bit_v9_0
+-- Compiling architecture behavioral of c_mux_bit_v9_0
+-- Compiling package c_mux_bit_v9_0_comp
+-- Loading package c_mux_bit_v9_0_comp
+-- Compiling entity c_mux_bit_v9_0_xst
+-- Compiling architecture behavioral of c_mux_bit_v9_0_xst
+-- Compiling package c_mux_bit_v9_0_xst_comp
+-- Compiling package pkg_mult_gen_v9_0
+-- Compiling package body pkg_mult_gen_v9_0
+-- Loading package pkg_mult_gen_v9_0
+-- Loading package pkg_mult_gen_v9_0
+-- Compiling entity mult_gen_v9_0
+-- Compiling architecture behavioral of mult_gen_v9_0
+-- Compiling package mult_gen_v9_0_comp
+-- Loading package mult_gen_v9_0_comp
+-- Compiling entity mult_gen_v9_0_xst
+-- Compiling architecture behavioral of mult_gen_v9_0_xst
+-- Compiling package mult_gen_v9_0_xst_comp
+-- Compiling entity c_gate_bit_v9_0
+-- Compiling architecture behavioral of c_gate_bit_v9_0
+-- Compiling package c_gate_bit_v9_0_comp
+-- Loading package c_gate_bit_v9_0_comp
+-- Compiling entity c_gate_bit_v9_0_xst
+-- Compiling architecture behavioral of c_gate_bit_v9_0_xst
+-- Compiling package c_gate_bit_v9_0_xst_comp
+-- Compiling entity c_shift_fd_v9_0
+-- Compiling architecture behavioral of c_shift_fd_v9_0
+-- Compiling package c_shift_fd_v9_0_comp
+-- Loading package c_shift_fd_v9_0_comp
+-- Compiling entity c_shift_fd_v9_0_xst
+-- Compiling architecture behavioral of c_shift_fd_v9_0_xst
+-- Compiling package c_shift_fd_v9_0_xst_comp
+-- Compiling entity blk_mem_gen_v2_2_output_stage
+-- Compiling architecture behavioral of blk_mem_gen_v2_2_output_stage
+-- Compiling entity blk_mem_gen_v2_2
+-- Compiling architecture behavioral of blk_mem_gen_v2_2
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304722):       file_open(init_file, C_INIT_FILE_NAME, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304722): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304724):       while (i < depth and not endfile(init_file)) loop
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304724): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304726):         readline(init_file, file_buffer);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304726): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304736):       file_close(init_file);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(304736): (vcom-1283) Cannot reference file "init_file" inside pure function "init_memory".
+-- Compiling package blk_mem_gen_v2_2_comp
+-- Loading package blk_mem_gen_v2_2_comp
+-- Compiling entity blk_mem_gen_v2_2_xst
+-- Compiling architecture behavioral of blk_mem_gen_v2_2_xst
+-- Compiling package blk_mem_gen_v2_2_xst_comp
+-- Compiling entity c_shift_fd_v9_1
+-- Compiling architecture behavioral of c_shift_fd_v9_1
+-- Compiling package c_shift_fd_v9_1_comp
+-- Loading package c_shift_fd_v9_1_comp
+-- Compiling entity c_shift_fd_v9_1_xst
+-- Compiling architecture behavioral of c_shift_fd_v9_1_xst
+-- Compiling package c_shift_fd_v9_1_xst_comp
+-- Compiling entity c_reg_fd_v9_0_xst
+-- Compiling architecture behavioral of c_reg_fd_v9_0_xst
+-- Compiling package c_reg_fd_v9_0_xst_comp
+-- Compiling entity c_lut_v9_0
+-- Compiling architecture behavioral of c_lut_v9_0
+-- Compiling package c_lut_v9_0_comp
+-- Loading package c_lut_v9_0_comp
+-- Compiling entity c_lut_v9_0_xst
+-- Compiling architecture behavioral of c_lut_v9_0_xst
+-- Compiling package c_lut_v9_0_xst_comp
+-- Compiling entity c_lut_v9_1
+-- Compiling architecture behavioral of c_lut_v9_1
+-- Compiling package c_lut_v9_1_comp
+-- Loading package c_lut_v9_1_comp
+-- Compiling entity c_lut_v9_1_xst
+-- Compiling architecture behavioral of c_lut_v9_1_xst
+-- Compiling package c_lut_v9_1_xst_comp
+-- Compiling entity c_twos_comp_v9_0
+-- Compiling architecture behavioral of c_twos_comp_v9_0
+-- Compiling package c_twos_comp_v9_0_comp
+-- Loading package c_twos_comp_v9_0_comp
+-- Compiling entity c_twos_comp_v9_0_xst
+-- Compiling architecture behavioral of c_twos_comp_v9_0_xst
+-- Compiling package c_twos_comp_v9_0_xst_comp
+-- Compiling entity c_twos_comp_v9_1
+-- Compiling architecture behavioral of c_twos_comp_v9_1
+-- Compiling package c_twos_comp_v9_1_comp
+-- Loading package c_twos_comp_v9_1_comp
+-- Compiling entity c_twos_comp_v9_1_xst
+-- Compiling architecture behavioral of c_twos_comp_v9_1_xst
+-- Compiling package c_twos_comp_v9_1_xst_comp
+-- Compiling entity dist_mem_gen_v2_1
+-- Compiling architecture behavioral of dist_mem_gen_v2_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310859):       file_open(mif_status, meminitfile, filename, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310859): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310871):          if not(endfile(meminitfile)) and i < depth then
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310871): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310874):             readline(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310874): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310905):       file_close(meminitfile);      
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310905): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310993):          memory_content := read_mif(filename, def_data, depth, width);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(310993): (vcom-1284) Cannot call side-effect function "read_mif" from pure function "init_mem".
+-- Compiling package dist_mem_gen_v2_1_comp
+-- Loading package dist_mem_gen_v2_1_comp
+-- Compiling entity dist_mem_gen_v2_1_xst
+-- Compiling architecture behavioral of dist_mem_gen_v2_1_xst
+-- Compiling package dist_mem_gen_v2_1_xst_comp
+-- Compiling entity dist_mem_gen_v3_1
+-- Compiling architecture behavioral of dist_mem_gen_v3_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(311993):       file_open(mif_status, meminitfile, filename, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(311993): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312005):          if not(endfile(meminitfile)) and i < depth then
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312005): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312008):             readline(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312008): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312039):       file_close(meminitfile);      
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312039): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312127):          memory_content := read_mif(filename, def_data, depth, width);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(312127): (vcom-1284) Cannot call side-effect function "read_mif" from pure function "init_mem".
+-- Compiling package dist_mem_gen_v3_1_comp
+-- Loading package dist_mem_gen_v3_1_comp
+-- Compiling entity dist_mem_gen_v3_1_xst
+-- Compiling architecture behavioral of dist_mem_gen_v3_1_xst
+-- Compiling package dist_mem_gen_v3_1_xst_comp
+-- Compiling package xcc_utils_v9_0
+-- Compiling package body xcc_utils_v9_0
+-- Loading package xcc_utils_v9_0
+-- Compiling entity dist_mem_gen_v3_2
+-- Compiling architecture behavioral of dist_mem_gen_v3_2
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313213):       file_open(mif_status, meminitfile, filename, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313213): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313225):          if not(endfile(meminitfile)) and i < depth then
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313225): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313228):             readline(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313228): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313259):       file_close(meminitfile);      
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313259): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313347):          memory_content := read_mif(filename, def_data, depth, width);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(313347): (vcom-1284) Cannot call side-effect function "read_mif" from pure function "init_mem".
+-- Compiling package dist_mem_gen_v3_2_comp
+-- Loading package dist_mem_gen_v3_2_comp
+-- Compiling entity dist_mem_gen_v3_2_xst
+-- Compiling architecture behavioral of dist_mem_gen_v3_2_xst
+-- Compiling package dist_mem_gen_v3_2_xst_comp
+-- Compiling entity fifo_generator_v2_2_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v2_2_bhv_as
+-- Compiling entity fifo_generator_v2_2_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v2_2_bhv_ss
+-- Compiling entity fifo_generator_v2_2_bhv_fifo16
+-- Compiling architecture behavioral of fifo_generator_v2_2_bhv_fifo16
+-- Compiling entity fifo_generator_v2_2_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v2_2_bhv_preload0
+-- Loading entity fifo_generator_v2_2_bhv_as
+-- Loading entity fifo_generator_v2_2_bhv_ss
+-- Loading entity fifo_generator_v2_2_bhv_fifo16
+-- Compiling entity fifo_generator_v2_2
+-- Compiling architecture behavioral of fifo_generator_v2_2
+-- Compiling package fifo_generator_v2_2_comp
+-- Compiling entity fifo_generator_v2_1_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v2_1_bhv_as
+-- Compiling entity fifo_generator_v2_1_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v2_1_bhv_ss
+-- Compiling entity fifo_generator_v2_1_bhv_fifo16
+-- Compiling architecture behavioral of fifo_generator_v2_1_bhv_fifo16
+-- Compiling entity fifo_generator_v2_1_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v2_1_bhv_preload0
+-- Loading entity fifo_generator_v2_1_bhv_as
+-- Loading entity fifo_generator_v2_1_bhv_ss
+-- Loading entity fifo_generator_v2_1_bhv_fifo16
+-- Compiling entity fifo_generator_v2_1
+-- Compiling architecture behavioral of fifo_generator_v2_1
+-- Compiling package fifo_generator_v2_1_comp
+-- Compiling entity c_compare_v8_0
+-- Compiling architecture behavioral of c_compare_v8_0
+-- Compiling package c_compare_v8_0_comp
+-- Loading package c_compare_v8_0_comp
+-- Compiling entity c_compare_v8_0_xst
+-- Compiling architecture behavioral of c_compare_v8_0_xst
+-- Compiling package c_compare_v8_0_xst_comp
+-- Compiling entity c_addsub_v8_0
+-- Compiling architecture behavioral of c_addsub_v8_0
+-- Compiling package c_addsub_v8_0_comp
+-- Compiling entity c_mux_bus_v8_0
+-- Compiling architecture behavioral of c_mux_bus_v8_0
+-- Compiling package c_mux_bus_v8_0_comp
+-- Loading package c_addsub_v8_0_comp
+-- Loading package c_mux_bus_v8_0_comp
+-- Compiling entity c_counter_binary_v8_0
+-- Compiling architecture behavioral of c_counter_binary_v8_0
+-- Compiling package c_counter_binary_v8_0_comp
+-- Loading package c_counter_binary_v8_0_comp
+-- Compiling entity c_counter_binary_v8_0_xst
+-- Compiling architecture behavioral of c_counter_binary_v8_0_xst
+-- Compiling package c_counter_binary_v8_0_xst_comp
+-- Compiling entity c_mux_bus_v8_0_xst
+-- Compiling architecture behavioral of c_mux_bus_v8_0_xst
+-- Compiling package c_mux_bus_v8_0_xst_comp
+-- Compiling entity c_accum_v8_0
+-- Compiling architecture behavioral of c_accum_v8_0
+-- Compiling package c_accum_v8_0_comp
+-- Loading package c_accum_v8_0_comp
+-- Compiling entity c_accum_v8_0_xst
+-- Compiling architecture behavioral of c_accum_v8_0_xst
+-- Compiling package c_accum_v8_0_xst_comp
+-- Compiling entity c_shift_ram_v8_0
+-- Compiling architecture behavioral of c_shift_ram_v8_0
+-- Compiling package c_shift_ram_v8_0_comp
+-- Loading package c_shift_ram_v8_0_comp
+-- Compiling entity c_shift_ram_v8_0_xst
+-- Compiling architecture behavioral of c_shift_ram_v8_0_xst
+-- Compiling package c_shift_ram_v8_0_xst_comp
+-- Compiling entity c_addsub_v8_0_xst
+-- Compiling architecture behavioral of c_addsub_v8_0_xst
+-- Compiling package c_addsub_v8_0_xst_comp
+-- Compiling entity c_gate_bit_v8_0
+-- Compiling architecture behavioral of c_gate_bit_v8_0
+-- Compiling package c_gate_bit_v8_0_comp
+-- Loading package c_gate_bit_v8_0_comp
+-- Compiling entity c_gate_bit_v8_0_xst
+-- Compiling architecture behavioral of c_gate_bit_v8_0_xst
+-- Compiling package c_gate_bit_v8_0_xst_comp
+-- Compiling entity c_mux_bit_v8_0
+-- Compiling architecture behavioral of c_mux_bit_v8_0
+-- Compiling package c_mux_bit_v8_0_comp
+-- Loading package c_mux_bit_v8_0_comp
+-- Compiling entity c_mux_bit_v8_0_xst
+-- Compiling architecture behavioral of c_mux_bit_v8_0_xst
+-- Compiling package c_mux_bit_v8_0_xst_comp
+-- Compiling entity c_shift_fd_v8_0
+-- Compiling architecture behavioral of c_shift_fd_v8_0
+-- Compiling package c_shift_fd_v8_0_comp
+-- Loading package c_shift_fd_v8_0_comp
+-- Compiling entity c_shift_fd_v8_0_xst
+-- Compiling architecture behavioral of c_shift_fd_v8_0_xst
+-- Compiling package c_shift_fd_v8_0_xst_comp
+-- Compiling entity c_lut_v8_0
+-- Compiling architecture behavioral of c_lut_v8_0
+-- Compiling package c_lut_v8_0_comp
+-- Loading package c_lut_v8_0_comp
+-- Compiling entity c_lut_v8_0_xst
+-- Compiling architecture behavioural of c_lut_v8_0_xst
+-- Compiling package c_lut_v8_0_xst_comp
+-- Compiling entity c_twos_comp_v8_0
+-- Compiling architecture behavioral of c_twos_comp_v8_0
+-- Compiling package c_twos_comp_v8_0_comp
+-- Loading package c_twos_comp_v8_0_comp
+-- Compiling entity c_twos_comp_v8_0_xst
+-- Compiling architecture behavioral of c_twos_comp_v8_0_xst
+-- Compiling package c_twos_comp_v8_0_xst_comp
+-- Compiling entity c_reg_fd_v8_0_xst
+-- Compiling architecture behavioral of c_reg_fd_v8_0_xst
+-- Compiling package c_reg_fd_v8_0_xst_comp
+-- Compiling entity dist_mem_gen_v1_1
+-- Compiling architecture behavioral of dist_mem_gen_v1_1
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339282):       file_open(mif_status, meminitfile, filename, read_mode);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339282): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339294):          if not(endfile(meminitfile)) and i < depth then
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339294): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339297):             readline(meminitfile, bitline);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339297): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339328):       file_close(meminitfile);      
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339328): (vcom-1283) Cannot reference file "meminitfile" inside pure function "read_mif".
+###### C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339416):          memory_content := read_mif(filename, def_data, depth, width);
+** Warning: C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\XilinxCoreLib_source.vhd(339416): (vcom-1284) Cannot call side-effect function "read_mif" from pure function "init_mem".
+-- Compiling package dist_mem_gen_v1_1_comp
+-- Loading package dist_mem_gen_v1_1_comp
+-- Compiling entity dist_mem_gen_v1_1_xst
+-- Compiling architecture behavioral of dist_mem_gen_v1_1_xst
+-- Compiling package dist_mem_gen_v1_1_xst_comp
+-- Compiling package blkmemsp_pkg_v6_2
+-- Compiling package body blkmemsp_pkg_v6_2
+-- Loading package blkmemsp_pkg_v6_2
+-- Compiling package mem_init_file_pack_v6_2
+-- Compiling package body mem_init_file_pack_v6_2
+-- Loading package mem_init_file_pack_v6_2
+-- Loading package mem_init_file_pack_v6_2
+-- Loading package blkmemsp_pkg_v6_2
+-- Compiling entity blkmemsp_v6_2
+-- Compiling architecture behavioral of blkmemsp_v6_2
+-- Compiling package blkmemsp_v6_2_comp
+-- Loading package blkmemsp_v6_2_comp
+-- Compiling entity blkmemsp_v6_2_xst
+-- Compiling architecture xilinx of blkmemsp_v6_2_xst
+-- Compiling package blkmemsp_v6_2_xst_comp
+-- Compiling package blkmemdp_v6_3_services
+-- Compiling package body blkmemdp_v6_3_services
+-- Loading package blkmemdp_v6_3_services
+-- Compiling package blkmemdp_pkg_v6_3
+-- Compiling package body blkmemdp_pkg_v6_3
+-- Loading package blkmemdp_pkg_v6_3
+-- Compiling package blkmemdp_mem_init_file_pack_v6_3
+-- Compiling package body blkmemdp_mem_init_file_pack_v6_3
+-- Loading package blkmemdp_mem_init_file_pack_v6_3
+-- Loading package blkmemdp_mem_init_file_pack_v6_3
+-- Loading package blkmemdp_pkg_v6_3
+-- Compiling entity blkmemdp_v6_3
+-- Compiling architecture behavioral of blkmemdp_v6_3
+-- Compiling package blkmemdp_v6_3_comp
+-- Loading package blkmemdp_v6_3_comp
+-- Compiling entity blkmemdp_v6_3_xst
+-- Compiling architecture xilinx of blkmemdp_v6_3_xst
+-- Compiling package blkmemdp_v6_3_xst_comp
+-- Compiling package blkmemdp_v6_2_services
+-- Compiling package body blkmemdp_v6_2_services
+-- Loading package blkmemdp_v6_2_services
+-- Compiling package blkmemdp_pkg_v6_2
+-- Compiling package body blkmemdp_pkg_v6_2
+-- Loading package blkmemdp_pkg_v6_2
+-- Compiling package blkmemdp_mem_init_file_pack_v6_2
+-- Compiling package body blkmemdp_mem_init_file_pack_v6_2
+-- Loading package blkmemdp_mem_init_file_pack_v6_2
+-- Loading package blkmemdp_mem_init_file_pack_v6_2
+-- Loading package blkmemdp_pkg_v6_2
+-- Compiling entity blkmemdp_v6_2
+-- Compiling architecture behavioral of blkmemdp_v6_2
+-- Compiling package blkmemdp_v6_2_comp
+-- Loading package blkmemdp_v6_2_comp
+-- Compiling entity blkmemdp_v6_2_xst
+-- Compiling architecture xilinx of blkmemdp_v6_2_xst
+-- Compiling package blkmemdp_v6_2_xst_comp
+-- Compiling entity lfsr_v2_0_dvunit_bhv
+-- Compiling architecture xilinx of lfsr_v2_0_dvunit_bhv
+-- Compiling entity lfsr_v2_0
+-- Compiling architecture behavioral of lfsr_v2_0
+-- Compiling package lfsr_v2_0_comp
+-- Compiling package mult_pkg_v6_0
+-- Compiling package body mult_pkg_v6_0
+-- Loading package mult_pkg_v6_0
+-- Loading package mult_pkg_v6_0
+-- Compiling entity mult_gen_v6_0_non_seq
+-- Compiling architecture behavioral of mult_gen_v6_0_non_seq
+-- Compiling package mult_gen_v6_0_non_seq_comp
+-- Loading package mult_gen_v6_0_non_seq_comp
+-- Compiling entity mult_gen_v6_0_seq
+-- Compiling architecture behavioral of mult_gen_v6_0_seq
+-- Compiling package mult_gen_v6_0_seq_comp
+-- Loading package mult_gen_v6_0_seq_comp
+-- Compiling entity mult_gen_v6_0
+-- Compiling architecture behavioral of mult_gen_v6_0
+-- Compiling package mult_gen_v6_0_comp
+-- Compiling package sync_fifo_pkg_v3_0
+-- Compiling package body sync_fifo_pkg_v3_0
+-- Loading package sync_fifo_pkg_v3_0
+-- Loading package sync_fifo_pkg_v3_0
+-- Compiling entity sync_fifo_v3_0
+-- Compiling architecture behavioral of sync_fifo_v3_0
+-- Compiling package sync_fifo_v3_0_comp
+-- Compiling package iputils_math
+-- Compiling package body iputils_math
+-- Loading package iputils_math
+-- Compiling package iputils_slv
+-- Loading package iputils_math
+-- Compiling package body iputils_slv
+-- Loading package iputils_slv
+-- Compiling package cam_v4_0_pkg
+-- Compiling package body cam_v4_0_pkg
+-- Loading package cam_v4_0_pkg
+-- Loading package cam_v4_0_pkg
+-- Loading package iputils_slv
+-- Compiling entity cam_v4_0
+-- Compiling architecture behavioral of cam_v4_0
+-- Compiling package cam_v4_0_comp
+-- Compiling entity async_fifo_v6_0
+-- Compiling architecture behavioral of async_fifo_v6_0
+-- Compiling package async_fifo_v6_0_comp
+-- Compiling entity async_fifo_v5_1
+-- Compiling architecture behavioral of async_fifo_v5_1
+-- Compiling package async_fifo_v5_1_comp
+-- Compiling entity async_fifo_v6_1
+-- Compiling architecture behavioral of async_fifo_v6_1
+-- Compiling package async_fifo_v6_1_comp
+-- Compiling entity lfsr_v3_0_dvunit_bhv
+-- Compiling architecture xilinx of lfsr_v3_0_dvunit_bhv
+-- Compiling entity lfsr_v3_0
+-- Compiling architecture behavioral of lfsr_v3_0
+-- Compiling package lfsr_v3_0_comp
+-- Compiling package sync_fifo_pkg_v4_0
+-- Compiling package body sync_fifo_pkg_v4_0
+-- Loading package sync_fifo_pkg_v4_0
+-- Loading package sync_fifo_pkg_v4_0
+-- Compiling entity sync_fifo_v4_0
+-- Compiling architecture behavioral of sync_fifo_v4_0
+-- Compiling package sync_fifo_v4_0_comp
+-- Compiling entity async_fifo_v5_0
+-- Compiling architecture behavioral of async_fifo_v5_0
+-- Compiling package async_fifo_v5_0_comp
+-- Compiling entity c_gate_bus_v4_0
+-- Compiling architecture behavioral of c_gate_bus_v4_0
+-- Compiling package c_gate_bus_v4_0_comp
+-- Compiling package prims_comps_v4_0
+-- Compiling package async_fifo_v4_0_pkg
+-- Compiling package body async_fifo_v4_0_pkg
+-- Loading package async_fifo_v4_0_pkg
+-- Compiling package async_fifo_v4_0_components
+-- Compiling entity memory_v4
+-- Compiling architecture behavioral of memory_v4
+-- Compiling entity full_flag_reg_v4
+-- Compiling architecture behavioral of full_flag_reg_v4
+-- Compiling entity empty_flag_reg_v4
+-- Compiling architecture behavioral of empty_flag_reg_v4
+-- Compiling entity almst_full_v4
+-- Compiling architecture behavioral of almst_full_v4
+-- Compiling entity almst_empty_v4
+-- Compiling architecture behavioral of almst_empty_v4
+-- Compiling entity bcount_up_ainit_v4
+-- Compiling architecture behavioral of bcount_up_ainit_v4
+-- Loading package c_gate_bus_v4_0_comp
+-- Compiling entity binary_to_gray_v4
+-- Compiling architecture behavioral of binary_to_gray_v4
+-- Compiling entity eq_compare_v4
+-- Compiling architecture behavioral of eq_compare_v4
+-- Compiling entity reg_ainit_v4
+-- Compiling architecture behavioral of reg_ainit_v4
+-- Compiling entity and_a_b_v4
+-- Compiling architecture behavioral of and_a_b_v4
+-- Compiling entity or_a_b_v4
+-- Compiling architecture behavioral of or_a_b_v4
+-- Compiling entity and_a_notb_v4
+-- Compiling architecture behavioral of and_a_notb_v4
+-- Compiling entity and_a_notb_fd_v4
+-- Compiling architecture behavioral of and_a_notb_fd_v4
+-- Compiling entity nand_a_notb_fd_v4
+-- Compiling architecture behavioral of nand_a_notb_fd_v4
+-- Compiling entity and_a_b_notc_v4
+-- Compiling architecture behavioral of and_a_b_notc_v4
+-- Compiling entity and_a_b_c_notd_v4
+-- Compiling architecture behavioral of and_a_b_c_notd_v4
+-- Compiling entity or_fd_v4
+-- Compiling architecture behavioral of or_fd_v4
+-- Compiling entity and_fd_v4
+-- Compiling architecture behavioral of and_fd_v4
+-- Compiling entity nand_fd_v4
+-- Compiling architecture behavioral of nand_fd_v4
+-- Compiling entity or3_fd_v4
+-- Compiling architecture behavioral of or3_fd_v4
+-- Loading package async_fifo_v4_0_components
+-- Compiling entity count_sub_reg_v4
+-- Compiling architecture behavioral of count_sub_reg_v4
+-- Compiling entity xor_gate_bit_v4
+-- Compiling architecture behavioral of xor_gate_bit_v4
+-- Compiling entity gray_to_binary_v4
+-- Compiling architecture behavioral of gray_to_binary_v4
+-- Compiling entity fifoctlr_ns_v4
+-- Compiling architecture behavioral of fifoctlr_ns_v4
+-- Loading package prims_comps_v4_0
+-- Loading package async_fifo_v4_0_pkg
+-- Compiling entity async_fifo_v4_0
+-- Compiling architecture behavioral of async_fifo_v4_0
+-- Compiling package async_fifo_v4_0_comp
+-- Compiling package sync_fifo_pkg_v5_0
+-- Compiling package body sync_fifo_pkg_v5_0
+-- Loading package sync_fifo_pkg_v5_0
+-- Loading package sync_fifo_pkg_v5_0
+-- Compiling entity sync_fifo_v5_0
+-- Compiling architecture behavioral of sync_fifo_v5_0
+-- Compiling package sync_fifo_v5_0_comp
+-- Loading package sync_fifo_v5_0_comp
+-- Compiling entity sync_fifo_v5_0_xst
+-- Compiling architecture xilinx of sync_fifo_v5_0_xst
+-- Compiling package sync_fifo_v5_0_xst_comp
+-- Compiling package blkmemdp_v4_0_services
+-- Compiling package body blkmemdp_v4_0_services
+-- Loading package blkmemdp_v4_0_services
+-- Compiling entity fifo_generator_v1_1_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v1_1_bhv_as
+-- Compiling entity fifo_generator_v1_1_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v1_1_bhv_ss
+-- Compiling entity fifo_generator_v1_1_bhv_fifo16
+-- Compiling architecture behavioral of fifo_generator_v1_1_bhv_fifo16
+-- Loading entity fifo_generator_v1_1_bhv_as
+-- Loading entity fifo_generator_v1_1_bhv_ss
+-- Compiling entity fifo_generator_v1_1
+-- Compiling architecture behavioral of fifo_generator_v1_1
+-- Compiling package fifo_generator_v1_1_comp
+-- Compiling package blkmemdp_pkg_v3_2
+-- Compiling package body blkmemdp_pkg_v3_2
+-- Loading package blkmemdp_pkg_v3_2
+-- Compiling package mem_init_file_pack_v3_2
+-- Compiling package body mem_init_file_pack_v3_2
+-- Loading package mem_init_file_pack_v3_2
+-- Loading package mem_init_file_pack_v3_2
+-- Loading package blkmemdp_pkg_v3_2
+-- Compiling entity blkmemdp_v3_2
+-- Compiling architecture behavioral of blkmemdp_v3_2
+-- Compiling package blkmemdp_v3_2_comp
+-- Compiling entity c_dist_mem_v5_1
+-- Compiling architecture behavioral of c_dist_mem_v5_1
+-- Compiling package c_dist_mem_v5_1_comp
+-- Compiling package blkmemdp_v6_1_services
+-- Compiling package body blkmemdp_v6_1_services
+-- Loading package blkmemdp_v6_1_services
+-- Compiling entity blkmemdp_v6_1_xst
+-- Compiling architecture xilinx of blkmemdp_v6_1_xst
+-- Compiling package blkmemdp_v6_1_xst_comp
+-- Compiling package blkmemsp_pkg_v3_2
+-- Compiling package body blkmemsp_pkg_v3_2
+-- Loading package blkmemsp_pkg_v3_2
+-- Loading package blkmemsp_pkg_v3_2
+-- Compiling entity blkmemsp_v3_2
+-- Compiling architecture behavioral of blkmemsp_v3_2
+-- Compiling package blkmemsp_v3_2_comp
+-- Compiling package blkmemdp_pkg_v6_0
+-- Compiling package body blkmemdp_pkg_v6_0
+-- Loading package blkmemdp_pkg_v6_0
+-- Compiling package blkmemdp_mem_init_file_pack_v6_0
+-- Compiling package body blkmemdp_mem_init_file_pack_v6_0
+-- Loading package blkmemdp_mem_init_file_pack_v6_0
+-- Loading package blkmemdp_mem_init_file_pack_v6_0
+-- Loading package blkmemdp_pkg_v6_0
+-- Compiling entity blkmemdp_v6_0
+-- Compiling architecture behavioral of blkmemdp_v6_0
+-- Compiling package blkmemdp_v6_0_comp
+-- Compiling package blkmemdp_v6_0_services
+-- Compiling package body blkmemdp_v6_0_services
+-- Loading package blkmemdp_v6_0_services
+-- Compiling package blkmemsp_pkg_v5_0
+-- Compiling package body blkmemsp_pkg_v5_0
+-- Loading package blkmemsp_pkg_v5_0
+-- Loading package blkmemsp_pkg_v5_0
+-- Compiling entity blkmemsp_v5_0
+-- Compiling architecture behavioral of blkmemsp_v5_0
+-- Compiling package blkmemsp_v5_0_comp
+-- Compiling entity fifo_generator_v1_0_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v1_0_bhv_as
+-- Compiling entity fifo_generator_v1_0_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v1_0_bhv_ss
+-- Compiling entity fifo_generator_v1_0_bhv_fifo16
+-- Compiling architecture behavioral of fifo_generator_v1_0_bhv_fifo16
+-- Loading entity fifo_generator_v1_0_bhv_as
+-- Loading entity fifo_generator_v1_0_bhv_ss
+-- Compiling entity fifo_generator_v1_0
+-- Compiling architecture behavioral of fifo_generator_v1_0
+-- Compiling package fifo_generator_v1_0_comp
+-- Compiling package blkmemsp_pkg_v6_1
+-- Compiling package body blkmemsp_pkg_v6_1
+-- Loading package blkmemsp_pkg_v6_1
+-- Compiling package mem_init_file_pack_v6_1
+-- Compiling package body mem_init_file_pack_v6_1
+-- Loading package mem_init_file_pack_v6_1
+-- Loading package mem_init_file_pack_v6_1
+-- Loading package blkmemsp_pkg_v6_1
+-- Compiling entity blkmemsp_v6_1
+-- Compiling architecture behavioral of blkmemsp_v6_1
+-- Compiling package blkmemsp_v6_1_comp
+-- Loading package blkmemsp_v6_1_comp
+-- Compiling entity blkmemsp_v6_1_xst
+-- Compiling architecture xilinx of blkmemsp_v6_1_xst
+-- Compiling package blkmemsp_v6_1_xst_comp
+-- Compiling entity fifo_generator_v2_0_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v2_0_bhv_as
+-- Compiling entity fifo_generator_v2_0_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v2_0_bhv_ss
+-- Compiling entity fifo_generator_v2_0_bhv_fifo16
+-- Compiling architecture behavioral of fifo_generator_v2_0_bhv_fifo16
+-- Loading entity fifo_generator_v2_0_bhv_as
+-- Loading entity fifo_generator_v2_0_bhv_ss
+-- Compiling entity fifo_generator_v2_0
+-- Compiling architecture behavioral of fifo_generator_v2_0
+-- Compiling package fifo_generator_v2_0_comp
+-- Compiling package blkmemsp_pkg_v6_0
+-- Compiling package body blkmemsp_pkg_v6_0
+-- Loading package blkmemsp_pkg_v6_0
+-- Compiling package mem_init_file_pack_v6_0
+-- Compiling package body mem_init_file_pack_v6_0
+-- Loading package mem_init_file_pack_v6_0
+-- Loading package mem_init_file_pack_v6_0
+-- Loading package blkmemsp_pkg_v6_0
+-- Compiling entity blkmemsp_v6_0
+-- Compiling architecture behavioral of blkmemsp_v6_0
+-- Compiling package blkmemsp_v6_0_comp
+-- Compiling package blkmemdp_pkg_v5_0
+-- Compiling package body blkmemdp_pkg_v5_0
+-- Loading package blkmemdp_pkg_v5_0
+-- Compiling package blkmemdp_mem_init_file_pack_v5_0
+-- Compiling package body blkmemdp_mem_init_file_pack_v5_0
+-- Loading package blkmemdp_mem_init_file_pack_v5_0
+-- Loading package blkmemdp_mem_init_file_pack_v5_0
+-- Loading package blkmemdp_pkg_v5_0
+-- Compiling entity blkmemdp_v5_0
+-- Compiling architecture behavioral of blkmemdp_v5_0
+-- Compiling package blkmemdp_v5_0_comp
+-- Compiling package blkmemdp_v5_0_services
+-- Compiling package body blkmemdp_v5_0_services
+-- Loading package blkmemdp_v5_0_services
+-- Compiling package cam_v5_0_pkg
+-- Compiling package body cam_v5_0_pkg
+-- Loading package cam_v5_0_pkg
+-- Loading package cam_v5_0_pkg
+-- Compiling entity cam_v5_0
+-- Compiling architecture behavioral of cam_v5_0
+-- Compiling package cam_v5_0_comp
+-- Compiling package blkmemsp_pkg_v4_0
+-- Compiling package body blkmemsp_pkg_v4_0
+-- Loading package blkmemsp_pkg_v4_0
+-- Loading package blkmemsp_pkg_v4_0
+-- Compiling entity blkmemsp_v4_0
+-- Compiling architecture behavioral of blkmemsp_v4_0
+-- Compiling package blkmemsp_v4_0_comp
+-- Compiling package cam_v5_1_pkg
+-- Compiling package body cam_v5_1_pkg
+-- Loading package cam_v5_1_pkg
+-- Loading package cam_v5_1_pkg
+-- Compiling entity cam_v5_1
+-- Compiling architecture behavioral of cam_v5_1
+-- Compiling package cam_v5_1_comp
+-- Compiling entity c_dist_mem_v7_0
+-- Compiling architecture behavioral of c_dist_mem_v7_0
+-- Compiling package c_dist_mem_v7_0_comp
+-- Compiling package c_dist_mem_v7_0_services
+-- Compiling package body c_dist_mem_v7_0_services
+-- Loading package c_dist_mem_v7_0_services
+-- Compiling entity c_dist_mem_v4_0
+-- Compiling architecture behavioral of c_dist_mem_v4_0
+-- Compiling package c_dist_mem_v4_0_comp
+-- Compiling entity c_dist_mem_v6_0
+-- Compiling architecture behavioral of c_dist_mem_v6_0
+-- Compiling package c_dist_mem_v6_0_comp
+-- Compiling package c_dist_mem_v6_0_services
+-- Compiling package body c_dist_mem_v6_0_services
+-- Loading package c_dist_mem_v6_0_services
+-- Compiling package c_dist_mem_v7_1_services
+-- Compiling package body c_dist_mem_v7_1_services
+-- Loading package c_dist_mem_v7_1_services
+-- Compiling entity c_dist_mem_v7_1_xst
+-- Compiling architecture xilinx of c_dist_mem_v7_1_xst
+-- Compiling package c_dist_mem_v7_1_xst_comp
+-- Compiling package prims_utils_v2_0
+-- Compiling package body prims_utils_v2_0
+-- Loading package prims_utils_v2_0
+-- Loading package prims_utils_v2_0
+-- Compiling entity pipeline_v2_0
+-- Compiling architecture behavioral of pipeline_v2_0
+-- Compiling entity c_reg_fd_v2_0
+-- Compiling architecture behavioral of c_reg_fd_v2_0
+-- Compiling package c_reg_fd_v2_0_comp
+-- Loading package c_reg_fd_v2_0_comp
+-- Compiling entity c_addsub_v2_0
+-- Compiling architecture behavioral of c_addsub_v2_0
+-- Compiling package c_addsub_v2_0_comp
+-- Loading package c_addsub_v2_0_comp
+-- Compiling entity c_accum_v2_0
+-- Compiling architecture behavioral of c_accum_v2_0
+-- Compiling package c_accum_v2_0_comp
+-- Compiling entity c_compare_v2_0
+-- Compiling architecture behavioral of c_compare_v2_0
+-- Compiling package c_compare_v2_0_comp
+-- Compiling entity c_mux_bus_v2_0
+-- Compiling architecture behavioral of c_mux_bus_v2_0
+-- Compiling package c_mux_bus_v2_0_comp
+-- Loading package c_compare_v2_0_comp
+-- Loading package c_mux_bus_v2_0_comp
+-- Compiling entity c_counter_binary_v2_0
+-- Compiling architecture behavioral of c_counter_binary_v2_0
+-- Compiling package c_counter_binary_v2_0_comp
+-- Compiling entity c_decode_binary_v2_0
+-- Compiling architecture behavioral of c_decode_binary_v2_0
+-- Compiling package c_decode_binary_v2_0_comp
+-- Compiling entity c_dist_mem_v2_0
+-- Compiling architecture behavioral of c_dist_mem_v2_0
+-- Compiling package c_dist_mem_v2_0_comp
+-- Compiling entity c_gate_bit_bus_v2_0
+-- Compiling architecture behavioral of c_gate_bit_bus_v2_0
+-- Compiling package c_gate_bit_bus_v2_0_comp
+-- Compiling entity c_gate_bit_v2_0
+-- Compiling architecture behavioral of c_gate_bit_v2_0
+-- Compiling package c_gate_bit_v2_0_comp
+-- Compiling entity c_gate_bus_v2_0
+-- Compiling architecture behavioral of c_gate_bus_v2_0
+-- Compiling package c_gate_bus_v2_0_comp
+-- Compiling entity c_mux_slice_bufe_v2_0
+-- Compiling architecture behavioral of c_mux_slice_bufe_v2_0
+-- Compiling package c_mux_slice_bufe_v2_0_comp
+-- Compiling entity c_mux_slice_buft_v2_0
+-- Compiling architecture behavioral of c_mux_slice_buft_v2_0
+-- Compiling package c_mux_slice_buft_v2_0_comp
+-- Compiling entity c_reg_ld_v2_0
+-- Compiling architecture behavioral of c_reg_ld_v2_0
+-- Compiling package c_reg_ld_v2_0_comp
+-- Compiling entity c_mux_bit_v2_0
+-- Compiling architecture behavioral of c_mux_bit_v2_0
+-- Compiling package c_mux_bit_v2_0_comp
+-- Loading package c_mux_bit_v2_0_comp
+-- Compiling entity c_shift_fd_v2_0
+-- Compiling architecture behavioral of c_shift_fd_v2_0
+-- Compiling package c_shift_fd_v2_0_comp
+-- Compiling entity c_shift_ram_v2_0
+-- Compiling architecture behavioral of c_shift_ram_v2_0
+-- Compiling package c_shift_ram_v2_0_comp
+-- Compiling entity c_twos_comp_v2_0
+-- Compiling architecture behavioral of c_twos_comp_v2_0
+-- Compiling package c_twos_comp_v2_0_comp
+-- Compiling package prims_comps_v2_0
+-- Loading package prims_comps_v2_0
+-- Compiling entity c_lut_v2_0
+-- Compiling architecture behavioral of c_lut_v2_0
+-- Compiling configuration cfg_beh
+-- Loading entity c_lut_v2_0
+-- Loading architecture behavioral of c_lut_v2_0
+-- Compiling entity c_dist_mem_v4_1
+-- Compiling architecture behavioral of c_dist_mem_v4_1
+-- Compiling package c_dist_mem_v4_1_comp
+-- Compiling entity c_accum_v4_0
+-- Compiling architecture behavioral of c_accum_v4_0
+-- Compiling package c_accum_v4_0_comp
+-- Compiling entity c_decode_binary_v4_0
+-- Compiling architecture behavioral of c_decode_binary_v4_0
+-- Compiling package c_decode_binary_v4_0_comp
+-- Compiling entity c_gate_bit_bus_v4_0
+-- Compiling architecture behavioral of c_gate_bit_bus_v4_0
+-- Compiling package c_gate_bit_bus_v4_0_comp
+-- Compiling entity c_mux_slice_bufe_v4_0
+-- Compiling architecture behavioral of c_mux_slice_bufe_v4_0
+-- Compiling package c_mux_slice_bufe_v4_0_comp
+-- Compiling entity c_mux_slice_buft_v4_0
+-- Compiling architecture behavioral of c_mux_slice_buft_v4_0
+-- Compiling package c_mux_slice_buft_v4_0_comp
+-- Compiling entity c_reg_ld_v4_0
+-- Compiling architecture behavioral of c_reg_ld_v4_0
+-- Compiling package c_reg_ld_v4_0_comp
+-- Compiling entity c_shift_fd_v4_0
+-- Compiling architecture behavioral of c_shift_fd_v4_0
+-- Compiling package c_shift_fd_v4_0_comp
+-- Compiling entity c_lut_v4_0
+-- Compiling architecture behavioral of c_lut_v4_0
+-- Compiling configuration cfg_lut
+-- Loading entity c_lut_v4_0
+-- Loading architecture behavioral of c_lut_v4_0
+-- Compiling package prims_constants_v3_0
+-- Compiling package prims_utils_v3_0
+-- Loading package prims_constants_v3_0
+-- Compiling package body prims_utils_v3_0
+-- Loading package prims_utils_v3_0
+-- Loading package prims_utils_v3_0
+-- Compiling entity pipeline_v3_0
+-- Compiling architecture behavioral of pipeline_v3_0
+-- Compiling entity c_reg_fd_v3_0
+-- Compiling architecture behavioral of c_reg_fd_v3_0
+-- Compiling package c_reg_fd_v3_0_comp
+-- Loading package c_reg_fd_v3_0_comp
+-- Compiling entity c_addsub_v3_0
+-- Compiling architecture behavioral of c_addsub_v3_0
+-- Compiling package c_addsub_v3_0_comp
+-- Loading package c_addsub_v3_0_comp
+-- Compiling entity c_accum_v3_0
+-- Compiling architecture behavioral of c_accum_v3_0
+-- Compiling package c_accum_v3_0_comp
+-- Compiling entity c_compare_v3_0
+-- Compiling architecture behavioral of c_compare_v3_0
+-- Compiling package c_compare_v3_0_comp
+-- Compiling entity c_mux_bus_v3_0
+-- Compiling architecture behavioral of c_mux_bus_v3_0
+-- Compiling package c_mux_bus_v3_0_comp
+-- Loading package c_compare_v3_0_comp
+-- Loading package c_mux_bus_v3_0_comp
+-- Compiling entity c_counter_binary_v3_0
+-- Compiling architecture behavioral of c_counter_binary_v3_0
+-- Compiling package c_counter_binary_v3_0_comp
+-- Compiling entity c_decode_binary_v3_0
+-- Compiling architecture behavioral of c_decode_binary_v3_0
+-- Compiling package c_decode_binary_v3_0_comp
+-- Compiling entity c_dist_mem_v3_0
+-- Compiling architecture behavioral of c_dist_mem_v3_0
+-- Compiling package c_dist_mem_v3_0_comp
+-- Compiling entity c_gate_bit_bus_v3_0
+-- Compiling architecture behavioral of c_gate_bit_bus_v3_0
+-- Compiling package c_gate_bit_bus_v3_0_comp
+-- Compiling entity c_gate_bit_v3_0
+-- Compiling architecture behavioral of c_gate_bit_v3_0
+-- Compiling package c_gate_bit_v3_0_comp
+-- Compiling entity c_gate_bus_v3_0
+-- Compiling architecture behavioral of c_gate_bus_v3_0
+-- Compiling package c_gate_bus_v3_0_comp
+-- Compiling entity c_mux_slice_bufe_v3_0
+-- Compiling architecture behavioral of c_mux_slice_bufe_v3_0
+-- Compiling package c_mux_slice_bufe_v3_0_comp
+-- Compiling entity c_mux_slice_buft_v3_0
+-- Compiling architecture behavioral of c_mux_slice_buft_v3_0
+-- Compiling package c_mux_slice_buft_v3_0_comp
+-- Compiling entity c_reg_ld_v3_0
+-- Compiling architecture behavioral of c_reg_ld_v3_0
+-- Compiling package c_reg_ld_v3_0_comp
+-- Compiling entity c_mux_bit_v3_0
+-- Compiling architecture behavioral of c_mux_bit_v3_0
+-- Compiling package c_mux_bit_v3_0_comp
+-- Loading package c_mux_bit_v3_0_comp
+-- Compiling entity c_shift_fd_v3_0
+-- Compiling architecture behavioral of c_shift_fd_v3_0
+-- Compiling package c_shift_fd_v3_0_comp
+-- Compiling entity c_shift_ram_v3_0
+-- Compiling architecture behavioral of c_shift_ram_v3_0
+-- Compiling package c_shift_ram_v3_0_comp
+-- Compiling entity c_twos_comp_v3_0
+-- Compiling architecture behavioral of c_twos_comp_v3_0
+-- Compiling package c_twos_comp_v3_0_comp
+-- Compiling package prims_comps_v3_0
+-- Loading package prims_comps_v3_0
+-- Compiling entity c_lut_v3_0
+-- Compiling architecture behavioral of c_lut_v3_0
+-- Compiling configuration cfg_beh
+-- Loading entity c_lut_v3_0
+-- Loading architecture behavioral of c_lut_v3_0
+-- Compiling package baseblox_v6_0_services
+-- Compiling package body baseblox_v6_0_services
+-- Loading package baseblox_v6_0_services
+-- Compiling entity c_addsub_v6_0
+-- Compiling architecture behavioral of c_addsub_v6_0
+-- Compiling package c_addsub_v6_0_comp
+-- Loading package c_addsub_v6_0_comp
+-- Compiling entity c_accum_v6_0
+-- Compiling architecture behavioral of c_accum_v6_0
+-- Compiling package c_accum_v6_0_comp
+-- Compiling entity c_compare_v6_0
+-- Compiling architecture behavioral of c_compare_v6_0
+-- Compiling package c_compare_v6_0_comp
+-- Compiling entity c_mux_bus_v6_0
+-- Compiling architecture behavioral of c_mux_bus_v6_0
+-- Compiling package c_mux_bus_v6_0_comp
+-- Compiling entity c_gate_bit_v6_0
+-- Compiling architecture behavioral of c_gate_bit_v6_0
+-- Compiling package c_gate_bit_v6_0_comp
+-- Loading package c_compare_v6_0_comp
+-- Loading package c_mux_bus_v6_0_comp
+-- Loading package c_gate_bit_v6_0_comp
+-- Compiling entity c_counter_binary_v6_0
+-- Compiling architecture behavioral of c_counter_binary_v6_0
+-- Compiling package c_counter_binary_v6_0_comp
+-- Compiling entity c_decode_binary_v6_0
+-- Compiling architecture behavioral of c_decode_binary_v6_0
+-- Compiling package c_decode_binary_v6_0_comp
+-- Compiling entity c_gate_bit_bus_v6_0
+-- Compiling architecture behavioral of c_gate_bit_bus_v6_0
+-- Compiling package c_gate_bit_bus_v6_0_comp
+-- Compiling entity c_gate_bus_v6_0
+-- Compiling architecture behavioral of c_gate_bus_v6_0
+-- Compiling package c_gate_bus_v6_0_comp
+-- Compiling entity c_mux_slice_bufe_v6_0
+-- Compiling architecture behavioral of c_mux_slice_bufe_v6_0
+-- Compiling package c_mux_slice_bufe_v6_0_comp
+-- Compiling entity c_mux_slice_buft_v6_0
+-- Compiling architecture behavioral of c_mux_slice_buft_v6_0
+-- Compiling package c_mux_slice_buft_v6_0_comp
+-- Compiling entity c_reg_ld_v6_0
+-- Compiling architecture behavioral of c_reg_ld_v6_0
+-- Compiling package c_reg_ld_v6_0_comp
+-- Compiling entity c_shift_ram_v6_0
+-- Compiling architecture behavioral of c_shift_ram_v6_0
+-- Compiling package c_shift_ram_v6_0_comp
+-- Compiling entity c_twos_comp_v6_0
+-- Compiling architecture behavioral of c_twos_comp_v6_0
+-- Compiling package c_twos_comp_v6_0_comp
+-- Compiling package prims_comps_v6_0
+-- Loading package prims_comps_v6_0
+-- Compiling entity c_buft_v6_0
+-- Compiling architecture buft_beh of c_buft_v6_0
+-- Compiling configuration cfg_buft_beh
+-- Loading entity c_buft_v6_0
+-- Loading architecture buft_beh of c_buft_v6_0
+-- Compiling entity c_pullup_v6_0
+-- Compiling architecture pullup_beh of c_pullup_v6_0
+-- Compiling configuration cfg_pullup_beh
+-- Loading entity c_pullup_v6_0
+-- Loading architecture pullup_beh of c_pullup_v6_0
+-- Compiling entity c_lut_v6_0
+-- Compiling architecture lut_beh of c_lut_v6_0
+-- Compiling configuration cfg_lut_beh
+-- Loading entity c_lut_v6_0
+-- Loading architecture lut_beh of c_lut_v6_0
+-- Compiling package baseblox_v7_0_services
+-- Compiling package body baseblox_v7_0_services
+-- Loading package baseblox_v7_0_services
+-- Compiling entity c_counter_binary_v7_0
+-- Compiling architecture behavioral of c_counter_binary_v7_0
+-- Compiling package c_counter_binary_v7_0_comp
+-- Compiling entity c_decode_binary_v7_0
+-- Compiling architecture behavioral of c_decode_binary_v7_0
+-- Compiling package c_decode_binary_v7_0_comp
+-- Compiling entity c_mux_slice_bufe_v7_0
+-- Compiling architecture behavioral of c_mux_slice_bufe_v7_0
+-- Compiling package c_mux_slice_bufe_v7_0_comp
+-- Compiling entity c_mux_slice_buft_v7_0
+-- Compiling architecture behavioral of c_mux_slice_buft_v7_0
+-- Compiling package c_mux_slice_buft_v7_0_comp
+-- Compiling entity c_reg_ld_v7_0
+-- Compiling architecture behavioral of c_reg_ld_v7_0
+-- Compiling package c_reg_ld_v7_0_comp
+-- Compiling entity c_buft_v7_0
+-- Compiling architecture buft_beh of c_buft_v7_0
+-- Compiling configuration cfg_buft_beh
+-- Loading entity c_buft_v7_0
+-- Loading architecture buft_beh of c_buft_v7_0
+-- Compiling entity c_pullup_v7_0
+-- Compiling architecture pullup_beh of c_pullup_v7_0
+-- Compiling configuration cfg_pullup_beh
+-- Loading entity c_pullup_v7_0
+-- Loading architecture pullup_beh of c_pullup_v7_0
+-- Compiling entity c_lut_v7_0
+-- Compiling architecture lut_beh of c_lut_v7_0
+-- Compiling configuration cfg_lut_beh
+-- Loading entity c_lut_v7_0
+-- Loading architecture lut_beh of c_lut_v7_0
+-- Compiling package baseblox_v5_0_services
+-- Compiling package body baseblox_v5_0_services
+-- Loading package baseblox_v5_0_services
+-- Compiling entity c_accum_v5_1
+-- Compiling architecture behavioral of c_accum_v5_1
+-- Compiling package c_accum_v5_1_comp
+-- Compiling entity c_compare_v5_0
+-- Compiling architecture behavioral of c_compare_v5_0
+-- Compiling package c_compare_v5_0_comp
+-- Compiling entity c_mux_bus_v5_0
+-- Compiling architecture behavioral of c_mux_bus_v5_0
+-- Compiling package c_mux_bus_v5_0_comp
+-- Loading package c_compare_v5_0_comp
+-- Loading package c_mux_bus_v5_0_comp
+-- Compiling entity c_counter_binary_v5_0
+-- Compiling architecture behavioral of c_counter_binary_v5_0
+-- Compiling package c_counter_binary_v5_0_comp
+-- Compiling entity c_decode_binary_v5_0
+-- Compiling architecture behavioral of c_decode_binary_v5_0
+-- Compiling package c_decode_binary_v5_0_comp
+-- Compiling entity c_gate_bit_bus_v5_0
+-- Compiling architecture behavioral of c_gate_bit_bus_v5_0
+-- Compiling package c_gate_bit_bus_v5_0_comp
+-- Compiling entity c_gate_bit_v5_0
+-- Compiling architecture behavioral of c_gate_bit_v5_0
+-- Compiling package c_gate_bit_v5_0_comp
+-- Compiling entity c_gate_bus_v5_0
+-- Compiling architecture behavioral of c_gate_bus_v5_0
+-- Compiling package c_gate_bus_v5_0_comp
+-- Compiling entity c_mux_slice_bufe_v5_0
+-- Compiling architecture behavioral of c_mux_slice_bufe_v5_0
+-- Compiling package c_mux_slice_bufe_v5_0_comp
+-- Compiling entity c_mux_slice_buft_v5_0
+-- Compiling architecture behavioral of c_mux_slice_buft_v5_0
+-- Compiling package c_mux_slice_buft_v5_0_comp
+-- Compiling entity c_reg_ld_v5_0
+-- Compiling architecture behavioral of c_reg_ld_v5_0
+-- Compiling package c_reg_ld_v5_0_comp
+-- Compiling package prims_comps_v5_0
+-- Loading package prims_comps_v5_0
+-- Compiling entity c_lut_v5_0
+-- Compiling architecture behavioral of c_lut_v5_0
+-- Compiling configuration cfg_lut
+-- Loading entity c_lut_v5_0
+-- Loading architecture behavioral of c_lut_v5_0
+-- Loading package vital_primitives
+-- Loading package vpkg
+-- Compiling entity pci_exp_1_lane_64b_dsport
+-- Compiling architecture structure of pci_exp_1_lane_64b_dsport
+-- Compiling entity pci_exp_4_lane_64b_dsport
+-- Compiling architecture structure of pci_exp_4_lane_64b_dsport
+-- Compiling package decode_8b10b_v5_0_pkg
+-- Compiling package body decode_8b10b_v5_0_pkg
+-- Loading package decode_8b10b_v5_0_pkg
+-- Loading package decode_8b10b_v5_0_pkg
+-- Compiling entity decode_8b10b_v5_0_base
+-- Compiling architecture behavioral of decode_8b10b_v5_0_base
+-- Loading entity decode_8b10b_v5_0_base
+-- Compiling entity decode_8b10b_v5_0
+-- Compiling architecture behavioral of decode_8b10b_v5_0
+-- Compiling package decode_8b10b_v5_0_comp
+-- Compiling package decode_8b10b_v7_0_pkg
+-- Compiling package body decode_8b10b_v7_0_pkg
+-- Loading package decode_8b10b_v7_0_pkg
+-- Loading package decode_8b10b_v7_0_pkg
+-- Compiling entity decode_8b10b_v7_0_base
+-- Compiling architecture behavioral of decode_8b10b_v7_0_base
+-- Loading entity decode_8b10b_v7_0_base
+-- Compiling entity decode_8b10b_v7_0
+-- Compiling architecture behavioral of decode_8b10b_v7_0
+-- Compiling package decode_8b10b_v7_0_comp
+-- Compiling entity encode_8b10b_v5_0_base
+-- Compiling architecture behavioral of encode_8b10b_v5_0_base
+-- Loading entity encode_8b10b_v5_0_base
+-- Compiling entity encode_8b10b_v5_0
+-- Compiling architecture behavioral of encode_8b10b_v5_0
+-- Compiling package encode_8b10b_v5_0_comp
+-- Compiling package decode_8b10b_v6_0_pkg
+-- Compiling package body decode_8b10b_v6_0_pkg
+-- Loading package decode_8b10b_v6_0_pkg
+-- Loading package decode_8b10b_v6_0_pkg
+-- Compiling entity decode_8b10b_v6_0_base
+-- Compiling architecture behavioral of decode_8b10b_v6_0_base
+-- Loading entity decode_8b10b_v6_0_base
+-- Compiling entity decode_8b10b_v6_0
+-- Compiling architecture behavioral of decode_8b10b_v6_0
+-- Compiling package decode_8b10b_v6_0_comp
+-- Compiling entity encode_8b10b_v4_0_base
+-- Compiling architecture behavioral of encode_8b10b_v4_0_base
+-- Loading entity encode_8b10b_v4_0_base
+-- Compiling entity encode_8b10b_v4_0
+-- Compiling architecture behavioral of encode_8b10b_v4_0
+-- Compiling package encode_8b10b_v4_0_comp
+-- Compiling package decode_8b10b_v7_1_pkg
+-- Compiling package body decode_8b10b_v7_1_pkg
+-- Loading package decode_8b10b_v7_1_pkg
+-- Loading package decode_8b10b_v7_1_pkg
+-- Compiling entity decode_8b10b_v7_1_base
+-- Compiling architecture behavioral of decode_8b10b_v7_1_base
+-- Loading entity decode_8b10b_v7_1_base
+-- Compiling entity decode_8b10b_v7_1
+-- Compiling architecture behavioral of decode_8b10b_v7_1
+-- Compiling package decode_8b10b_v7_1_comp
+
+==============================================================================
+
+    > Log file C:\Xilinx\10.1\ISE\vhdl\mti_se\XilinxCoreLib\cxl_XilinxCoreLib.log generated
+    > Library mapping successful, setup file(s) modelsim.ini updated
+
+compxlib[XilinxCoreLib]: No error(s), 124 warning(s)
+
+**************************************************************************
+*                         COMPILATION SUMMARY                            *
+*                                                                        *
+*  Simulator used: mti_se                                                *
+*  Compiled on: Tue Jan 25 11:11:35 2011                                 *
+*                                                                        *
+**************************************************************************
+*     Library      |  Lang   |  Mapped Name(s)   | Err#(s)  |  Warn#(s)  *
+*------------------------------------------------------------------------*
+*  XilinxCoreLib   | vhdl    | XilinxCoreLib     | 0        | 124        *
+*------------------------------------------------------------------------*

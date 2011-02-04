@@ -10,7 +10,7 @@ Target Device  : xc5vlx50t
 Target Package : ff1136
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.46.12.2 $
-Mapped Date    : Wed Jan 26 13:38:29 2011
+Mapped Date    : Thu Feb 03 15:15:39 2011
 
 Mapping design into LUTs...
 Running directed packing...
@@ -20,77 +20,105 @@ INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
 Running timing-driven packing...
 
 Phase 1.1
-Phase 1.1 (Checksum:1a) REAL time: 7 secs 
+Phase 1.1 (Checksum:605fd) REAL time: 6 secs 
 
 Phase 2.7
-Phase 2.7 (Checksum:1a) REAL time: 9 secs 
+Phase 2.7 (Checksum:605fd) REAL time: 7 secs 
 
 Phase 3.31
-Phase 3.31 (Checksum:1a) REAL time: 9 secs 
+Phase 3.31 (Checksum:605fd) REAL time: 7 secs 
 
 Phase 4.33
-Phase 4.33 (Checksum:1a) REAL time: 9 secs 
+Phase 4.33 (Checksum:605fd) REAL time: 7 secs 
 
 Phase 5.32
-Phase 5.32 (Checksum:1a) REAL time: 9 secs 
+Phase 5.32 (Checksum:605fd) REAL time: 7 secs 
 
 Phase 6.2
-............
-.
-Phase 6.2 (Checksum:2aea0) REAL time: 9 secs 
+
+
+Phase 6.2 (Checksum:808bd) REAL time: 8 secs 
 
 Phase 7.30
-Phase 7.30 (Checksum:2aea0) REAL time: 9 secs 
+Phase 7.30 (Checksum:808bd) REAL time: 8 secs 
 
 Phase 8.3
-...
-Phase 8.3 (Checksum:4b288) REAL time: 9 secs 
+Phase 8.3 (Checksum:808bd) REAL time: 8 secs 
 
 Phase 9.5
-Phase 9.5 (Checksum:4b288) REAL time: 9 secs 
+Phase 9.5 (Checksum:808bd) REAL time: 8 secs 
 
 Phase 10.8
-Phase 10.8 (Checksum:4b288) REAL time: 10 secs 
+.
+.
+Phase 10.8 (Checksum:525290) REAL time: 8 secs 
 
 Phase 11.29
-Phase 11.29 (Checksum:4b288) REAL time: 10 secs 
+Phase 11.29 (Checksum:525290) REAL time: 8 secs 
 
 Phase 12.5
-Phase 12.5 (Checksum:4b288) REAL time: 10 secs 
+Phase 12.5 (Checksum:525290) REAL time: 8 secs 
 
 Phase 13.18
-Phase 13.18 (Checksum:4b281) REAL time: 10 secs 
+Phase 13.18 (Checksum:4f1240) REAL time: 14 secs 
 
 Phase 14.5
-Phase 14.5 (Checksum:4b281) REAL time: 10 secs 
+Phase 14.5 (Checksum:4f1240) REAL time: 14 secs 
 
 Phase 15.34
-Phase 15.34 (Checksum:4b281) REAL time: 10 secs 
+Phase 15.34 (Checksum:4f1240) REAL time: 14 secs 
 
-REAL time consumed by placer: 10 secs 
-CPU  time consumed by placer: 6 secs 
+REAL time consumed by placer: 14 secs 
+CPU  time consumed by placer: 11 secs 
 
 Design Summary
 --------------
 
 Design Summary:
 Number of errors:      0
-Number of warnings:    3
+Number of warnings:    1
 Slice Logic Utilization:
+  Number of Slice Registers:                    17 out of  28,800    1%
+    Number used as Flip Flops:                  17
+  Number of Slice LUTs:                         39 out of  28,800    1%
+    Number used as logic:                       38 out of  28,800    1%
+      Number using O6 output only:              23
+      Number using O5 output only:              14
+      Number using O5 and O6:                    1
+    Number used as exclusive route-thru:         1
+  Number of route-thrus:                        15 out of  57,600    1%
+    Number using O6 output only:                15
 
 Slice Logic Distribution:
+  Number of occupied Slices:                    13 out of   7,200    1%
+  Number of LUT Flip Flop pairs used:           39
+    Number with an unused Flip Flop:            22 out of      39   56%
+    Number with an unused LUT:                   0 out of      39    0%
+    Number of fully used LUT-FF pairs:          17 out of      39   43%
+    Number of unique control sets:               2
+    Number of slice register sites lost
+      to control set restrictions:               3 out of  28,800    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                         4 out of     480    1%
+  Number of bonded IOBs:                         7 out of     480    1%
+    IOB Flip Flops:                              1
+    IOB Master Pads:                             1
+    IOB Slave Pads:                              1
 
 Specific Feature Utilization:
   Number of BUFG/BUFGCTRLs:                      2 out of      32    6%
     Number used as BUFGs:                        2
   Number of PLL_ADVs:                            1 out of       6   16%
 
-Peak Memory Usage:  313 MB
-Total REAL time to MAP completion:  25 secs 
-Total CPU time to MAP completion:   15 secs 
+Peak Memory Usage:  314 MB
+Total REAL time to MAP completion:  30 secs 
+Total CPU time to MAP completion:   21 secs 
 
 Mapping completed.
 See MAP report file "CRU_map.mrp" for details.

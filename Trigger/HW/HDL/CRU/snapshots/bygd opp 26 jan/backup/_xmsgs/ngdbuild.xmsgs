@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST BANDWIDTH = OPTIMIZED;&gt; [PLL_ALL_arwz.ucf(4)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKIN1_PERIOD = 10.000;&gt; [PLL_ALL_arwz.ucf(5)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKIN2_PERIOD = 10.000;&gt; [PLL_ALL_arwz.ucf(6)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT0_DIVIDE = 8;&gt; [PLL_ALL_arwz.ucf(7)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT1_DIVIDE = 8;&gt; [PLL_ALL_arwz.ucf(8)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT0_PHASE = 90.000;&gt; [PLL_ALL_arwz.ucf(9)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT1_PHASE = 0.000;&gt; [PLL_ALL_arwz.ucf(10)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT0_DUTY_CYCLE = 0.500;&gt; [PLL_ALL_arwz.ucf(11)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT1_DUTY_CYCLE = 0.750;&gt; [PLL_ALL_arwz.ucf(12)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST COMPENSATION = SYSTEM_SYNCHRONOUS;&gt; [PLL_ALL_arwz.ucf(13)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST DIVCLK_DIVIDE = 1;&gt; [PLL_ALL_arwz.ucf(14)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKFBOUT_MULT = 8;&gt; [PLL_ALL_arwz.ucf(15)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKFBOUT_PHASE = 0.0;&gt; [PLL_ALL_arwz.ucf(16)]</arg>&apos;
+</msg>
+
+<msg type="error" file="NgdBuild" num="981" delta="unknown" >Could not find any associations for the following constraint:
+    &apos;<arg fmt="%s" index="1">&lt;INST PLL_ADV_INST REF_JITTER = 0.000000;&gt; [PLL_ALL_arwz.ucf(17)]</arg>&apos;
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST BANDWIDTH = OPTIMIZED;&gt; [PLL_ALL_arwz.ucf(4)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKIN1_PERIOD = 10.000;&gt; [PLL_ALL_arwz.ucf(5)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKIN2_PERIOD = 10.000;&gt; [PLL_ALL_arwz.ucf(6)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT0_DIVIDE = 8;&gt; [PLL_ALL_arwz.ucf(7)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT1_DIVIDE = 8;&gt; [PLL_ALL_arwz.ucf(8)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT0_PHASE = 90.000;&gt; [PLL_ALL_arwz.ucf(9)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT1_PHASE = 0.000;&gt; [PLL_ALL_arwz.ucf(10)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT0_DUTY_CYCLE = 0.500;&gt; [PLL_ALL_arwz.ucf(11)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKOUT1_DUTY_CYCLE = 0.750;&gt; [PLL_ALL_arwz.ucf(12)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST COMPENSATION = SYSTEM_SYNCHRONOUS;&gt; [PLL_ALL_arwz.ucf(13)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST DIVCLK_DIVIDE = 1;&gt; [PLL_ALL_arwz.ucf(14)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKFBOUT_MULT = 8;&gt; [PLL_ALL_arwz.ucf(15)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST CLKFBOUT_PHASE = 0.0;&gt; [PLL_ALL_arwz.ucf(16)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST PLL_ADV_INST REF_JITTER = 0.000000;&gt; [PLL_ALL_arwz.ucf(17)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">PLL_ADV_INST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+</messages>
+

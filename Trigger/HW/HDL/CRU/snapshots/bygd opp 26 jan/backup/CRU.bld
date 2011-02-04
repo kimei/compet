@@ -1,0 +1,158 @@
+Release 10.1.03 ngdbuild K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise
+M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle ise -dd _ngo -nt timestamp
+-i -p xc5vlx50t-ff1136-1 CRU.ngc CRU.ngd
+
+Reading NGO file "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ngc" ...
+Reading in constraint information from 'PLL_ALL_arwz.ucf'...
+Gathering constraint information from source properties...
+Done.
+
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST BANDWIDTH = OPTIMIZED;> [PLL_ALL_arwz.ucf(4)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKIN1_PERIOD = 10.000;> [PLL_ALL_arwz.ucf(5)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKIN2_PERIOD = 10.000;> [PLL_ALL_arwz.ucf(6)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKOUT0_DIVIDE = 8;> [PLL_ALL_arwz.ucf(7)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKOUT1_DIVIDE = 8;> [PLL_ALL_arwz.ucf(8)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKOUT0_PHASE = 90.000;> [PLL_ALL_arwz.ucf(9)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKOUT1_PHASE = 0.000;> [PLL_ALL_arwz.ucf(10)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKOUT0_DUTY_CYCLE = 0.500;> [PLL_ALL_arwz.ucf(11)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKOUT1_DUTY_CYCLE = 0.750;> [PLL_ALL_arwz.ucf(12)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST COMPENSATION = SYSTEM_SYNCHRONOUS;>
+   [PLL_ALL_arwz.ucf(13)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST DIVCLK_DIVIDE = 1;> [PLL_ALL_arwz.ucf(14)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKFBOUT_MULT = 8;> [PLL_ALL_arwz.ucf(15)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST CLKFBOUT_PHASE = 0.0;> [PLL_ALL_arwz.ucf(16)]'
+ERROR:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<INST PLL_ADV_INST REF_JITTER = 0.000000;> [PLL_ALL_arwz.ucf(17)]'
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST BANDWIDTH =
+   OPTIMIZED;> [PLL_ALL_arwz.ucf(4)]: INST "PLL_ADV_INST" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKIN1_PERIOD =
+   10.000;> [PLL_ALL_arwz.ucf(5)]: INST "PLL_ADV_INST" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKIN2_PERIOD =
+   10.000;> [PLL_ALL_arwz.ucf(6)]: INST "PLL_ADV_INST" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKOUT0_DIVIDE = 8;>
+   [PLL_ALL_arwz.ucf(7)]: INST "PLL_ADV_INST" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKOUT1_DIVIDE = 8;>
+   [PLL_ALL_arwz.ucf(8)]: INST "PLL_ADV_INST" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKOUT0_PHASE =
+   90.000;> [PLL_ALL_arwz.ucf(9)]: INST "PLL_ADV_INST" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKOUT1_PHASE =
+   0.000;> [PLL_ALL_arwz.ucf(10)]: INST "PLL_ADV_INST" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKOUT0_DUTY_CYCLE =
+   0.500;> [PLL_ALL_arwz.ucf(11)]: INST "PLL_ADV_INST" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKOUT1_DUTY_CYCLE =
+   0.750;> [PLL_ALL_arwz.ucf(12)]: INST "PLL_ADV_INST" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST COMPENSATION =
+   SYSTEM_SYNCHRONOUS;> [PLL_ALL_arwz.ucf(13)]: INST "PLL_ADV_INST" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST DIVCLK_DIVIDE = 1;>
+   [PLL_ALL_arwz.ucf(14)]: INST "PLL_ADV_INST" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKFBOUT_MULT = 8;>
+   [PLL_ALL_arwz.ucf(15)]: INST "PLL_ADV_INST" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST CLKFBOUT_PHASE = 0.0;>
+   [PLL_ALL_arwz.ucf(16)]: INST "PLL_ADV_INST" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST PLL_ADV_INST REF_JITTER =
+   0.000000;> [PLL_ALL_arwz.ucf(17)]: INST "PLL_ADV_INST" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    28
+  Number of warnings:   0
+
+Total memory usage is 77760 kilobytes
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "CRU.bld"...
