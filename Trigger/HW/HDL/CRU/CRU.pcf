@@ -1,13 +1,13 @@
 //! **************************************************************************
-// Written by: Map K.39 on Thu Feb 03 15:16:06 2011
+// Written by: Map K.39 on Tue Feb 15 12:14:22 2011
 //! **************************************************************************
 
 SCHEMATIC START;
 COMP "fpga_100m_clk" LOCATE = SITE "AH15" LEVEL 1;
 COMP "gclk" LOCATE = SITE "AF13" LEVEL 1;
 COMP "lrst" LOCATE = SITE "AG12" LEVEL 1;
-COMP "fpga_cpu_reset_b" LOCATE = SITE "V8" LEVEL 1;
 COMP "mrst" LOCATE = SITE "AG23" LEVEL 1;
+COMP "fpga_cpu_reset" LOCATE = SITE "V8" LEVEL 1;
 COMP "mclk" LOCATE = SITE "J20" LEVEL 1;
 COMP "mclk_b" LOCATE = SITE "J21" LEVEL 1;
 SCHEMATIC END;

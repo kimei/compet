@@ -1,0 +1,7 @@
+vhdl work "constants.vhd"
+vhdl work "../../Compet_readout/shared/types.vhd"
+vhdl work "pll_all.vhd"
+vhdl work "DCM2PLL.vhd"
+vhdl work "components.vhd"
+vhdl work "a2s.vhd"
+vhdl work "cru.vhd"

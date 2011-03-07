@@ -5,29 +5,29 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Thu Feb 03 15:16:30 2011">
+  <application stringID="par" timeStamp="Tue Feb 15 12:14:48 2011">
     <task stringID="PAR_DEVICE_UTILIZATION">
       <section stringID="PAR_DEVICE_UTLIZATION">
-        <item AVAILABLE="32" dataType="int" stringID="PAR_BUFG" value="2"/>
+        <item AVAILABLE="32" dataType="int" stringID="PAR_BUFG" value="3"/>
         <item AVAILABLE="480" dataType="int" stringID="PAR_EXTERNAL_IOB" value="5">
           <item AVAILABLE="5" dataType="int" stringID="PAR_LOC_IOB" value="5"/>
         </item>
-        <item AVAILABLE="28800" dataType="int" stringID="PAR_SLICE_REGISTERS" value="17">
-          <item dataType="int" stringID="PAR_FLIP_FLOPS" value="17"/>
+        <item AVAILABLE="28800" dataType="int" stringID="PAR_SLICE_REGISTERS" value="31">
+          <item dataType="int" stringID="PAR_FLIP_FLOPS" value="31"/>
           <item dataType="int" stringID="PAR_LATCHES" value="0"/>
           <item dataType="int" stringID="PAR_LATCH_THRUS" value="0"/>
         </item>
-        <item AVAILABLE="28800" dataType="int" stringID="PAR_SLICE_LUTS" value="39"/>
-        <item AVAILABLE="28800" dataType="int" stringID="PAR_SLICE_LUT_FLIPFLOP_PAIRS" value="39"/>
+        <item AVAILABLE="28800" dataType="int" stringID="PAR_SLICE_LUTS" value="75"/>
+        <item AVAILABLE="28800" dataType="int" stringID="PAR_SLICE_LUT_FLIPFLOP_PAIRS" value="75"/>
       </section>
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="13 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="14 secs "/>
         <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="13 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="41 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="44 secs "/>
         <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="20 secs "/>
       </section>
     </task>

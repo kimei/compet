@@ -3,14 +3,14 @@ Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to M:/MASTER/COMPET/Trigger/HW/HDL/CRU/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 1.39 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.30 secs
  
 --> Parameter xsthdpdir set to M:/MASTER/COMPET/Trigger/HW/HDL/CRU/xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 1.39 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.31 secs
  
 --> Reading design: CRU.prj
 
@@ -42,7 +42,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "CRU"
 Output Format                      : NGC
-Target Device                      : xc5vlx50t-1-ff1136
+Target Device                      : xc5vlx30t-1-ff665
 
 ---- Source Options
 Top Module Name                    : CRU
@@ -114,8 +114,7 @@ Compiling vhdl file "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/Shared/com
 Compiling vhdl file "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/PLL_ALL.vhd" in Library work.
 Architecture behavioral of Entity pll_all is up to date.
 Compiling vhdl file "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd" in Library work.
-Entity <cru> compiled.
-Entity <cru> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity cru is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -129,17 +128,15 @@ Analyzing hierarchy for entity <PLL_ALL> in library <work> (architecture <behavi
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <CRU> in library <work> (Architecture <behavioral>).
-WARNING:Xst:2211 - "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd" line 100: Instantiating black box module <OBUFDS>.
-WARNING:Xst:2211 - "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd" line 105: Instantiating black box module <ODDR>.
+WARNING:Xst:2211 - "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd" line 112: Instantiating black box module <OBUFDS>.
+WARNING:Xst:2211 - "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd" line 117: Instantiating black box module <ODDR>.
     Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <MCLK_ODDR_OUT> in unit <CRU>.
     Set user-defined property "INIT =  0" for instance <MCLK_ODDR_OUT> in unit <CRU>.
     Set user-defined property "SRTYPE =  SYNC" for instance <MCLK_ODDR_OUT> in unit <CRU>.
+WARNING:Xst:2211 - "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd" line 126: Instantiating black box module <IBUFG>.
 Entity <CRU> analyzed. Unit <CRU> generated.
 
 Analyzing Entity <PLL_ALL> in library <work> (Architecture <behavioral>).
-    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN1_IBUFG_INST> in unit <PLL_ALL>.
-    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN1_IBUFG_INST> in unit <PLL_ALL>.
-    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN1_IBUFG_INST> in unit <PLL_ALL>.
     Set user-defined property "BANDWIDTH =  OPTIMIZED" for instance <PLL_ADV_INST> in unit <PLL_ALL>.
     Set user-defined property "CLKFBOUT_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <PLL_ALL>.
     Set user-defined property "CLKFBOUT_MULT =  8" for instance <PLL_ADV_INST> in unit <PLL_ALL>.
@@ -193,23 +190,57 @@ Unit <PLL_ALL> synthesized.
 
 Synthesizing Unit <CRU>.
     Related source file is "//aristoteles/kimei/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.vhd".
-    Register <mrst_s> equivalent to <lrst_s> has been removed
-    Found 1-bit register for signal <lrst_s>.
-    Found 16-bit up counter for signal <rst_counter>.
+INFO:Xst:1799 - State ud10 is never reached in FSM <state>.
+INFO:Xst:1799 - State ud11 is never reached in FSM <state>.
+INFO:Xst:1799 - State ud12 is never reached in FSM <state>.
+INFO:Xst:1799 - State ud13 is never reached in FSM <state>.
+INFO:Xst:1799 - State ud14 is never reached in FSM <state>.
+INFO:Xst:1799 - State ud15 is never reached in FSM <state>.
+INFO:Xst:1799 - State ud16 is never reached in FSM <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 8                                              |
+    | Clock              | fpga_100m_clk_s (rising_edge)                  |
+    | Reset              | fpga_cpu_reset (positive)                      |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | init                                           |
+    | Power Up State     | init                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <enable_diff_out_b>.
+    Found 1-bit register for signal <pll_reset>.
+    Found 1-bit register for signal <reset_global>.
+    Found 3-bit register for signal <rst_counter>.
+    Found 3-bit adder for signal <rst_counter$addsub0000> created at line 229.
+    Found 16-bit register for signal <wait_counter>.
+    Found 16-bit adder for signal <wait_counter$share0000> created at line 164.
+    Found 5-bit register for signal <wait_counter2>.
+    Found 5-bit adder for signal <wait_counter2$addsub0000> created at line 223.
     Summary:
-	inferred   1 Counter(s).
-	inferred   1 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
 Unit <CRU> synthesized.
 
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Counters                                             : 1
- 16-bit up counter                                     : 1
-# Registers                                            : 1
- 1-bit register                                        : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 6
+ 1-bit register                                        : 3
+ 16-bit register                                       : 1
+ 3-bit register                                        : 1
+ 5-bit register                                        : 1
 
 =========================================================================
 
@@ -217,16 +248,40 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Loading device for application Rf_Device from file '5vlx50t.nph' in environment C:\Xilinx\10.1\ISE.
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:4]> with gray encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ init          | 0000
+ reset_pll     | 0001
+ wait1         | 0011
+ det_clockloss | 0101
+ wait_clk_lock | 0010
+ en_output     | 0110
+ reset_rocs    | 0111
+ rst5          | 0100
+ wait2         | 1100
+ ud10          | unreached
+ ud11          | unreached
+ ud12          | unreached
+ ud13          | unreached
+ ud14          | unreached
+ ud15          | unreached
+ ud16          | unreached
+---------------------------
+Loading device for application Rf_Device from file '5vlx30t.nph' in environment C:\Xilinx\10.1\ISE.
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Counters                                             : 1
- 16-bit up counter                                     : 1
-# Registers                                            : 1
- Flip-Flops                                            : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 31
+ Flip-Flops                                            : 31
 
 =========================================================================
 
@@ -246,8 +301,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 17
- Flip-Flops                                            : 17
+# Registers                                            : 31
+ Flip-Flops                                            : 31
 
 =========================================================================
 
@@ -276,24 +331,26 @@ Design Statistics
 # IOs                              : 7
 
 Cell Usage :
-# BELS                             : 72
+# BELS                             : 109
 #      GND                         : 1
 #      INV                         : 2
 #      LUT1                        : 15
-#      LUT2                        : 3
-#      LUT3                        : 2
-#      LUT5                        : 13
-#      LUT6                        : 4
+#      LUT2                        : 1
+#      LUT3                        : 6
+#      LUT4                        : 24
+#      LUT5                        : 5
+#      LUT6                        : 22
 #      MUXCY                       : 15
+#      MUXF7                       : 1
 #      VCC                         : 1
 #      XORCY                       : 16
-# FlipFlops/Latches                : 18
-#      FDC                         : 13
-#      FDCE                        : 3
+# FlipFlops/Latches                : 32
+#      FDC                         : 29
+#      FDE                         : 1
 #      FDP                         : 1
 #      ODDR                        : 1
-# Clock Buffers                    : 2
-#      BUFG                        : 2
+# Clock Buffers                    : 3
+#      BUFG                        : 3
 # IO Buffers                       : 6
 #      IBUF                        : 1
 #      IBUFG                       : 1
@@ -306,28 +363,28 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 5vlx50tff1136-1 
+Selected Device : 5vlx30tff665-1 
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              18  out of  28800     0%  
- Number of Slice LUTs:                   39  out of  28800     0%  
-    Number used as Logic:                39  out of  28800     0%  
+ Number of Slice Registers:              32  out of  19200     0%  
+ Number of Slice LUTs:                   75  out of  19200     0%  
+    Number used as Logic:                75  out of  19200     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     40
-   Number with an unused Flip Flop:      22  out of     40    55%  
-   Number with an unused LUT:             1  out of     40     2%  
-   Number of fully used LUT-FF pairs:    17  out of     40    42%  
+ Number of LUT Flip Flop pairs used:     76
+   Number with an unused Flip Flop:      44  out of     76    57%  
+   Number with an unused LUT:             1  out of     76     1%  
+   Number of fully used LUT-FF pairs:    31  out of     76    40%  
    Number of unique control sets:         2
 
 IO Utilization: 
  Number of IOs:                           7
- Number of bonded IOBs:                   7  out of    480     1%  
+ Number of bonded IOBs:                   7  out of    360     1%  
 
 Specific Feature Utilization:
- Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
- Number of PLL_ADVs:                      1  out of      6    16%  
+ Number of BUFG/BUFGCTRLs:                3  out of     32     9%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
 
 ---------------------------
 Partition Resource Summary:
@@ -350,7 +407,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Inst_PLL_ALL/CLKOUT1_BUF           | BUFG                   | 17    |
+fpga_100m_clk                      | IBUFG+BUFG             | 31    |
 Inst_PLL_ALL/CLKOUT0_BUF           | BUFG                   | 1     |
 -----------------------------------+------------------------+-------+
 
@@ -359,104 +416,85 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-fpga_cpu_reset_b                   | IBUF                   | 17    |
+fpga_cpu_reset                     | IBUF                   | 30    |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 2.982ns (Maximum Frequency: 335.345MHz)
-   Minimum input arrival time before clock: 1.805ns
+   Minimum period: 3.785ns (Maximum Frequency: 264.201MHz)
+   Minimum input arrival time before clock: 2.068ns
    Maximum output required time after clock: 3.395ns
-   Maximum combinational path delay: 1.242ns
+   Maximum combinational path delay: 0.000ns
 
 Timing Detail:
 --------------
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'Inst_PLL_ALL/CLKOUT1_BUF'
-  Clock period: 2.982ns (frequency: 335.345MHz)
-  Total number of paths / destination ports: 486 / 20
+Timing constraint: Default period analysis for Clock 'fpga_100m_clk'
+  Clock period: 3.785ns (frequency: 264.201MHz)
+  Total number of paths / destination ports: 1461 / 31
 -------------------------------------------------------------------------
-Delay:               2.982ns (Levels of Logic = 3)
-  Source:            rst_counter_12 (FF)
-  Destination:       rst_counter_13 (FF)
-  Source Clock:      Inst_PLL_ALL/CLKOUT1_BUF rising
-  Destination Clock: Inst_PLL_ALL/CLKOUT1_BUF rising
+Delay:               3.785ns (Levels of Logic = 4)
+  Source:            wait_counter_3 (FF)
+  Destination:       wait_counter_0 (FF)
+  Source Clock:      fpga_100m_clk rising
+  Destination Clock: fpga_100m_clk rising
 
-  Data Path: rst_counter_12 to rst_counter_13
+  Data Path: wait_counter_3 to wait_counter_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              3   0.471   1.080  rst_counter_12 (rst_counter_12)
-     LUT6:I0->O            2   0.094   0.581  rst_counter_cmp_eq0000100_SW0 (N11)
-     LUT6:I4->O           17   0.094   0.568  rst_counter_cmp_eq0000100 (rst_counter_cmp_eq0000)
-     LUT2:I1->O            1   0.094   0.000  Mcount_rst_counter_eqn_151 (Mcount_rst_counter_eqn_15)
-     FDCE:D                   -0.018          rst_counter_15
+     FDC:C->Q              4   0.471   1.085  wait_counter_3 (wait_counter_3)
+     LUT6:I0->O            1   0.094   0.576  state_cmp_eq000272 (state_cmp_eq000272)
+     LUT6:I4->O            2   0.094   0.715  state_cmp_eq000296 (state_cmp_eq0002)
+     LUT6:I3->O           16   0.094   0.562  wait_counter_mux0001<0>1 (N01)
+     LUT4:I3->O            1   0.094   0.000  wait_counter_mux0001<9>1 (wait_counter_mux0001<9>)
+     FDC:D                    -0.018          wait_counter_6
     ----------------------------------------
-    Total                      2.982ns (0.753ns logic, 2.229ns route)
-                                       (25.3% logic, 74.7% route)
+    Total                      3.785ns (0.847ns logic, 2.938ns route)
+                                       (22.4% logic, 77.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_PLL_ALL/CLKOUT1_BUF'
-  Total number of paths / destination ports: 17 / 17
+Timing constraint: Default OFFSET IN BEFORE for Clock 'fpga_100m_clk'
+  Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Offset:              1.805ns (Levels of Logic = 1)
-  Source:            Inst_PLL_ALL/PLL_ADV_INST:LOCKED (PAD)
-  Destination:       rst_counter_13 (FF)
-  Destination Clock: Inst_PLL_ALL/CLKOUT1_BUF rising
+Offset:              2.068ns (Levels of Logic = 2)
+  Source:            fpga_cpu_reset (PAD)
+  Destination:       pll_reset (FF)
+  Destination Clock: fpga_100m_clk rising
 
-  Data Path: Inst_PLL_ALL/PLL_ADV_INST:LOCKED to rst_counter_13
+  Data Path: fpga_cpu_reset to pll_reset
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-    PLL_ADV:LOCKED        16   0.000   1.151  Inst_PLL_ALL/PLL_ADV_INST (clk_lock)
-     LUT6:I0->O            3   0.094   0.347  rst_counter_not00011 (rst_counter_not0001)
-     FDCE:CE                   0.213          rst_counter_13
+     IBUF:I->O            31   0.818   0.463  fpga_cpu_reset_IBUF (fpga_cpu_reset_IBUF)
+     INV:I->O              1   0.238   0.336  fpga_cpu_reset_inv1_INV_0 (fpga_cpu_reset_inv)
+     FDE:CE                    0.213          pll_reset
     ----------------------------------------
-    Total                      1.805ns (0.307ns logic, 1.498ns route)
-                                       (17.0% logic, 83.0% route)
+    Total                      2.068ns (1.269ns logic, 0.799ns route)
+                                       (61.4% logic, 38.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_PLL_ALL/CLKOUT0_BUF'
-  Total number of paths / destination ports: 1 / 1
+Timing constraint: Default OFFSET OUT AFTER for Clock 'fpga_100m_clk'
+  Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Offset:              0.992ns (Levels of Logic = 1)
-  Source:            Inst_PLL_ALL/PLL_ADV_INST:LOCKED (PAD)
-  Destination:       MCLK_ODDR_OUT (FF)
-  Destination Clock: Inst_PLL_ALL/CLKOUT0_BUF rising
-
-  Data Path: Inst_PLL_ALL/PLL_ADV_INST:LOCKED to MCLK_ODDR_OUT
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-    PLL_ADV:LOCKED        16   0.000   0.418  Inst_PLL_ALL/PLL_ADV_INST (clk_lock)
-     INV:I->O              1   0.238   0.336  clk_lock_b1_INV_0 (clk_lock_b)
-     ODDR:R                    0.000          MCLK_ODDR_OUT
-    ----------------------------------------
-    Total                      0.992ns (0.238ns logic, 0.754ns route)
-                                       (24.0% logic, 76.0% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_PLL_ALL/CLKOUT1_BUF'
-  Total number of paths / destination ports: 2 / 2
--------------------------------------------------------------------------
-Offset:              3.347ns (Levels of Logic = 1)
-  Source:            lrst_s (FF)
+Offset:              3.264ns (Levels of Logic = 1)
+  Source:            reset_global (FF)
   Destination:       mrst (PAD)
-  Source Clock:      Inst_PLL_ALL/CLKOUT1_BUF rising
+  Source Clock:      fpga_100m_clk rising
 
-  Data Path: lrst_s to mrst
+  Data Path: reset_global to mrst
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDP:C->Q             17   0.471   0.424  lrst_s (lrst_s)
+     FDC:C->Q              2   0.471   0.341  reset_global (reset_global)
      OBUF:I->O                 2.452          mrst_OBUF (mrst)
     ----------------------------------------
-    Total                      3.347ns (2.923ns logic, 0.424ns route)
-                                       (87.3% logic, 12.7% route)
+    Total                      3.264ns (2.923ns logic, 0.341ns route)
+                                       (89.6% logic, 10.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_PLL_ALL/CLKOUT0_BUF'
@@ -479,33 +517,32 @@ Offset:              3.395ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 3 / 3
+  Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Delay:               1.242ns (Levels of Logic = 1)
-  Source:            fpga_cpu_reset_b (PAD)
-  Destination:       Inst_PLL_ALL/PLL_ADV_INST:RST (PAD)
+Delay:               0.000ns (Levels of Logic = 0)
+  Source:            Inst_PLL_ALL/PLL_ADV_INST:CLKFBOUT (PAD)
+  Destination:       Inst_PLL_ALL/PLL_ADV_INST:CLKFBIN (PAD)
 
-  Data Path: fpga_cpu_reset_b to Inst_PLL_ALL/PLL_ADV_INST:RST
+  Data Path: Inst_PLL_ALL/PLL_ADV_INST:CLKFBOUT to Inst_PLL_ALL/PLL_ADV_INST:CLKFBIN
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            17   0.818   0.424  fpga_cpu_reset_b_IBUF (fpga_cpu_reset_b_IBUF)
-    PLL_ADV:RST                0.000          Inst_PLL_ALL/PLL_ADV_INST
+    PLL_ADV:CLKFBOUT       0   0.000   0.000  Inst_PLL_ALL/PLL_ADV_INST (Inst_PLL_ALL/CLKFBOUT_CLKFBIN)
+    PLL_ADV:CLKFBIN            0.000          Inst_PLL_ALL/PLL_ADV_INST
     ----------------------------------------
-    Total                      1.242ns (0.818ns logic, 0.424ns route)
-                                       (65.9% logic, 34.1% route)
+    Total                      0.000ns (0.000ns logic, 0.000ns route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 16.00 secs
-Total CPU time to Xst completion: 15.70 secs
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.45 secs
  
 --> 
 
-Total memory usage is 269212 kilobytes
+Total memory usage is 253532 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    2 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
 

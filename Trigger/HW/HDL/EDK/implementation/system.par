@@ -1,0 +1,352 @@
+Release 12.4 par M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+fyspc-epf02::  Thu Feb 24 16:20:38 2011
+
+par -w -ol high system_map.ncd system.ncd system.pcf 
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '5vfx30t.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc5vfx30t, package ff665, speed -1
+WARNING:ConstraintSystem:65 - Constraint <NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk_i" PERIOD = 40 ns HIGH 50%;>
+   [system.pcf(19880)] overrides constraint <NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk_i" PERIOD = 40 ns HIGH 14 ns;>
+   [system.pcf(19879)].
+
+WARNING:ConstraintSystem:65 - Constraint <NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF" PERIOD = 40 ns HIGH 50%;>
+   [system.pcf(19883)] overrides constraint <NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF" PERIOD = 40 ns HIGH 14 ns;>
+   [system.pcf(19882)].
+
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.72 2010-11-18".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           6 out of 32     18%
+   Number of BUFIOs                          4 out of 40     10%
+   Number of FIFO36_72_EXPs                  1 out of 68      1%
+   Number of IDELAYCTRLs                     2 out of 12     16%
+   Number of ILOGICs                        79 out of 400    19%
+   Number of External IOBs                 189 out of 360    52%
+      Number of LOCed IOBs                 189 out of 189   100%
+
+   Number of IODELAYs                       40 out of 400    10%
+   Number of JTAGPPCs                        1 out of 1     100%
+   Number of OLOGICs                       154 out of 400    38%
+   Number of PLL_ADVs                        1 out of 2      50%
+   Number of PPC440s                         1 out of 1     100%
+   Number of RAMB36_EXPs                     6 out of 68      8%
+   Number of Slices                       2229 out of 5120   43%
+   Number of Slice Registers              3734 out of 20480  18%
+      Number used as Flip Flops           3734
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   3361 out of 20480  16%
+   Number of Slice LUT-Flip Flop pairs    5118 out of 20480  24%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+WARNING:Timing:3223 - Timing constraint TS_MC_RDEN_SEL_MUX = MAXDELAY FROM TIMEGRP "TNM_RDEN_SEL_MUX" TO TIMEGRP       
+   "TNM_CLK0" TS_MC_CLK * 4; ignored during timing analysis.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please
+   consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 18 secs 
+Finished initial Timing Analysis.  REAL time: 18 secs 
+
+WARNING:Par:288 - The signal xps_bram_if_cntlr_1_port_BRAM_Addr<31> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal xps_bram_if_cntlr_1_port_BRAM_Addr<30> has no load.  PAR will not attempt to route this
+   signal.
+Starting Router
+
+
+Phase  1  : 24150 unrouted;      REAL time: 19 secs 
+INFO:Route:538 - One or more MIG cores have been detected in your design and have been successfully
+   placed and routed. These MIG core(s) have critical skew and delay requirements 
+   that are independent of the user (UCF) timing constraints. These MIG-related timing 
+   constraints have been successfully met in this design. However, the user must verify
+   separately that all timing constraints specified in the UCF file have been met.
+
+
+Phase  2  : 20651 unrouted;      REAL time: 21 secs 
+
+Phase  3  : 6742 unrouted;      REAL time: 47 secs 
+
+Phase  4  : 6747 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 53 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 3 secs 
+Total REAL time to Router completion: 1 mins 3 secs 
+Total CPU time to Router completion: 1 mins 4 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+WARNING:ParHelpers:81 - 
+   The following Clock signals have USELOWSKEWLINES constraint
+   specified. The router was not able to completely route using
+   the LOW SKEW resources. Check the timing report to verify the
+   delay and skew for this net.
+Net Name: fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|clk_125_0000MHzPLL0_ |              |      |      |            |             |
+|              ADJUST |BUFGCTRL_X0Y29| No   | 1445 |  0.422     |  1.952      |
++---------------------+--------------+------+------+------------+-------------+
+|clk_62_5000MHzPLL0_A |              |      |      |            |             |
+|               DJUST |BUFGCTRL_X0Y27| No   |  369 |  0.318     |  1.940      |
++---------------------+--------------+------+------+------------+-------------+
+|clk_125_0000MHz90PLL |              |      |      |            |             |
+|            0_ADJUST |BUFGCTRL_X0Y31| No   |   90 |  0.179     |  1.914      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_SysACE_Compac |              |      |      |            |             |
+|tFlash_SysACE_CLK_pi |              |      |      |            |             |
+|             n_BUFGP |BUFGCTRL_X0Y26| No   |   55 |  0.137     |  1.768      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<0> |        IO Clk| No   |   17 |  0.079     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<1> |        IO Clk| No   |   17 |  0.080     |  0.404      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<2> |        IO Clk| No   |   17 |  0.095     |  0.419      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<3> |        IO Clk| No   |   17 |  0.079     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|     clk_200_0000MHz |BUFGCTRL_X0Y28| No   |    3 |  0.068     |  1.768      |
++---------------------+--------------+------+------+------------+-------------+
+| clk_125_0000MHzPLL0 |BUFGCTRL_X0Y30| No   |    2 |  0.000     |  1.737      |
++---------------------+--------------+------+------+------------+-------------+
+|Ethernet_MAC/Etherne |              |      |      |            |             |
+|  t_MAC/phy_tx_clk_i |         Local|      |   21 |  1.671     |  3.137      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_Ethernet_MAC_ |              |      |      |            |             |
+| PHY_rx_clk_pin_IBUF |         Local|      |   19 |  1.405     |  2.800      |
++---------------------+--------------+------+------+------------+-------------+
+|ppc440_0_jtagppc_bus |              |      |      |            |             |
+|         _JTGC405TCK |         Local|      |    1 |  0.000     |  1.678      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 6
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.062ns|     7.938ns|       0|           0
+  G_PLL0_CLKOUT2 = PERIOD TIMEGRP         " | HOLD        |     0.030ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT2" TS_sys_clk_pin         * 1.2 |             |            |            |        |            
+  5 HIGH 50%                                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_DQ_CE = MAXDELAY FROM TIMEGRP "TNM_DQ_ | SETUP       |     1.034ns|     2.366ns|       0|           0
+  CE_IDDR" TO TIMEGRP "TNM_DQS_FLOPS"       | HOLD        |     1.321ns|            |       0|           0
+     3.4 ns                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     2.220ns|     4.646ns|       0|           0
+  G_PLL0_CLKOUT0 = PERIOD TIMEGRP         " | HOLD        |     0.463ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT0" TS_sys_clk_pin         * 1.2 |             |            |            |        |            
+  5 PHASE 2 ns HIGH 50%                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk | NETSKEW     |     2.863ns|     3.137ns|       0|           0
+  _i" MAXSKEW = 6 ns                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     3.649ns|     1.351ns|       0|           0
+  G_PLL0_CLKOUT3 = PERIOD TIMEGRP         " | HOLD        |     0.486ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P | MINPERIOD   |     3.334ns|     1.666ns|       0|           0
+  LL0_CLKOUT3" TS_sys_clk_pin         * 2 H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
+  pin" 100 MHz HIGH 50%                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_CLK = PERIOD TIMEGRP "mc_clk" 7.5 n | MINPERIOD   |     3.510ns|     3.990ns|       0|           0
+  s HIGH 50%                                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_I | NETSKEW     |     4.497ns|     1.503ns|       0|           0
+  BUF" MAXSKEW = 6 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     4.741ns|     6.518ns|       0|           0
+  G_PLL0_CLKOUT4 = PERIOD TIMEGRP         " | HOLD        |     0.150ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT4" TS_sys_clk_pin         * 0.6 |             |            |            |        |            
+  25 HIGH 50%                               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | MINPERIOD   |     4.900ns|     3.100ns|       0|           0
+  G_PLL0_CLKOUT1 = PERIOD TIMEGRP         " |             |            |            |        |            
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT1" TS_sys_clk_pin         * 1.2 |             |            |            |        |            
+  5 HIGH 50%                                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TSTXOUT_Ethernet_MAC = MAXDELAY FROM TIME | MAXDELAY    |     6.892ns|     3.108ns|       0|           0
+  GRP "TXCLK_GRP_Ethernet_MAC" TO         T |             |            |            |        |            
+  IMEGRP "PADS" 10 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  OFFSET = IN 6 ns BEFORE COMP "fpga_0_Ethe | SETUP       |     7.763ns|    -1.763ns|       0|           0
+  rnet_MAC_PHY_rx_clk_pin"                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk | SETUP       |    15.328ns|     9.344ns|       0|           0
+  _i" PERIOD = 40 ns HIGH 50%               | HOLD        |     0.225ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_I | SETUP       |    15.751ns|     8.498ns|       0|           0
+  BUF" PERIOD = 40 ns HIGH 50%              | HOLD        |     0.185ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_90 = MAXDELAY FRO | SETUP       |    25.675ns|     4.325ns|       0|           0
+  M TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO      | HOLD        |     0.347ns|            |       0|           0
+      TIMEGRP "TNM_CLK90" TS_MC_CLK * 4     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_0 = MAXDELAY FROM | SETUP       |    26.759ns|     3.241ns|       0|           0
+   TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO       | HOLD        |     0.182ns|            |       0|           0
+     TIMEGRP "TNM_CLK0" TS_MC_CLK * 4       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_CAL_RDEN_DLY = MAXDELAY FROM TIMEGR | SETUP       |    28.066ns|     1.934ns|       0|           0
+  P "TNM_CAL_RDEN_DLY" TO TIMEGRP         " | HOLD        |     0.125ns|            |       0|           0
+  TNM_CLK0" TS_MC_CLK * 4                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_GATE_DLY = MAXDELAY FROM TIMEGRP "T | SETUP       |    28.137ns|     1.863ns|       0|           0
+  NM_GATE_DLY" TO TIMEGRP "TNM_CLK0"        | HOLD        |     0.021ns|            |       0|           0
+    TS_MC_CLK * 4                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_RDEN_DLY = MAXDELAY FROM TIMEGRP "T | SETUP       |    28.150ns|     1.850ns|       0|           0
+  NM_RDEN_DLY" TO TIMEGRP "TNM_CLK0"        | HOLD        |     0.175ns|            |       0|           0
+    TS_MC_CLK * 4                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_RDEN_SEL_MUX = MAXDELAY FROM TIMEGR | N/A         |         N/A|         N/A|     N/A|         N/A
+  P "TNM_RDEN_SEL_MUX" TO TIMEGRP         " |             |            |            |        |            
+  TNM_CLK0" TS_MC_CLK * 4                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_I | N/A         |         N/A|         N/A|     N/A|         N/A
+  BUF" PERIOD = 40 ns HIGH 14 ns            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk | N/A         |         N/A|         N/A|     N/A|         N/A
+  _i" PERIOD = 40 ns HIGH 14 ns             |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|      4.000ns|      9.922ns|            0|            0|            0|        58103|
+| TS_clock_generator_0_clock_gen|      8.000ns|      4.646ns|          N/A|            0|            0|          343|            0|
+| erator_0_SIG_PLL0_CLKOUT0     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      8.000ns|      3.100ns|          N/A|            0|            0|            0|            0|
+| erator_0_SIG_PLL0_CLKOUT1     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      8.000ns|      7.938ns|          N/A|            0|            0|        50568|            0|
+| erator_0_SIG_PLL0_CLKOUT2     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      5.000ns|      1.666ns|          N/A|            0|            0|            2|            0|
+| erator_0_SIG_PLL0_CLKOUT3     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|     16.000ns|      6.518ns|          N/A|            0|            0|         7190|            0|
+| erator_0_SIG_PLL0_CLKOUT4     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_MC_CLK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_MC_CLK                      |      7.500ns|      3.990ns|      1.081ns|            0|            0|            0|          173|
+| TS_MC_PHY_INIT_DATA_SEL_0     |     30.000ns|      3.241ns|          N/A|            0|            0|           21|            0|
+| TS_MC_PHY_INIT_DATA_SEL_90    |     30.000ns|      4.325ns|          N/A|            0|            0|          122|            0|
+| TS_MC_GATE_DLY                |     30.000ns|      1.863ns|          N/A|            0|            0|           20|            0|
+| TS_MC_RDEN_DLY                |     30.000ns|      1.850ns|          N/A|            0|            0|            5|            0|
+| TS_MC_CAL_RDEN_DLY            |     30.000ns|      1.934ns|          N/A|            0|            0|            5|            0|
+| TS_MC_RDEN_SEL_MUX            |     30.000ns|          N/A|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 1 mins 23 secs 
+Total CPU time to PAR completion: 1 mins 9 secs 
+
+Peak Memory Usage:  335 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 8
+Number of info messages: 2
+
+Writing design to file system.ncd
+
+
+
+PAR done!

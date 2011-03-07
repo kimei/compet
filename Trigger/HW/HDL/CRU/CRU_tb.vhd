@@ -35,7 +35,7 @@ architecture TB of CRU_tb is
   component CRU
     port (
       fpga_100m_clk    : in  STD_LOGIC;
-      fpga_cpu_reset_b : in  STD_LOGIC;
+      fpga_cpu_reset   : in  STD_LOGIC;
       mclk             : out STD_LOGIC;
       mclk_b           : out STD_LOGIC;
       gclk             : out STD_LOGIC;
@@ -45,7 +45,7 @@ architecture TB of CRU_tb is
 
   -- component ports
   signal fpga_100m_clk    : STD_LOGIC;
-  signal fpga_cpu_reset_b : STD_LOGIC;
+  signal fpga_cpu_reset   : STD_LOGIC;
   signal mclk             : STD_LOGIC;
 
   signal mclk_b           : STD_LOGIC;
@@ -54,6 +54,7 @@ architecture TB of CRU_tb is
   signal lrst             : STD_LOGIC;
 
   -- clock
+  signal klokka : std_logic := '1';
   signal Clk : std_logic := '1';
 
 begin  -- TB
@@ -62,7 +63,7 @@ begin  -- TB
   DUT: CRU
     port map (
       fpga_100m_clk    => fpga_100m_clk,
-      fpga_cpu_reset_b => fpga_cpu_reset_b,
+      fpga_cpu_reset => fpga_cpu_reset,
       mclk             => mclk,
       mclk_b           => mclk_b,      
       gclk             => gclk,
@@ -71,14 +72,14 @@ begin  -- TB
 
   -- clock generation
   Clk <= not Clk after 10 ns;
-  fpga_100m_clk <= Clk;
+	fpga_100m_clk <= Clk when klokka = '1' else '0';
   -- waveform generation
   WaveGen_Proc: process
   begin
-  fpga_cpu_reset_b  <= '1';
-	wait for 60 ns;
-  fpga_cpu_reset_b  <= '0';
-
+	 wait for 3.5 ms;
+	 klokka <= '0';
+	 wait for 40 ns;
+	 klokka <= '1';
     wait;
   end process WaveGen_Proc;
 

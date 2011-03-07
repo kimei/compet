@@ -1,7 +1,7 @@
 Release 10.1.03 - par K.39 (nt)
 Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
 
-Thu Feb 03 15:16:50 2011
+Tue Feb 15 12:15:09 2011
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -1060,7 +1060,7 @@ V4|||MGTRREF_112|||||||||||||
 V5|||MGTAVTTRXC|||||||||||||
 V6|||GND|||||||||||||
 V7||IOBS|IO_L11N_CC_18|UNUSED||18||||||||||
-V8|fpga_cpu_reset_b|IOB|IO_L17P_18|INPUT|LVCMOS25*|18||||NONE||LOCATED||NO|NONE|
+V8|fpga_cpu_reset|IOB|IO_L17P_18|INPUT|LVCMOS25*|18||||NONE||LOCATED||NO|NONE|
 V9||IOBS|IO_L19N_18|UNUSED||18||||||||||
 V10||IOBM|IO_L19P_18|UNUSED||18||||||||||
 V11|||VCCAUX||||||||2.5|||||

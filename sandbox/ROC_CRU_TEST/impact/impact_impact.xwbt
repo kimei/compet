@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=M:\MASTER\COMPET\sandbox\ROC_CRU_TEST\impact\impact.xsl
+OUTFILE=M:\MASTER\COMPET\sandbox\ROC_CRU_TEST\impact\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=M:\MASTER\COMPET\sandbox\ROC_CRU_TEST\impact
+LICENSE=iMPACT
+USER_INFO=iMPACT

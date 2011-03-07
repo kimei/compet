@@ -1,0 +1,13 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf32p          [32 M]
+FF
+Untitled
+M:\MASTER\COMPET\sandbox\ROC_CRU_TEST\impact/
+
+MCS
+No
+No
+RU_TEST\impact/
+
+MCS

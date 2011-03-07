@@ -4,39 +4,36 @@ Xilinx Mapping Report File for Design 'CRU'
 Design Information
 ------------------
 Command Line   : map -ise M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle
-ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6
+ise -p xc5vlx30t-ff665-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6
 -lc off -power off -o CRU_map.ncd CRU.ngd CRU.pcf 
-Target Device  : xc5vlx50t
-Target Package : ff1136
+Target Device  : xc5vlx30t
+Target Package : ff665
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.46.12.2 $
-Mapped Date    : Thu Feb 03 15:15:39 2011
+Mapped Date    : Fri Feb 18 11:28:44 2011
 
-Design Summary
---------------
-Number of errors:      0
-Number of warnings:    1
+Interim Summary
+---------------
 Slice Logic Utilization:
-  Number of Slice Registers:                    17 out of  28,800    1%
-    Number used as Flip Flops:                  17
-  Number of Slice LUTs:                         39 out of  28,800    1%
-    Number used as logic:                       38 out of  28,800    1%
-      Number using O6 output only:              23
+  Number of Slice Registers:                    31 out of  19,200    1%
+    Number used as Flip Flops:                  31
+  Number of Slice LUTs:                         75 out of  19,200    1%
+    Number used as logic:                       74 out of  19,200    1%
+      Number using O6 output only:              59
       Number using O5 output only:              14
       Number using O5 and O6:                    1
     Number used as exclusive route-thru:         1
-  Number of route-thrus:                        15 out of  57,600    1%
+  Number of route-thrus:                        15 out of  38,400    1%
     Number using O6 output only:                15
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    13 out of   7,200    1%
-  Number of LUT Flip Flop pairs used:           39
-    Number with an unused Flip Flop:            22 out of      39   56%
-    Number with an unused LUT:                   0 out of      39    0%
-    Number of fully used LUT-FF pairs:          17 out of      39   43%
+  Number of LUT Flip Flop pairs used:           75
+    Number with an unused Flip Flop:            44 out of      75   58%
+    Number with an unused LUT:                   0 out of      75    0%
+    Number of fully used LUT-FF pairs:          31 out of      75   41%
     Number of unique control sets:               2
     Number of slice register sites lost
-      to control set restrictions:               3 out of  28,800    1%
+      to control set restrictions:               5 out of  19,200    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -45,39 +42,38 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                         7 out of     480    1%
+  Number of bonded IOBs:                         7 out of     360    1%
     IOB Flip Flops:                              1
     IOB Master Pads:                             1
     IOB Slave Pads:                              1
 
 Specific Feature Utilization:
-  Number of BUFG/BUFGCTRLs:                      2 out of      32    6%
-    Number used as BUFGs:                        2
-  Number of PLL_ADVs:                            1 out of       6   16%
+  Number of BUFG/BUFGCTRLs:                      3 out of      32    9%
+    Number used as BUFGs:                        3
+  Number of PLL_ADVs:                            1 out of       2   50%
 
-Peak Memory Usage:  314 MB
-Total REAL time to MAP completion:  30 secs 
-Total CPU time to MAP completion:   21 secs 
 
-Table of Contents
------------------
-Section 1 - Errors
-Section 2 - Warnings
-Section 3 - Informational
-Section 4 - Removed Logic Summary
-Section 5 - Removed Logic
-Section 6 - IOB Properties
-Section 7 - RPMs
-Section 8 - Guide Report
-Section 9 - Area Group and Partition Summary
-Section 10 - Modular Design Summary
-Section 11 - Timing Report
-Section 12 - Configuration String Information
 Section 13 - Control Set Information
-Section 14 - Utilization by Hierarchy
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   0
 
 Section 1 - Errors
 ------------------
+ERROR:Place:910 - It appears that the specified pin locations for differential
+   pair "mclk" (LOC="AB15") and "mclk_b" (LOC="AB16") are reversed and can not
+   be placed without changing the functionality (polarity) of the signal. To
+   correct this error, either modify the LOC values or change the buffer
+   connections in the code so that the P-side of the differential buffer is
+   LOCed to the pin location "AB16" and the N-side of the buffer is LOCed to the
+   pin location "AB15".
+   It is possible   to allow location constraints to override this rule by
+   setting the environment variable XIL_PAR_ALLOW_LVDS_LOC_OVERRIDE.
+ERROR:Pack:1654 - The timing-driven packing phase encountered an error.
 
 Section 2 - Warnings
 --------------------
@@ -98,7 +94,6 @@ INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
    1.050 Volts)
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
-INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
@@ -114,85 +109,3 @@ VCC 		XST_VCC
 
 To enable printing of redundant blocks removed and signals merged, set the
 detailed map report option and rerun map.
-
-Section 6 - IOB Properties
---------------------------
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| IOB Name                           | Type             | Direction | IO Standard          | Drive    | Slew | Reg (s)      | Resistor | IOB      |
-|                                    |                  |           |                      | Strength | Rate |              |          | Delay    |
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| fpga_100m_clk                      | IOB              | INPUT     | LVCMOS25             |          |      |              |          |          |
-| fpga_cpu_reset_b                   | IOB              | INPUT     | LVCMOS25             |          |      |              |          |          |
-| gclk                               | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
-| lrst                               | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
-| mclk                               | IOBM             | OUTPUT    | LVDS_25              |          |      | ODDR         |          |          |
-| mclk_b                             | IOBS             | OUTPUT    | See master           |          |      |              |          |          |
-| mrst                               | IOB              | OUTPUT    | LVCMOS25             | 12       | SLOW |              |          |          |
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-
-Section 7 - RPMs
-----------------
-
-Section 8 - Guide Report
-------------------------
-Guide not run on this design.
-
-Section 9 - Area Group and Partition Summary
---------------------------------------------
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
-
-Area Group Information
-----------------------
-
-  No area groups were found in this design.
-
-----------------------
-
-Section 10 - Modular Design Summary
------------------------------------
-Modular Design not used for this design.
-
-Section 11 - Timing Report
---------------------------
-A logic-level (pre-route) timing report can be generated by using Xilinx static
-timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
-mapped NCD and PCF files. Please note that this timing report will be generated
-using estimated delay information. For accurate numbers, please generate a
-timing report with the post Place and Route NCD file.
-
-For more information about the Timing Analyzer, consult the Xilinx Timing
-Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
-Development System Reference Guide "TRACE" chapter.
-
-Section 12 - Configuration String Details
------------------------------------------
-Use the "-detail" map option to print out Configuration Strings
-
-Section 13 - Control Set Information
-------------------------------------
-Use the "-detail" map option to print out Control Set Information.
-
-Section 14 - Utilization by Hierarchy
--------------------------------------
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Module             | Partition | Slices*       | Slice Reg     | LUTs          | LUTRAM        | BRAM/FIFO | DSP48E  | BUFG  | BUFIO | BUFR  | DCM   | PLL   | Full Hierarchical  |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| CRU/               |           | 13/13         | 17/17         | 39/39         | 0/0           | 0/0       | 0/0     | 0/2   | 0/0   | 0/0   | 0/0   | 0/1   | CRU                |
-| +Inst_PLL_ALL      |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/0       | 0/0     | 2/2   | 0/0   | 0/0   | 0/0   | 1/1   | CRU/Inst_PLL_ALL   |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-* Slices can be packed with basic elements from multiple hierarchies.
-  Therefore, a slice will be counted in every hierarchical module
-  that each of its packed basic elements belong to.
-** For each column, there are two numbers reported <A>/<B>.
-   <A> is the number of elements that belong to that specific hierarchical module.
-   <B> is the total number of elements from that hierarchical module and any lower level
-   hierarchical modules below.
-*** The LUTRAM column counts all LUTs used as memory including RAM, ROM, and shift registers.

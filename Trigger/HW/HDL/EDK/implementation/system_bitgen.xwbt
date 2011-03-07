@@ -1,0 +1,7 @@
+INFILE=M:\MASTER\COMPET\Trigger\HW\HDL\EDK\implementation\system.ncd
+OUTFILE=M:\MASTER\COMPET\Trigger\HW\HDL\EDK\implementation\system.bit
+FAMILY=Virtex5
+PART=xc5vfx30t-1ff665
+WORKINGDIR=M:\MASTER\COMPET\Trigger\HW\HDL\EDK\implementation
+LICENSE=ISE
+USER_INFO=174112966_204374020_521

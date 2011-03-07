@@ -1,0 +1,3 @@
+vhdl work "../Shared/constants.vhd"
+vhdl work "../Shared/components.vhd"
+vhdl work "../top/top.vhd"

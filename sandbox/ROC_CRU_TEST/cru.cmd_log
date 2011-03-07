@@ -1,0 +1,175 @@
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol std -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol std -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol std -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol std -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol std -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol std -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+ibiswriter -intstyle ise cru.ncd cru.ibs
+xst -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -ifn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.xst" -ofn "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.syr"
+ngdbuild -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx50t-ff1136-1 "cru.ngc" cru.ngd
+map -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1 -register_duplication -global_opt on -retiming on -equivalent_register_removal on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf
+par -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -w -intstyle ise -ol high -xe n -t 1 cru_map.ncd cru.ncd cru.pcf
+trce -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -v 3 -s 1 -xml cru cru.ncd -o cru.twr cru.pcf -ucf cru.ucf
+bitgen -ise "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise" -intstyle ise -f cru.ut cru.ncd

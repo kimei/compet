@@ -1,0 +1,10 @@
+
+
+NET "MCLK100" LOC = AB15;
+NET "MCLK100_b" LOC = AC16;
+
+# PlanAhead Generated physical constraints 
+
+NET "FPGA100M" LOC = E18;
+NET "RESET" LOC = AF20;
+NET "RESET_ROC" LOC = A12;

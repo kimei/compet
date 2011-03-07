@@ -1,0 +1,1904 @@
+Xilinx Platform Studio (XPS)
+Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Generated Block Diagram.
+Diagram Controls
+Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
+Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+
+********************************************************************************
+At Local date and time: Thu Feb 24 16:08:19 2011
+ make -f system.make init_bram started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc5vfx30tff665-1 -lang vhdl    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 12.4 - platgen Xilinx EDK 12.4 Build EDK_MS4.81d
+ (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc5vfx30tff665-1 -lang vhdl -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse M:/MASTER/COMPET/Trigger/HW/HDL/EDK/system.mhs ...
+
+Read MPD definitions ...
+
+Overriding IP level properties ...
+INFO:EDK:1560 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM_16Mx32 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\ppc440mc_ddr2_v3_00_
+   c\data\ppc440mc_ddr2_v2_1_0.mpd line 103 - tcl is overriding PARAMETER
+   C_IODELAY_GRP value to DDR2_SDRAM_16Mx32
+orig_family is virtex5
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor ppc440_0
+  (0b0000000000-0b0011111111) ppc440_0	
+  (0000000000-0x03ffffff) DDR2_SDRAM_16Mx32	ppc440_0_PPC440MC
+  (0x81000000-0x8100ffff) Ethernet_MAC	plb_v46_0
+  (0x81400000-0x8140ffff) Push_Buttons_3Bit	plb_v46_0
+  (0x81420000-0x8142ffff) LEDs_8Bit	plb_v46_0
+  (0x81440000-0x8144ffff) DIP_Switches_8Bit	plb_v46_0
+  (0x83600000-0x8360ffff) SysACE_CompactFlash	plb_v46_0
+  (0x84000000-0x8400ffff) RS232_USB	plb_v46_0
+  (0x84020000-0x8402ffff) RS232	plb_v46_0
+  (0xfe000000-0xfeffffff) FLASH_8Mx16	plb_v46_0
+  (0xffffe000-0xffffffff) xps_bram_if_cntlr_1	plb_v46_0
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 9
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_bram_if_cntlr INSTANCE:xps_bram_if_cntlr_1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_bram_if_cntlr_v1
+   _00_b\data\xps_bram_if_cntlr_v2_1_0.mpd line 73 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_bram_if_cntlr INSTANCE:xps_bram_if_cntlr_1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_bram_if_cntlr_v1
+   _00_b\data\xps_bram_if_cntlr_v2_1_0.mpd line 74 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 1
+INFO:EDK:1560 - IPNAME:xps_bram_if_cntlr INSTANCE:xps_bram_if_cntlr_1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_bram_if_cntlr_v1
+   _00_b\data\xps_bram_if_cntlr_v2_1_0.mpd line 78 - tool is overriding
+   PARAMETER C_SPLB_SMALLEST_MASTER value to 128
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:xps_bram_if_cntlr_1_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x2000
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:xps_bram_if_cntlr_1_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 68 - tool is overriding PARAMETER
+   C_PORT_DWIDTH value to 64
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:xps_bram_if_cntlr_1_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_NUM_WE
+   value to 8
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a
+   \data\xps_uartlite_v2_1_0.mpd line 71 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232_USB -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a
+   \data\xps_uartlite_v2_1_0.mpd line 71 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_gpio INSTANCE:LEDs_8Bit -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_gpio_v2_00_a\dat
+   a\xps_gpio_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_SPLB_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_gpio INSTANCE:DIP_Switches_8Bit -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_gpio_v2_00_a\dat
+   a\xps_gpio_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_SPLB_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_gpio INSTANCE:Push_Buttons_3Bit -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_gpio_v2_00_a\dat
+   a\xps_gpio_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_SPLB_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_mch_emc INSTANCE:FLASH_8Mx16 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_mch_emc_v3_01_a\
+   data\xps_mch_emc_v2_1_0.mpd line 80 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_mch_emc INSTANCE:FLASH_8Mx16 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_mch_emc_v3_01_a\
+   data\xps_mch_emc_v2_1_0.mpd line 82 - tool is overriding PARAMETER
+   C_SPLB_SMALLEST_MASTER value to 128
+INFO:EDK:1560 - IPNAME:xps_ethernetlite INSTANCE:Ethernet_MAC -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_ethernetlite_v4_
+   00_a\data\xps_ethernetlite_v2_1_0.mpd line 74 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_ethernetlite INSTANCE:Ethernet_MAC -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_ethernetlite_v4_
+   00_a\data\xps_ethernetlite_v2_1_0.mpd line 79 - tool is overriding PARAMETER
+   C_SPLB_SMALLEST_MASTER value to 128
+INFO:EDK:1560 - IPNAME:xps_sysace INSTANCE:SysACE_CompactFlash -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_sysace_v1_01_a\d
+   ata\xps_sysace_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_sysace INSTANCE:SysACE_CompactFlash -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_sysace_v1_01_a\d
+   ata\xps_sysace_v2_1_0.mpd line 72 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_sysace INSTANCE:SysACE_CompactFlash -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_sysace_v1_01_a\d
+   ata\xps_sysace_v2_1_0.mpd line 73 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+INFO:EDK:1563 - IPNAME:xps_ethernetlite INSTANCE:Ethernet_MAC -
+   M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 269 - This design
+   requires design constraints to guarantee performance.
+   Please refer to the data sheet for details.  
+   The PLB clock frequency must be greater than or equal to 50 MHz for 100 Mbs
+   Ethernet operation and greater than or equal to 5.0 MHz for 10 Mbs Ethernet
+   operation.
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 95 - 1 master(s) : 9
+slave(s)
+
+Checking port drivers...
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 354 - floating
+   connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:1560 - IPNAME:ppc440_virtex5 INSTANCE:ppc440_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\ppc440_virtex5_v1_01
+   _a\data\ppc440_virtex5_v2_1_0.mpd line 122 - tcl is overriding PARAMETER
+   C_PPC440MC_ADDR_BASE value to 0x00000000
+INFO:EDK:1560 - IPNAME:ppc440_virtex5 INSTANCE:ppc440_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\ppc440_virtex5_v1_01
+   _a\data\ppc440_virtex5_v2_1_0.mpd line 123 - tcl is overriding PARAMETER
+   C_PPC440MC_ADDR_HIGH value to 0x03ffffff
+INFO:EDK:1560 - IPNAME:jtagppc_cntlr INSTANCE:jtagppc_cntlr_inst -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\jtagppc_cntlr_v2_01_
+   c\data\jtagppc_cntlr_v2_1_0.mpd line 68 - tcl is overriding PARAMETER
+   C_NUM_PPC_USED value to 1
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Port present in Ethernet_MAC
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+INFO: The DDR2_SDRAM_16Mx32 core has constraints automatically generated by XPS
+in implementation/ddr2_sdram_16mx32_wrapper/ddr2_sdram_16mx32_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The Ethernet_MAC core has constraints automatically generated by XPS in
+implementation/ethernet_mac_wrapper/ethernet_mac_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:xps_bram_if_cntlr_1_bram -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 115 - elaborating IP
+IPNAME:clock_generator INSTANCE:clock_generator_0 -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 304 - elaborating IP
+ClkGen elaborate status: PASSED
+----------------------------------------
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 1.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:ppc440_0 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 75 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:plb_v46_0 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 95 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:xps_bram_if_cntlr_1 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs
+line 103 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:xps_bram_if_cntlr_1_bram -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 115 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:rs232 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 121 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:rs232_usb - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 135 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:leds_8bit - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 149 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:dip_switches_8bit - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line
+162 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:push_buttons_3bit - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line
+175 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:flash_8mx16 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 188 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:ddr2_sdram_16mx32 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line
+214 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:ethernet_mac - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 269
+- Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:sysace_compactflash - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs
+line 289 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:clock_generator_0 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line
+304 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:jtagppc_cntlr_inst - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs
+line 339 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+INSTANCE:proc_sys_reset_0 - M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line
+345 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Running NGCBUILD ...
+IPNAME:ppc440_0_wrapper INSTANCE:ppc440_0 -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 75 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vfx30tff665-1 -intstyle silent -uc ppc440_0_wrapper.ucf -sd ..
+ppc440_0_wrapper.ngc ../ppc440_0_wrapper.ngc
+
+Reading NGO file
+"M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/ppc440_0_wrapper/ppc440_0_wr
+apper.ngc" ...
+
+Applying constraints in "ppc440_0_wrapper.ucf" to the design...
+Checking Constraint Associations...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../ppc440_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  4 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../ppc440_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:rs232_wrapper INSTANCE:rs232 -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 121 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vfx30tff665-1 -intstyle silent -i -sd .. rs232_wrapper.ngc
+../rs232_wrapper.ngc
+
+Reading NGO file
+"M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/rs232_wrapper/rs232_wrapper.
+ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../rs232_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file "../rs232_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:rs232_usb_wrapper INSTANCE:rs232_usb -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 135 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vfx30tff665-1 -intstyle silent -i -sd .. rs232_usb_wrapper.ngc
+../rs232_usb_wrapper.ngc
+
+Reading NGO file
+"M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/rs232_usb_wrapper/rs232_usb_
+wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../rs232_usb_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file "../rs232_usb_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:ddr2_sdram_16mx32_wrapper INSTANCE:ddr2_sdram_16mx32 -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 214 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vfx30tff665-1 -intstyle silent -uc ddr2_sdram_16mx32_wrapper.ucf -sd ..
+ddr2_sdram_16mx32_wrapper.ngc ../ddr2_sdram_16mx32_wrapper.ngc
+
+Reading NGO file
+"M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/ddr2_sdram_16mx32_wrapper/dd
+r2_sdram_16mx32_wrapper.ngc" ...
+
+Applying constraints in "ddr2_sdram_16mx32_wrapper.ucf" to the design...
+Checking Constraint Associations...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../ddr2_sdram_16mx32_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  4 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../ddr2_sdram_16mx32_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:ethernet_mac_wrapper INSTANCE:ethernet_mac -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 269 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vfx30tff665-1 -intstyle silent -uc ethernet_mac_wrapper.ucf -sd ..
+ethernet_mac_wrapper.ngc ../ethernet_mac_wrapper.ngc
+
+Reading NGO file
+"M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/ethernet_mac_wrapper/etherne
+t_mac_wrapper.ngc" ...
+Executing edif2ngd -noa
+"M:\MASTER\COMPET\Trigger\HW\HDL\EDK\implementation\ethernet_mac_wrapper_fifo_ge
+nerator_v4_3.edn" "ethernet_mac_wrapper_fifo_generator_v4_3.ngo"
+Release 12.4 - edif2ngd M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.4 edif2ngd M.81d (nt)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/12.4/ISE_DS/EDK/data/edif2ngd.pfd>
+with local file <C:/Xilinx/12.4/ISE_DS/ISE/data/edif2ngd.pfd>
+Writing module to "ethernet_mac_wrapper_fifo_generator_v4_3.ngo"...
+Loading design module
+"M:\MASTER\COMPET\Trigger\HW\HDL\EDK\implementation\ethernet_mac_wrapper\etherne
+t_mac_wrapper_fifo_generator_v4_3.ngo"...
+Loading design module
+"../ethernet_mac_wrapper_fifo_generator_v4_3_fifo_generator_v4_3_xst_1.ngc"...
+
+Applying constraints in "ethernet_mac_wrapper.ucf" to the design...
+Checking Constraint Associations...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../ethernet_mac_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  6 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../ethernet_mac_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:clock_generator_0_wrapper INSTANCE:clock_generator_0 -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 304 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vfx30tff665-1 -intstyle silent -i -sd .. clock_generator_0_wrapper.ngc
+../clock_generator_0_wrapper.ngc
+
+Reading NGO file
+"M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/clock_generator_0_wrapper/cl
+ock_generator_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../clock_generator_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file "../clock_generator_0_wrapper.blc"...
+
+NGCBUILD done.
+
+Rebuilding cache ...
+
+Total run time: 505.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh"
+xst -ifn system_xst.scr -intstyle silent
+Running XST synthesis ...
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+XST completed
+Release 12.4 - ngcbuild M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Overriding Xilinx file <ngcflow.csf> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/ngcflow.csf>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe
+./system.ngc ../implementation/system.ngc -sd ../implementation -i
+
+Reading NGO file "M:/MASTER/COMPET/Trigger/HW/HDL/EDK/synthesis/system.ngc" ...
+Loading design module "../implementation/ppc440_0_wrapper.ngc"...
+Loading design module "../implementation/plb_v46_0_wrapper.ngc"...
+Loading design module "../implementation/xps_bram_if_cntlr_1_wrapper.ngc"...
+Loading design module
+"../implementation/xps_bram_if_cntlr_1_bram_wrapper.ngc"...
+Loading design module "../implementation/rs232_wrapper.ngc"...
+Loading design module "../implementation/rs232_usb_wrapper.ngc"...
+Loading design module "../implementation/leds_8bit_wrapper.ngc"...
+Loading design module "../implementation/dip_switches_8bit_wrapper.ngc"...
+Loading design module "../implementation/push_buttons_3bit_wrapper.ngc"...
+Loading design module "../implementation/flash_8mx16_wrapper.ngc"...
+Loading design module "../implementation/ddr2_sdram_16mx32_wrapper.ngc"...
+Loading design module "../implementation/ethernet_mac_wrapper.ngc"...
+Loading design module "../implementation/sysace_compactflash_wrapper.ngc"...
+Loading design module "../implementation/clock_generator_0_wrapper.ngc"...
+Loading design module "../implementation/jtagppc_cntlr_inst_wrapper.ngc"...
+Loading design module "../implementation/proc_sys_reset_0_wrapper.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../implementation/system.ngc" ...
+Total REAL time to NGCBUILD completion:  5 sec
+Total CPU time to NGCBUILD completion:   4 sec
+
+Writing NGCBUILD log file "../implementation/system.blc"...
+
+NGCBUILD done.
+*********************************************
+Running Xilinx Implementation tools..
+*********************************************
+xflow -wd implementation -p xc5vfx30tff665-1 -implement xflow.opt system.ngc
+Release 12.4 - Xflow M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc5vfx30tff665-1 -implement xflow.opt system.ngc
+ 
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+.... Copying flowfile C:/Xilinx/12.4/ISE_DS/ISE/xilinx/data/fpga.flw into
+working directory M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation 
+
+Using Flow File: M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/fpga.flw 
+Using Option File(s): 
+ M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc5vfx30tff665-1 -nt timestamp -bm system.bmm
+"M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/system.ngc" -uc system.ucf
+system.ngd 
+#----------------------------------------------#
+Release 12.4 - ngdbuild M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -p
+xc5vfx30tff665-1 -nt timestamp -bm system.bmm
+M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/system.ngc -uc system.ucf
+system.ngd
+
+Reading NGO file "M:/MASTER/COMPET/Trigger/HW/HDL/EDK/implementation/system.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:3 - Constraint <TIMESPEC "TS_MC_RD_DATA_SEL" = FROM
+   "TNM_RD_DATA_SEL" TO "TNM_CLK0" "TS_clk_div_slow_0_clk_div_slow_0_DDR2_CLK_i"
+   * 4;> [system.ucf(212)]: This constraint will be ignored because the relative
+   clock constraint named 'TS_clk_div_slow_0_clk_div_slow_0_DDR2_CLK_i' was not
+   found.
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0" TS_sys_clk_pin
+   * 1.25 PHASE 2 ns HIGH 50>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT1 =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT1" TS_sys_clk_pin
+   * 1.25 HIGH 50>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2 =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2" TS_sys_clk_pin
+   * 1.25 HIGH 50>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT3 =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT3" TS_sys_clk_pin
+   * 2 HIGH 50>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT4: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT4 =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT4" TS_sys_clk_pin
+   * 0.625 HIGH 50>
+
+WARNING:NgdBuild:1012 - The constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_rx_er_pin_IBUF" IOBDELAY = NONE> is overridden on
+   the design object fpga_0_Ethernet_MAC_PHY_rx_er_pin by the constraint
+   <IOBDELAY=NONE;> [system.ucf(153)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_rx_data_pin_3_IBUF" IOBDELAY = NONE> is overridden
+   on the design object fpga_0_Ethernet_MAC_PHY_rx_data_pin<3> by the constraint
+   <IOBDELAY=NONE;> [system.ucf(151)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_rx_data_pin_2_IBUF" IOBDELAY = NONE> is overridden
+   on the design object fpga_0_Ethernet_MAC_PHY_rx_data_pin<2> by the constraint
+   <IOBDELAY=NONE;> [system.ucf(150)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_rx_data_pin_1_IBUF" IOBDELAY = NONE> is overridden
+   on the design object fpga_0_Ethernet_MAC_PHY_rx_data_pin<1> by the constraint
+   <IOBDELAY=NONE;> [system.ucf(149)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_rx_data_pin_0_IBUF" IOBDELAY = NONE> is overridden
+   on the design object fpga_0_Ethernet_MAC_PHY_rx_data_pin<0> by the constraint
+   <IOBDELAY=NONE;> [system.ucf(148)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_dv_pin_IBUF" IOBDELAY = NONE> is overridden on the
+   design object fpga_0_Ethernet_MAC_PHY_dv_pin by the constraint
+   <IOBDELAY=NONE;> [system.ucf(147)].
+WARNING:NgdBuild:1012 - The constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_crs_pin_IBUF" IOBDELAY = NONE> is overridden on the
+   design object fpga_0_Ethernet_MAC_PHY_crs_pin by the constraint
+   <IOBDELAY=NONE;> [system.ucf(146)].
+Done...
+
+Processing BMM file "system.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_bram_if_cntlr_1/xps_bram_if_cntlr_1/INCLUDE_BURST_SUPPORT.I_SLAVE_BURST_
+   ATTACH/I_DBEAT_CONTROL/I_DBEAT_CNTR/STRUCTURAL_A_GEN.I_ADDSUB_GEN[4].FDRE_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/EMC_CTRL_I/MEM_STATE_MACHINE_I/READ_COMPLETE_PIPE_GE
+   N[6].READ_COMPLETE_PIPE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/EMC_CTRL_I/MEM_STEER_I/RDDATA_PATH_MUX_GEN.ASYNC_ADD
+   R_CNT_GEN.RDDATA_EN_GEN_ASYNC[3].RDDATA_EN_REG_ASYNC' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/EMC_CTRL_I/MEM_STEER_I/ASYNC_MEM_RDACK_GEN.AALIGN_PI
+   PE_GEN[1].AALIGN_PIPE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/EMC_CTRL_I/ADDR_COUNTER_MUX_I/ADDRESS_STORE_GEN[31].
+   ADDRESS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/EMC_CTRL_I/ADDR_COUNTER_MUX_I/ADDRESS_STORE_GEN[30].
+   ADDRESS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_DECODER/GEN_CE_FOR_SHARED.GEN_BKEND_CE_REGISTERS[0].I_BKE
+   ND_WRCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_DECODER/GEN_CE_FOR_SHARED.GEN_BKEND_CE_REGISTERS[0].I_BKE
+   ND_RDCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_AD
+   DSUB_GEN[7].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADD
+   SUB_GEN[7].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[0].
+   I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[1].
+   I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[2].
+   I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[3].
+   I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_
+   SIZE_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_8Mx16/FLASH_8Mx16/MCH_PLB_IPIF_I/NO_CHNL_IF_GEN.PLBV46_SLAVE_BURST_I/I
+   _SLAVE_ATTACHMENT/I_STEER_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].
+   I_SIZE_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_
+   io/u_phy_calib/gen_rden[1].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_
+   io/u_phy_calib/gen_rden[2].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_
+   io/u_phy_calib/gen_rden[3].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/EMAC_I/COLLISION_SYNC' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_DECODER/MEM_DECODE_GEN[0].GEN_PLB_SHARED.I_BKEND_CS_REG' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].FDR
+   E_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].FDRE
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[0].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[1].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[2].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[3].I_FDRSE_BE0to3'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_BUS_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'Ethernet_MAC/Ethernet_MAC/XEMAC_I/XPS_IPIF_I/PLBV46_BURST_I/I_SLAVE_ATTACHME
+   NT/I_STEER_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG'
+   has unconnected output pin
+WARNING:NgdBuild:486 - Attribute "SIM_DEVICE" is not allowed on symbol
+   "clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst" of type "PLL_ADV". 
+   This attribute will be ignored.
+WARNING:NgdBuild:452 - logical net 'N116' has no driver
+WARNING:NgdBuild:452 - logical net 'N117' has no driver
+WARNING:NgdBuild:452 - logical net 'N118' has no driver
+WARNING:NgdBuild:452 - logical net 'N119' has no driver
+WARNING:NgdBuild:452 - logical net 'N120' has no driver
+WARNING:NgdBuild:452 - logical net 'N121' has no driver
+WARNING:NgdBuild:452 - logical net 'N122' has no driver
+WARNING:NgdBuild:452 - logical net 'N123' has no driver
+WARNING:NgdBuild:452 - logical net 'N124' has no driver
+WARNING:NgdBuild:452 - logical net 'N125' has no driver
+WARNING:NgdBuild:452 - logical net 'N126' has no driver
+WARNING:NgdBuild:452 - logical net 'N127' has no driver
+WARNING:NgdBuild:452 - logical net 'N128' has no driver
+WARNING:NgdBuild:452 - logical net 'N129' has no driver
+WARNING:NgdBuild:452 - logical net 'N130' has no driver
+WARNING:NgdBuild:452 - logical net 'N131' has no driver
+WARNING:NgdBuild:452 - logical net 'N132' has no driver
+WARNING:NgdBuild:452 - logical net 'N133' has no driver
+WARNING:NgdBuild:452 - logical net 'N134' has no driver
+WARNING:NgdBuild:452 - logical net 'N135' has no driver
+WARNING:NgdBuild:452 - logical net 'N136' has no driver
+WARNING:NgdBuild:452 - logical net 'N137' has no driver
+WARNING:NgdBuild:452 - logical net 'N138' has no driver
+WARNING:NgdBuild:452 - logical net 'N139' has no driver
+WARNING:NgdBuild:452 - logical net 'N140' has no driver
+WARNING:NgdBuild:452 - logical net 'N141' has no driver
+WARNING:NgdBuild:452 - logical net 'N142' has no driver
+WARNING:NgdBuild:452 - logical net 'N143' has no driver
+WARNING:NgdBuild:452 - logical net 'N144' has no driver
+WARNING:NgdBuild:452 - logical net 'N145' has no driver
+WARNING:NgdBuild:452 - logical net 'N146' has no driver
+WARNING:NgdBuild:452 - logical net 'N147' has no driver
+WARNING:NgdBuild:452 - logical net 'N76' has no driver
+WARNING:NgdBuild:452 - logical net 'N77' has no driver
+WARNING:NgdBuild:452 - logical net 'N78' has no driver
+WARNING:NgdBuild:452 - logical net 'N79' has no driver
+WARNING:NgdBuild:452 - logical net 'N80' has no driver
+WARNING:NgdBuild:452 - logical net 'N81' has no driver
+WARNING:NgdBuild:452 - logical net 'N82' has no driver
+WARNING:NgdBuild:452 - logical net 'N83' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  78
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  15 sec
+Total CPU time to NGDBUILD completion:   13 sec
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -w -pr b -ol high -timing -detail system.ngd system.pcf 
+#----------------------------------------------#
+Release 12.4 - Map M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/data/Xdh_PrimTypeLib.xda> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "5vfx30tff665-1".
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal fpga_0_SysACE_CompactFlash_SysACE_MPIRQ_pin
+   connected to top level port fpga_0_SysACE_CompactFlash_SysACE_MPIRQ_pin has
+   been removed.
+WARNING:MapLib:701 - Signal fpga_0_Ethernet_MAC_PHY_col_pin connected to top
+   level port fpga_0_Ethernet_MAC_PHY_col_pin has been removed.
+Writing file system_map.ngm...
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_0
+   of frag REGCLKAU connected to power/ground net
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_0_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_0
+   of frag REGCLKAL connected to power/ground net
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_0_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_1
+   of frag REGCLKAU connected to power/ground net
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_1_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_1
+   of frag REGCLKAL connected to power/ground net
+   xps_bram_if_cntlr_1_bram/xps_bram_if_cntlr_1_bram/ramb36_1_REGCLKAL_tiesig
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Timing:3223 - Timing constraint TS_MC_RDEN_SEL_MUX = MAXDELAY FROM
+   TIMEGRP "TNM_RDEN_SEL_MUX" TO TIMEGRP "TNM_CLK0" TS_MC_CLK * 4 ignored during
+   timing analysis.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 35 secs 
+Total CPU  time at the beginning of Placer: 29 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:a0e6a697) REAL time: 38 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:a0e6a697) REAL time: 38 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:43aa089f) REAL time: 38 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:c24ccb4d) REAL time: 38 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:c24ccb4d) REAL time: 1 mins 19 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:c24ccb4d) REAL time: 1 mins 20 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+.......
+
+
+There are 8 clock regions on the target FPGA device:
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y3:                        | CLOCKREGION_X1Y3:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y2:                        | CLOCKREGION_X1Y2:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 3 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y1:                        | CLOCKREGION_X1Y1:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 1 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y0:                        | CLOCKREGION_X1Y0:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+
+
+Clock-Region: <CLOCKREGION_X0Y1>
+  key resource utilizations (used/available): edge-bufios - 1/4; center-bufios - 0/2; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   60   |   60   |  1280 |   640 |  1920 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   60   |   60   |  1280 |   640 |  1920 |   0  |   0  |  1  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|  24  |  2  |  0 |   60   |   60   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2>
+  key resource utilizations (used/available): edge-bufios - 3/4; center-bufios - 0/2; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|  24  |  2  |  0 |   60   |   60   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   60   |   60   |  1280 |   640 |  1920 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   60   |   60   |  1280 |   640 |  1920 |   0  |   0  |  1  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+
+
+######################################################################################
+# REGIONAL CLOCKING RESOURCE DISTRIBUTION UCF REPORT:
+#
+# Number of Regional Clocking Regions in the device: 8  (4 clock spines in each)
+# Number of Regional Clock Networks used in this design: 4 (each network can be
+# composed of up to 3 clock spines and cover up to 3 regional clock regions)
+# 
+######################################################################################
+
+# IO-Clock "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" driven by
+"BUFIO_X0Y7"
+INST "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[0].u_iob_dqs/u_bufio_dqs"
+LOC = "BUFIO_X0Y7" ;
+NET "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" TNM_NET =
+"TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" ;
+TIMEGRP "TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" RANGE =
+CLOCKREGION_X0Y1;
+
+
+# IO-Clock "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" driven by
+"BUFIO_X0Y8"
+INST "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[1].u_iob_dqs/u_bufio_dqs"
+LOC = "BUFIO_X0Y8" ;
+NET "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" TNM_NET =
+"TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" ;
+TIMEGRP "TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+# IO-Clock "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" driven by
+"BUFIO_X0Y10"
+INST "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[2].u_iob_dqs/u_bufio_dqs"
+LOC = "BUFIO_X0Y10" ;
+NET "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" TNM_NET =
+"TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" ;
+TIMEGRP "TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+# IO-Clock "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" driven by
+"BUFIO_X0Y11"
+INST "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[3].u_iob_dqs/u_bufio_dqs"
+LOC = "BUFIO_X0Y11" ;
+NET "DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" TNM_NET =
+"TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" ;
+TIMEGRP "TN_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM_16Mx32/DDR2_SDRAM_16Mx32/u_ddr2_top/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:73461a42) REAL time: 1 mins 21 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:73461a42) REAL time: 1 mins 21 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:73461a42) REAL time: 1 mins 21 secs 
+
+Phase 10.3  Local Placement Optimization
+Phase 10.3  Local Placement Optimization (Checksum:73461a42) REAL time: 1 mins 21 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:73461a42) REAL time: 1 mins 21 secs 
+
+Phase 12.8  Global Placement
+............................
+......................................................................................................................................
+.................................................................................
+.............................................................................................
+..................................................................................
+....................................................................
+................
+Phase 12.8  Global Placement (Checksum:ab581e67) REAL time: 1 mins 50 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:ab581e67) REAL time: 1 mins 50 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:ab581e67) REAL time: 1 mins 50 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:b4707b9d) REAL time: 2 mins 37 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:b4707b9d) REAL time: 2 mins 37 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:b4707b9d) REAL time: 2 mins 38 secs 
+
+Total REAL time to Placer completion: 2 mins 38 secs 
+Total CPU  time to Placer completion: 2 mins 31 secs 
+Running post-placement packing...
+Writing output files...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    9
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,734 out of  20,480   18
+    Number used as Flip Flops:               3,734
+  Number of Slice LUTs:                      3,361 out of  20,480   16
+    Number used as logic:                    3,201 out of  20,480   15
+      Number using O6 output only:           2,994
+      Number using O5 output only:              40
+      Number using O5 and O6:                  167
+    Number used as Memory:                     153 out of   6,080    2
+      Number used as Dual Port RAM:             14
+        Number using O6 output only:             6
+        Number using O5 and O6:                  8
+      Number used as Single Port RAM:            4
+        Number using O6 output only:             4
+      Number used as Shift Register:           135
+        Number using O6 output only:           135
+    Number used as exclusive route-thru:         7
+  Number of route-thrus:                        51
+    Number using O6 output only:                45
+    Number using O5 output only:                 4
+    Number using O5 and O6:                      2
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,229 out of   5,120   43
+  Number of LUT Flip Flop pairs used:        5,118
+    Number with an unused Flip Flop:         1,384 out of   5,118   27
+    Number with an unused LUT:               1,757 out of   5,118   34
+    Number of fully used LUT-FF pairs:       1,977 out of   5,118   38
+    Number of unique control sets:             569
+    Number of slice register sites lost
+      to control set restrictions:           1,233 out of  20,480    6
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       189 out of     360   52
+    Number of LOCed IOBs:                      189 out of     189  100
+    IOB Flip Flops:                            305
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                       7 out of      68   10
+    Number using BlockRAM only:                  6
+    Number using FIFO only:                      1
+    Total primitives used:
+      Number of 36k BlockRAM used:               6
+      Number of 36k FIFO used:                   1
+    Total Memory used (KB):                    252 out of   2,448   10
+  Number of BUFG/BUFGCTRLs:                      6 out of      32   18
+    Number used as BUFGs:                        6
+  Number of IDELAYCTRLs:                         2 out of      12   16
+  Number of BUFIOs:                              4 out of      40   10
+  Number of PLL_ADVs:                            1 out of       2   50
+  Number of PPC440s:                             1 out of       1  100
+
+Average Fanout of Non-Clock Nets:                3.37
+
+Peak Memory Usage:  385 MB
+Total REAL time to MAP completion:  2 mins 45 secs 
+Total CPU time to MAP completion:   2 mins 37 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.4 - par M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/12.4/ISE_DS/EDK/data/parBmgr.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '5vfx30t.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc5vfx30t, package ff665, speed -1
+WARNING:ConstraintSystem:65 - Constraint <NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk_i" PERIOD = 40 ns HIGH 50;>
+   [system.pcf(19880)] overrides constraint <NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk_i" PERIOD = 40 ns HIGH 14 ns;>
+   [system.pcf(19879)].
+
+WARNING:ConstraintSystem:65 - Constraint <NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF" PERIOD = 40 ns HIGH 50;>
+   [system.pcf(19883)] overrides constraint <NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF" PERIOD = 40 ns HIGH 14 ns;>
+   [system.pcf(19882)].
+
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.72 2010-11-18".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           6 out of 32     18
+   Number of BUFIOs                          4 out of 40     10
+   Number of FIFO36_72_EXPs                  1 out of 68      1
+   Number of IDELAYCTRLs                     2 out of 12     16
+   Number of ILOGICs                        79 out of 400    19
+   Number of External IOBs                 189 out of 360    52
+      Number of LOCed IOBs                 189 out of 189   100
+
+   Number of IODELAYs                       40 out of 400    10
+   Number of JTAGPPCs                        1 out of 1     100
+   Number of OLOGICs                       154 out of 400    38
+   Number of PLL_ADVs                        1 out of 2      50
+   Number of PPC440s                         1 out of 1     100
+   Number of RAMB36_EXPs                     6 out of 68      8
+   Number of Slices                       2229 out of 5120   43
+   Number of Slice Registers              3734 out of 20480  18
+      Number used as Flip Flops           3734
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   3361 out of 20480  16
+   Number of Slice LUT-Flip Flop pairs    5118 out of 20480  24
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+WARNING:Timing:3223 - Timing constraint TS_MC_RDEN_SEL_MUX = MAXDELAY FROM TIMEGRP "TNM_RDEN_SEL_MUX" TO TIMEGRP       
+   "TNM_CLK0" TS_MC_CLK * 4; ignored during timing analysis.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please
+   consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 18 secs 
+Finished initial Timing Analysis.  REAL time: 18 secs 
+
+WARNING:Par:288 - The signal xps_bram_if_cntlr_1_port_BRAM_Addr<31> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal xps_bram_if_cntlr_1_port_BRAM_Addr<30> has no load.  PAR will not attempt to route this
+   signal.
+Starting Router
+
+
+Phase  1  : 24150 unrouted;      REAL time: 19 secs 
+INFO:Route:538 - One or more MIG cores have been detected in your design and have been successfully
+   placed and routed. These MIG core(s) have critical skew and delay requirements 
+   that are independent of the user (UCF) timing constraints. These MIG-related timing 
+   constraints have been successfully met in this design. However, the user must verify
+   separately that all timing constraints specified in the UCF file have been met.
+
+
+Phase  2  : 20651 unrouted;      REAL time: 21 secs 
+
+Phase  3  : 6742 unrouted;      REAL time: 47 secs 
+
+Phase  4  : 6747 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 53 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:466, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 3 secs 
+Total REAL time to Router completion: 1 mins 3 secs 
+Total CPU time to Router completion: 1 mins 4 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+WARNING:ParHelpers:81 - 
+   The following Clock signals have USELOWSKEWLINES constraint
+   specified. The router was not able to completely route using
+   the LOW SKEW resources. Check the timing report to verify the
+   delay and skew for this net.
+Net Name: fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|clk_125_0000MHzPLL0_ |              |      |      |            |             |
+|              ADJUST |BUFGCTRL_X0Y29| No   | 1445 |  0.422     |  1.952      |
++---------------------+--------------+------+------+------------+-------------+
+|clk_62_5000MHzPLL0_A |              |      |      |            |             |
+|               DJUST |BUFGCTRL_X0Y27| No   |  369 |  0.318     |  1.940      |
++---------------------+--------------+------+------+------------+-------------+
+|clk_125_0000MHz90PLL |              |      |      |            |             |
+|            0_ADJUST |BUFGCTRL_X0Y31| No   |   90 |  0.179     |  1.914      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_SysACE_Compac |              |      |      |            |             |
+|tFlash_SysACE_CLK_pi |              |      |      |            |             |
+|             n_BUFGP |BUFGCTRL_X0Y26| No   |   55 |  0.137     |  1.768      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<0> |        IO Clk| No   |   17 |  0.079     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<1> |        IO Clk| No   |   17 |  0.080     |  0.404      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<2> |        IO Clk| No   |   17 |  0.095     |  0.419      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_16Mx32/DD |              |      |      |            |             |
+|R2_SDRAM_16Mx32/u_dd |              |      |      |            |             |
+|r2_top/u_mem_if_top/ |              |      |      |            |             |
+|u_phy_top/u_phy_io/d |              |      |      |            |             |
+|       elayed_dqs<3> |        IO Clk| No   |   17 |  0.079     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|     clk_200_0000MHz |BUFGCTRL_X0Y28| No   |    3 |  0.068     |  1.768      |
++---------------------+--------------+------+------+------------+-------------+
+| clk_125_0000MHzPLL0 |BUFGCTRL_X0Y30| No   |    2 |  0.000     |  1.737      |
++---------------------+--------------+------+------+------------+-------------+
+|Ethernet_MAC/Etherne |              |      |      |            |             |
+|  t_MAC/phy_tx_clk_i |         Local|      |   21 |  1.671     |  3.137      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_Ethernet_MAC_ |              |      |      |            |             |
+| PHY_rx_clk_pin_IBUF |         Local|      |   19 |  1.405     |  2.800      |
++---------------------+--------------+------+------+------------+-------------+
+|ppc440_0_jtagppc_bus |              |      |      |            |             |
+|         _JTGC405TCK |         Local|      |    1 |  0.000     |  1.678      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 6
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.062ns|     7.938ns|       0|           0
+  G_PLL0_CLKOUT2 = PERIOD TIMEGRP         " | HOLD        |     0.030ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT2" TS_sys_clk_pin         * 1.2 |             |            |            |        |            
+  5 HIGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_DQ_CE = MAXDELAY FROM TIMEGRP "TNM_DQ_ | SETUP       |     1.034ns|     2.366ns|       0|           0
+  CE_IDDR" TO TIMEGRP "TNM_DQS_FLOPS"       | HOLD        |     1.321ns|            |       0|           0
+     3.4 ns                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     2.220ns|     4.646ns|       0|           0
+  G_PLL0_CLKOUT0 = PERIOD TIMEGRP         " | HOLD        |     0.463ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT0" TS_sys_clk_pin         * 1.2 |             |            |            |        |            
+  5 PHASE 2 ns HIGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk | NETSKEW     |     2.863ns|     3.137ns|       0|           0
+  _i" MAXSKEW = 6 ns                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     3.649ns|     1.351ns|       0|           0
+  G_PLL0_CLKOUT3 = PERIOD TIMEGRP         " | HOLD        |     0.486ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P | MINPERIOD   |     3.334ns|     1.666ns|       0|           0
+  LL0_CLKOUT3" TS_sys_clk_pin         * 2 H |             |            |            |        |            
+  IGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
+  pin" 100 MHz HIGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_CLK = PERIOD TIMEGRP "mc_clk" 7.5 n | MINPERIOD   |     3.510ns|     3.990ns|       0|           0
+  s HIGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_I | NETSKEW     |     4.497ns|     1.503ns|       0|           0
+  BUF" MAXSKEW = 6 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     4.741ns|     6.518ns|       0|           0
+  G_PLL0_CLKOUT4 = PERIOD TIMEGRP         " | HOLD        |     0.150ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT4" TS_sys_clk_pin         * 0.6 |             |            |            |        |            
+  25 HIGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | MINPERIOD   |     4.900ns|     3.100ns|       0|           0
+  G_PLL0_CLKOUT1 = PERIOD TIMEGRP         " |             |            |            |        |            
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT1" TS_sys_clk_pin         * 1.2 |             |            |            |        |            
+  5 HIGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TSTXOUT_Ethernet_MAC = MAXDELAY FROM TIME | MAXDELAY    |     6.892ns|     3.108ns|       0|           0
+  GRP "TXCLK_GRP_Ethernet_MAC" TO         T |             |            |            |        |            
+  IMEGRP "PADS" 10 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  OFFSET = IN 6 ns BEFORE COMP "fpga_0_Ethe | SETUP       |     7.763ns|    -1.763ns|       0|           0
+  rnet_MAC_PHY_rx_clk_pin"                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk | SETUP       |    15.328ns|     9.344ns|       0|           0
+  _i" PERIOD = 40 ns HIGH 50| HOLD        |     0.225ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_I | SETUP       |    15.751ns|     8.498ns|       0|           0
+  BUF" PERIOD = 40 ns HIGH 50| HOLD        |     0.185ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_90 = MAXDELAY FRO | SETUP       |    25.675ns|     4.325ns|       0|           0
+  M TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO      | HOLD        |     0.347ns|            |       0|           0
+      TIMEGRP "TNM_CLK90" TS_MC_CLK * 4     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_0 = MAXDELAY FROM | SETUP       |    26.759ns|     3.241ns|       0|           0
+   TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO       | HOLD        |     0.182ns|            |       0|           0
+     TIMEGRP "TNM_CLK0" TS_MC_CLK * 4       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_CAL_RDEN_DLY = MAXDELAY FROM TIMEGR | SETUP       |    28.066ns|     1.934ns|       0|           0
+  P "TNM_CAL_RDEN_DLY" TO TIMEGRP         " | HOLD        |     0.125ns|            |       0|           0
+  TNM_CLK0" TS_MC_CLK * 4                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_GATE_DLY = MAXDELAY FROM TIMEGRP "T | SETUP       |    28.137ns|     1.863ns|       0|           0
+  NM_GATE_DLY" TO TIMEGRP "TNM_CLK0"        | HOLD        |     0.021ns|            |       0|           0
+    TS_MC_CLK * 4                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_RDEN_DLY = MAXDELAY FROM TIMEGRP "T | SETUP       |    28.150ns|     1.850ns|       0|           0
+  NM_RDEN_DLY" TO TIMEGRP "TNM_CLK0"        | HOLD        |     0.175ns|            |       0|           0
+    TS_MC_CLK * 4                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_RDEN_SEL_MUX = MAXDELAY FROM TIMEGR | N/A         |         N/A|         N/A|     N/A|         N/A
+  P "TNM_RDEN_SEL_MUX" TO TIMEGRP         " |             |            |            |        |            
+  TNM_CLK0" TS_MC_CLK * 4                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_I | N/A         |         N/A|         N/A|     N/A|         N/A
+  BUF" PERIOD = 40 ns HIGH 14 ns            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "Ethernet_MAC/Ethernet_MAC/phy_tx_clk | N/A         |         N/A|         N/A|     N/A|         N/A
+  _i" PERIOD = 40 ns HIGH 14 ns             |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|      4.000ns|      9.922ns|            0|            0|            0|        58103|
+| TS_clock_generator_0_clock_gen|      8.000ns|      4.646ns|          N/A|            0|            0|          343|            0|
+| erator_0_SIG_PLL0_CLKOUT0     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      8.000ns|      3.100ns|          N/A|            0|            0|            0|            0|
+| erator_0_SIG_PLL0_CLKOUT1     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      8.000ns|      7.938ns|          N/A|            0|            0|        50568|            0|
+| erator_0_SIG_PLL0_CLKOUT2     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      5.000ns|      1.666ns|          N/A|            0|            0|            2|            0|
+| erator_0_SIG_PLL0_CLKOUT3     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|     16.000ns|      6.518ns|          N/A|            0|            0|         7190|            0|
+| erator_0_SIG_PLL0_CLKOUT4     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_MC_CLK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_MC_CLK                      |      7.500ns|      3.990ns|      1.081ns|            0|            0|            0|          173|
+| TS_MC_PHY_INIT_DATA_SEL_0     |     30.000ns|      3.241ns|          N/A|            0|            0|           21|            0|
+| TS_MC_PHY_INIT_DATA_SEL_90    |     30.000ns|      4.325ns|          N/A|            0|            0|          122|            0|
+| TS_MC_GATE_DLY                |     30.000ns|      1.863ns|          N/A|            0|            0|           20|            0|
+| TS_MC_RDEN_DLY                |     30.000ns|      1.850ns|          N/A|            0|            0|            5|            0|
+| TS_MC_CAL_RDEN_DLY            |     30.000ns|      1.934ns|          N/A|            0|            0|            5|            0|
+| TS_MC_RDEN_SEL_MUX            |     30.000ns|          N/A|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 1 mins 23 secs 
+Total CPU time to PAR completion: 1 mins 9 secs 
+
+Peak Memory Usage:  335 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 8
+Number of info messages: 2
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.4 - Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+Loading device for application Rf_Device from file '5vfx30t.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc5vfx30t, package ff665, speed -1
+WARNING:ConstraintSystem:65 - Constraint <NET
+   "Ethernet_MAC/Ethernet_MAC/phy_tx_clk_i" PERIOD = 40 ns HIGH 50;>
+   [system.pcf(19880)] overrides constraint <NET
+   "Ethernet_MAC/Ethernet_MAC/phy_tx_clk_i" PERIOD = 40 ns HIGH 14 ns;>
+   [system.pcf(19879)].
+
+WARNING:ConstraintSystem:65 - Constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF" PERIOD = 40 ns HIGH 50;>
+   [system.pcf(19883)] overrides constraint <NET
+   "fpga_0_Ethernet_MAC_PHY_rx_clk_pin_IBUF" PERIOD = 40 ns HIGH 14 ns;>
+   [system.pcf(19882)].
+
+WARNING:Timing:3223 - Timing constraint TS_MC_RDEN_SEL_MUX = MAXDELAY FROM
+   TIMEGRP "TNM_RDEN_SEL_MUX" TO TIMEGRP        "TNM_CLK0" TS_MC_CLK * 4;
+   ignored during timing analysis.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more
+   information, see the TSI report.  Please consult the Xilinx Command Line
+   Tools User Guide for information on generating a TSI report.
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -e 3 -xml system.twx
+system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc5vfx30t,-1 (PRODUCTION 1.72 2010-11-18, STEPPING
+level 0)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
+
+Constraints cover 58625 paths, 2 nets, and 20817 connections
+
+Design statistics:
+   Minimum period:   9.344ns (Maximum frequency: 107.021MHz)
+   Maximum path delay from/to any node:   4.325ns
+   Maximum net skew:   3.137ns
+
+
+Analysis completed Thu Feb 24 16:22:25 2011
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 3
+Number of info messages: 3
+Total time: 21 secs 
+
+
+xflow done!
+touch __xps/system_routed
+xilperl C:/Xilinx/12.4/ISE_DS/EDK/data/fpga_impl/observe_par.pl -error yes implementation/system.par
+Analyzing implementation/system.par
+*********************************************
+Running Bitgen..
+*********************************************
+cd implementation; bitgen -w -f bitgen.ut system; cd ..
+Release 12.4 - Bitgen M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/virtex5/data/virtex5.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/virtex5/data/virtex5.acd>
+Loading device for application Rf_Device from file '5vfx30t.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc5vfx30t, package ff665, speed -1
+Opened constraints file system.pcf.
+
+Thu Feb 24 16:22:38 2011
+
+Running DRC.
+WARNING:PhysDesignRules:367 - The signal
+   <xps_bram_if_cntlr_1_port_BRAM_Addr<31>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <xps_bram_if_cntlr_1_port_BRAM_Addr<30>> is incomplete. The signal does not
+   drive any load pins in the design.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "system.bit".
+Bitstream generation is complete.
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc5vfx30tff665-1   -msg __xps/ise/xmsgprops.lst system.mss
+libgen
+Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc5vfx30tff665-1 -msg
+__xps/ise/xmsgprops.lst system.mss 
+
+Release 12.4 - psf2Edward EDK_MS4.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 95 - 1 master(s) : 9
+slave(s)
+
+Checking port drivers...
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   M:\MASTER\COMPET\Trigger\HW\HDL\EDK\system.mhs line 354 - floating
+   connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Port present in Ethernet_MAC
+Conversion to XML complete.
+
+-- Generating libraries for processor: ppc440_0 --
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=powerpc-eabi-gcc"
+"ARCHIVER=powerpc-eabi-ar" "COMPILER_FLAGS=-mcpu=440  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=powerpc-eabi-gcc"
+"ARCHIVER=powerpc-eabi-ar" "COMPILER_FLAGS=-mcpu=440  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling common
+powerpc-eabi-ar: creating ../../../lib/libxil.a
+Compiling lldma
+Compiling standalone
+Compiling gpio
+Compiling emaclite
+Compiling uartlite
+Compiling sysace
+Compiling cpu_ppc440
+Running execs_generate.
+powerpc-eabi-gcc -O2 TestApp_Memory_ppc440_0/src/TestApp_Memory.c  -o TestApp_Memory_ppc440_0/executable.elf \
+	    -mcpu=440  -Wl,-T -Wl,TestApp_Memory_ppc440_0/src/TestApp_Memory_LinkScr.ld  -g    -I./ppc440_0/include/  -L./ppc440_0/lib/  \
+	  
+powerpc-eabi-size TestApp_Memory_ppc440_0/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5826	    316	   1580	   7722	   1e2a	TestApp_Memory_ppc440_0/executable.elf
+
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit -p xc5vfx30tff665-1 system.mhs   -pe ppc440_0 TestApp_Memory_ppc440_0/executable.elf  \
+	-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+
+Overriding IP level properties ...
+INFO:EDK:1560 - IPNAME:ppc440mc_ddr2 INSTANCE:DDR2_SDRAM_16Mx32 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\ppc440mc_ddr2_v3_00_
+   c\data\ppc440mc_ddr2_v2_1_0.mpd line 103 - tcl is overriding PARAMETER
+   C_IODELAY_GRP value to DDR2_SDRAM_16Mx32
+orig_family is virtex5
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor ppc440_0
+  (0b0000000000-0b0011111111) ppc440_0	
+  (0000000000-0x03ffffff) DDR2_SDRAM_16Mx32	ppc440_0_PPC440MC
+  (0x81000000-0x8100ffff) Ethernet_MAC	plb_v46_0
+  (0x81400000-0x8140ffff) Push_Buttons_3Bit	plb_v46_0
+  (0x81420000-0x8142ffff) LEDs_8Bit	plb_v46_0
+  (0x81440000-0x8144ffff) DIP_Switches_8Bit	plb_v46_0
+  (0x83600000-0x8360ffff) SysACE_CompactFlash	plb_v46_0
+  (0x84000000-0x8400ffff) RS232_USB	plb_v46_0
+  (0x84020000-0x8402ffff) RS232	plb_v46_0
+  (0xfe000000-0xfeffffff) FLASH_8Mx16	plb_v46_0
+  (0xffffe000-0xffffffff) xps_bram_if_cntlr_1	plb_v46_0
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 9
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:plb_v46_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_bram_if_cntlr INSTANCE:xps_bram_if_cntlr_1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_bram_if_cntlr_v1
+   _00_b\data\xps_bram_if_cntlr_v2_1_0.mpd line 73 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_bram_if_cntlr INSTANCE:xps_bram_if_cntlr_1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_bram_if_cntlr_v1
+   _00_b\data\xps_bram_if_cntlr_v2_1_0.mpd line 74 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 1
+INFO:EDK:1560 - IPNAME:xps_bram_if_cntlr INSTANCE:xps_bram_if_cntlr_1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_bram_if_cntlr_v1
+   _00_b\data\xps_bram_if_cntlr_v2_1_0.mpd line 78 - tool is overriding
+   PARAMETER C_SPLB_SMALLEST_MASTER value to 128
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:xps_bram_if_cntlr_1_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x2000
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:xps_bram_if_cntlr_1_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 68 - tool is overriding PARAMETER
+   C_PORT_DWIDTH value to 64
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:xps_bram_if_cntlr_1_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_NUM_WE
+   value to 8
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a
+   \data\xps_uartlite_v2_1_0.mpd line 71 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232_USB -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a
+   \data\xps_uartlite_v2_1_0.mpd line 71 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_gpio INSTANCE:LEDs_8Bit -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_gpio_v2_00_a\dat
+   a\xps_gpio_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_SPLB_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_gpio INSTANCE:DIP_Switches_8Bit -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_gpio_v2_00_a\dat
+   a\xps_gpio_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_SPLB_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_gpio INSTANCE:Push_Buttons_3Bit -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_gpio_v2_00_a\dat
+   a\xps_gpio_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_SPLB_DWIDTH
+   value to 128
+INFO:EDK:1560 - IPNAME:xps_mch_emc INSTANCE:FLASH_8Mx16 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_mch_emc_v3_01_a\
+   data\xps_mch_emc_v2_1_0.mpd line 80 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_mch_emc INSTANCE:FLASH_8Mx16 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_mch_emc_v3_01_a\
+   data\xps_mch_emc_v2_1_0.mpd line 82 - tool is overriding PARAMETER
+   C_SPLB_SMALLEST_MASTER value to 128
+INFO:EDK:1560 - IPNAME:xps_ethernetlite INSTANCE:Ethernet_MAC -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_ethernetlite_v4_
+   00_a\data\xps_ethernetlite_v2_1_0.mpd line 74 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_ethernetlite INSTANCE:Ethernet_MAC -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_ethernetlite_v4_
+   00_a\data\xps_ethernetlite_v2_1_0.mpd line 79 - tool is overriding PARAMETER
+   C_SPLB_SMALLEST_MASTER value to 128
+INFO:EDK:1560 - IPNAME:xps_sysace INSTANCE:SysACE_CompactFlash -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_sysace_v1_01_a\d
+   ata\xps_sysace_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 128
+INFO:EDK:1560 - IPNAME:xps_sysace INSTANCE:SysACE_CompactFlash -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_sysace_v1_01_a\d
+   ata\xps_sysace_v2_1_0.mpd line 72 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_sysace INSTANCE:SysACE_CompactFlash -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_sysace_v1_01_a\d
+   ata\xps_sysace_v2_1_0.mpd line 73 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 1
+
+Checking platform address map ...
+
+Initializing Memory...
+Running Data2Mem with the following command:
+data2mem -bm "implementation/system_bd" -p xc5vfx30tff665-1 -bt
+"implementation/system.bit"  -bd "TestApp_Memory_ppc440_0/executable.elf" tag
+ppc440_0  -o b implementation/download.bit 
+Memory Initialization completed successfully.
+
+Done!
+
+********************************************************************************
+At Local date and time: Thu Feb 24 16:36:41 2011
+ make -f system.make program started...
+powerpc-eabi-gcc -O2 TestApp_Peripheral_ppc440_0/src/TestApp_Peripheral.c TestApp_Peripheral_ppc440_0/src/xuartlite_selftest_example.c TestApp_Peripheral_ppc440_0/src/xgpio_tapp_example.c TestApp_Peripheral_ppc440_0/src/xemaclite_polled_example.c TestApp_Peripheral_ppc440_0/src/xemaclite_example_util.c TestApp_Peripheral_ppc440_0/src/xsysace_selftest_example.c  -o TestApp_Peripheral_ppc440_0/executable.elf \
+	    -mcpu=440  -Wl,-T -Wl,TestApp_Peripheral_ppc440_0/src/TestApp_Peripheral_LinkScr.ld  -g    -I./ppc440_0/include/  -ITestApp_Peripheral_ppc440_0/src/  -L./ppc440_0/lib/  \
+	  
+powerpc-eabi-size TestApp_Peripheral_ppc440_0/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22170	    428	  19652	  42250	   a50a	TestApp_Peripheral_ppc440_0/executable.elf
+
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	\\aristoteles\kimei\MASTER\COMPET\Trigger\HW\HDL\EDK\etc\system.filters
+Done writing Tab View settings to:
+	\\aristoteles\kimei\MASTER\COMPET\Trigger\HW\HDL\EDK\etc\system.gui

@@ -1,0 +1,4 @@
+#
+# Clock constraints
+#
+NET "CLK" TNM_NET = D_CLK ;

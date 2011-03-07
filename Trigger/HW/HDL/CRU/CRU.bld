@@ -3,7 +3,7 @@ Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
 
 Command Line: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise
 M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ise -intstyle ise -dd _ngo -nt timestamp
--i -p xc5vlx50t-ff1136-1 CRU.ngc CRU.ngd
+-i -p xc5vlx30t-ff665-1 CRU.ngc CRU.ngd
 
 Reading NGO file "M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ngc" ...
 Reading in constraint information from 'CRU.ucf'...

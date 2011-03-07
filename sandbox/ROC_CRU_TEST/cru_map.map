@@ -1,0 +1,465 @@
+Release 10.1.03 Map K.39 (nt)
+Xilinx Map Application Log File for Design 'cru'
+
+Design Information
+------------------
+Command Line   : map -ise M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/ROC_CRU_TEST.ise
+-intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt on -ol high -xe n -t 1
+-register_duplication -global_opt on -retiming on -equivalent_register_removal
+on -cm area -pr b -k 6 -lc auto -power off -o cru_map.ncd cru.ngd cru.pcf 
+Target Device  : xc5vlx50t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.46.12.2 $
+Mapped Date    : Thu Feb 24 11:33:09 2011
+
+Running global optimization...
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven packing...
+
+Phase 1.1
+Phase 1.1 (Checksum:addae) REAL time: 5 secs 
+
+Phase 2.7
+INFO:Place:834 - Only a subset of IOs are locked. Out of 20 IOs, 10 are locked
+   and 10 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+Phase 2.7 (Checksum:addae) REAL time: 6 secs 
+
+Phase 3.31
+Phase 3.31 (Checksum:addae) REAL time: 6 secs 
+
+Phase 4.33
+Phase 4.33 (Checksum:addae) REAL time: 6 secs 
+
+Phase 5.32
+Phase 5.32 (Checksum:addae) REAL time: 6 secs 
+
+Phase 6.2
+....
+......
+.....
+Phase 6.2 (Checksum:17a015) REAL time: 7 secs 
+
+......
+.
+Phase 7.30
+
+
+######################################################################################
+# GLOBAL CLOCK NET DISTRIBUTION UCF REPORT:
+#
+# Number of Global Clock Regions : 12
+# Number of Global Clock Networks: 16
+#
+# Clock Region Assignment: SUCCESSFUL
+
+# Location of Clock Components
+INST "clk100m_ctu" LOC = "IOB_X1Y161" ;
+INST "fpga_100m_clk" LOC = "IOB_X1Y179" ;
+INST "clk_gen_pll/CLKOUT0_BUFG_INST" LOC = "BUFGCTRL_X0Y23" ;
+INST "Inst_DCM2PLL/CLKOUT0_BUFG_INST" LOC = "BUFGCTRL_X0Y30" ;
+INST "clk_gen_pll/CLKOUT1_BUFG_INST" LOC = "BUFGCTRL_X0Y18" ;
+INST "REFCLK_200MHz_mux" LOC = "BUFGCTRL_X0Y17" ;
+INST "mclk_mux" LOC = "BUFGCTRL_X0Y25" ;
+INST "Inst_DCM2PLL/CLKOUT1_BUFG_INST" LOC = "BUFGCTRL_X0Y19" ;
+INST "clk_gen_pll/CLKOUT2_BUFG_INST" LOC = "BUFGCTRL_X0Y22" ;
+INST "Inst_DCM2PLL/CLKOUT2_BUFG_INST" LOC = "BUFGCTRL_X0Y16" ;
+INST "clk_gen_pll/CLKOUT3_BUFG_INST" LOC = "BUFGCTRL_X0Y26" ;
+INST "Inst_DCM2PLL/CLK0_BUFG_INST" LOC = "BUFGCTRL_X0Y31" ;
+INST "up_clk_mux" LOC = "BUFGCTRL_X0Y29" ;
+INST "Inst_DCM2PLL/CLKOUT3_BUFG_INST" LOC = "BUFGCTRL_X0Y24" ;
+INST "clk_gen_pll/CLKOUT4_BUFG_INST" LOC = "BUFGCTRL_X0Y28" ;
+INST "fe_clk_mux" LOC = "BUFGCTRL_X0Y21" ;
+INST "REFCLK_125MHz_mux" LOC = "BUFGCTRL_X0Y20" ;
+INST "Inst_DCM2PLL/CLKOUT4_BUFG_INST" LOC = "BUFGCTRL_X0Y27" ;
+INST "Inst_DCM2PLL/DCM_ADV_INST" LOC = "DCM_ADV_X0Y10" ;
+INST "clk_gen_pll/PLL_ADV_INST" LOC = "PLL_ADV_X0Y3" ;
+INST "Inst_DCM2PLL/PLL_ADV_INST" LOC = "PLL_ADV_X0Y5" ;
+
+# up_clk_i_0 driven by BUFGCTRL_X0Y23
+NET "up_clk_i_0" TNM_NET = "TN_up_clk_i_0" ;
+TIMEGRP "TN_up_clk_i_0" AREA_GROUP = "CLKAG_up_clk_i_0" ;
+AREA_GROUP "CLKAG_up_clk_i_0" RANGE =  ;
+
+# up_clk_i_1 driven by BUFGCTRL_X0Y30
+NET "up_clk_i_1" TNM_NET = "TN_up_clk_i_1" ;
+TIMEGRP "TN_up_clk_i_1" AREA_GROUP = "CLKAG_up_clk_i_1" ;
+AREA_GROUP "CLKAG_up_clk_i_1" RANGE =  ;
+
+# fe_clk_i_0 driven by BUFGCTRL_X0Y18
+NET "fe_clk_i_0" TNM_NET = "TN_fe_clk_i_0" ;
+TIMEGRP "TN_fe_clk_i_0" AREA_GROUP = "CLKAG_fe_clk_i_0" ;
+AREA_GROUP "CLKAG_fe_clk_i_0" RANGE =  ;
+
+# REFCLK_200MHz_OBUF driven by BUFGCTRL_X0Y17
+NET "REFCLK_200MHz_OBUF" TNM_NET = "TN_REFCLK_200MHz_OBUF" ;
+TIMEGRP "TN_REFCLK_200MHz_OBUF" AREA_GROUP = "CLKAG_REFCLK_200MHz_OBUF" ;
+AREA_GROUP "CLKAG_REFCLK_200MHz_OBUF" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# mclk_OBUF driven by BUFGCTRL_X0Y25
+NET "mclk_OBUF" TNM_NET = "TN_mclk_OBUF" ;
+TIMEGRP "TN_mclk_OBUF" AREA_GROUP = "CLKAG_mclk_OBUF" ;
+AREA_GROUP "CLKAG_mclk_OBUF" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# fe_clk_i_1 driven by BUFGCTRL_X0Y19
+NET "fe_clk_i_1" TNM_NET = "TN_fe_clk_i_1" ;
+TIMEGRP "TN_fe_clk_i_1" AREA_GROUP = "CLKAG_fe_clk_i_1" ;
+AREA_GROUP "CLKAG_fe_clk_i_1" RANGE =  ;
+
+# mclk_i_0 driven by BUFGCTRL_X0Y22
+NET "mclk_i_0" TNM_NET = "TN_mclk_i_0" ;
+TIMEGRP "TN_mclk_i_0" AREA_GROUP = "CLKAG_mclk_i_0" ;
+AREA_GROUP "CLKAG_mclk_i_0" RANGE =  ;
+
+# mclk_i_1 driven by BUFGCTRL_X0Y16
+NET "mclk_i_1" TNM_NET = "TN_mclk_i_1" ;
+TIMEGRP "TN_mclk_i_1" AREA_GROUP = "CLKAG_mclk_i_1" ;
+AREA_GROUP "CLKAG_mclk_i_1" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# REFCLK_125MHz_i_0 driven by BUFGCTRL_X0Y26
+NET "REFCLK_125MHz_i_0" TNM_NET = "TN_REFCLK_125MHz_i_0" ;
+TIMEGRP "TN_REFCLK_125MHz_i_0" AREA_GROUP = "CLKAG_REFCLK_125MHz_i_0" ;
+AREA_GROUP "CLKAG_REFCLK_125MHz_i_0" RANGE =  ;
+
+# Inst_DCM2PLL/CLKFB_IN driven by BUFGCTRL_X0Y31
+NET "Inst_DCM2PLL/CLKFB_IN" TNM_NET = "TN_Inst_DCM2PLL/CLKFB_IN" ;
+TIMEGRP "TN_Inst_DCM2PLL/CLKFB_IN" AREA_GROUP = "CLKAG_Inst_DCM2PLL/CLKFB_IN" ;
+AREA_GROUP "CLKAG_Inst_DCM2PLL/CLKFB_IN" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# up_clk_OBUF driven by BUFGCTRL_X0Y29
+NET "up_clk_OBUF" TNM_NET = "TN_up_clk_OBUF" ;
+TIMEGRP "TN_up_clk_OBUF" AREA_GROUP = "CLKAG_up_clk_OBUF" ;
+AREA_GROUP "CLKAG_up_clk_OBUF" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# REFCLK_125MHz_i_1 driven by BUFGCTRL_X0Y24
+NET "REFCLK_125MHz_i_1" TNM_NET = "TN_REFCLK_125MHz_i_1" ;
+TIMEGRP "TN_REFCLK_125MHz_i_1" AREA_GROUP = "CLKAG_REFCLK_125MHz_i_1" ;
+AREA_GROUP "CLKAG_REFCLK_125MHz_i_1" RANGE =  ;
+
+# REFCLK_200MHz_i_0 driven by BUFGCTRL_X0Y28
+NET "REFCLK_200MHz_i_0" TNM_NET = "TN_REFCLK_200MHz_i_0" ;
+TIMEGRP "TN_REFCLK_200MHz_i_0" AREA_GROUP = "CLKAG_REFCLK_200MHz_i_0" ;
+AREA_GROUP "CLKAG_REFCLK_200MHz_i_0" RANGE =  ;
+
+# fe_clk_OBUF driven by BUFGCTRL_X0Y21
+NET "fe_clk_OBUF" TNM_NET = "TN_fe_clk_OBUF" ;
+TIMEGRP "TN_fe_clk_OBUF" AREA_GROUP = "CLKAG_fe_clk_OBUF" ;
+AREA_GROUP "CLKAG_fe_clk_OBUF" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# REFCLK_125MHz_OBUF driven by BUFGCTRL_X0Y20
+NET "REFCLK_125MHz_OBUF" TNM_NET = "TN_REFCLK_125MHz_OBUF" ;
+TIMEGRP "TN_REFCLK_125MHz_OBUF" AREA_GROUP = "CLKAG_REFCLK_125MHz_OBUF" ;
+AREA_GROUP "CLKAG_REFCLK_125MHz_OBUF" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# REFCLK_200MHz_i_1 driven by BUFGCTRL_X0Y27
+NET "REFCLK_200MHz_i_1" TNM_NET = "TN_REFCLK_200MHz_i_1" ;
+TIMEGRP "TN_REFCLK_200MHz_i_1" AREA_GROUP = "CLKAG_REFCLK_200MHz_i_1" ;
+AREA_GROUP "CLKAG_REFCLK_200MHz_i_1" RANGE =  ;
+
+# NOTE: 
+# This report is provided to help reproduce successful clock-region 
+# assignments. The report provides range constraints for all global 
+# clock networks, in a format that is directly usable in ucf files. 
+#
+#END of Global Clock Net Distribution UCF Constraints
+######################################################################################
+
+
+######################################################################################
+GLOBAL CLOCK NET LOADS DISTRIBUTION REPORT:
+
+Number of Global Clock Regions : 12
+Number of Global Clock Networks: 16
+
+Clock Region Assignment: SUCCESSFUL
+
+Clock-Region: <CLOCKREGION_X0Y0> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      4 |      2 |      0 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |   1280 |   2240 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y0> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |   1280 |   2560 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y1> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      2 |      1 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |   1280 |   2240 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y1> 
+ key resource utilizations (used/available): global-clocks - 1/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      1 |      1 |   1280 |   2560 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |up_clk_OBUF
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |   1280 |   2240 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |mclk_OBUF
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |REFCLK_200MHz_OBUF
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |REFCLK_125MHz_OBUF
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |up_clk_OBUF
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |fe_clk_OBUF
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      5 |      0 |      0 |      0 |      0 |      0 |      0 |      5 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y2> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |   1280 |   2560 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y3> 
+ key resource utilizations (used/available): global-clocks - 1/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |   1280 |   2240 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     15 |mclk_i_1
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     15 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y3> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      6 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |   1280 |   2560 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y4> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      2 |      1 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |   1280 |   2240 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y4> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      6 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |   1280 |   2560 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y5> 
+ key resource utilizations (used/available): global-clocks - 1/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      4 |      2 |      0 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |   1280 |   2240 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |Inst_DCM2PLL/CLKFB_IN
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y5> 
+ key resource utilizations (used/available): global-clocks - 0/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT |    LUT |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |   1280 |   2560 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+NOTE:
+The above detailed report is the initial placement of the logic after the clock region assignment. The final placement
+may be significantly different because of the various optimization steps which will follow. Specifically, logic blocks
+maybe moved to adjacent clock-regions as long as the "number of clocks per region" constraint is not violated.
+
+
+# END of Global Clock Net Loads Distribution Report:
+######################################################################################
+
+
+Phase 7.30 (Checksum:17a015) REAL time: 7 secs 
+
+Phase 8.3
+...
+Phase 8.3 (Checksum:21b059) REAL time: 7 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:21b059) REAL time: 8 secs 
+
+Phase 10.8
+.
+.
+Phase 10.8 (Checksum:454a81) REAL time: 8 secs 
+
+Phase 11.29
+Phase 11.29 (Checksum:454a81) REAL time: 8 secs 
+
+Phase 12.5
+Phase 12.5 (Checksum:454a81) REAL time: 8 secs 
+
+Phase 13.18
+Phase 13.18 (Checksum:484980) REAL time: 9 secs 
+
+Phase 14.5
+Phase 14.5 (Checksum:484980) REAL time: 9 secs 
+
+Phase 15.34
+Phase 15.34 (Checksum:484980) REAL time: 9 secs 
+
+REAL time consumed by placer: 9 secs 
+CPU  time consumed by placer: 8 secs 
+Invoking physical synthesis ...
+
+Physical synthesis completed.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    4
+Slice Logic Utilization:
+  Number of Slice Registers:                    24 out of  28,800    1%
+    Number used as Flip Flops:                  24
+  Number of Slice LUTs:                         21 out of  28,800    1%
+    Number used as logic:                       20 out of  28,800    1%
+      Number using O6 output only:               5
+      Number using O5 output only:              12
+      Number using O5 and O6:                    3
+    Number used as exclusive route-thru:         1
+  Number of route-thrus:                        13 out of  57,600    1%
+    Number using O6 output only:                13
+
+Slice Logic Distribution:
+  Number of occupied Slices:                    14 out of   7,200    1%
+  Number of LUT Flip Flop pairs used:           30
+    Number with an unused Flip Flop:             6 out of      30   20%
+    Number with an unused LUT:                   9 out of      30   30%
+    Number of fully used LUT-FF pairs:          15 out of      30   50%
+    Number of unique control sets:               8
+    Number of slice register sites lost
+      to control set restrictions:              20 out of  28,800    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        20 out of     480    4%
+    IOB Flip Flops:                              7
+    IOB Master Pads:                             2
+    IOB Slave Pads:                              2
+
+Specific Feature Utilization:
+  Number of BUFG/BUFGCTRLs:                     16 out of      32   50%
+    Number used as BUFGs:                       11
+    Number used as BUFGCTRLs:                    5
+  Number of DCM_ADVs:                            1 out of      12    8%
+  Number of PLL_ADVs:                            2 out of       6   33%
+
+Peak Memory Usage:  340 MB
+Total REAL time to MAP completion:  30 secs 
+Total CPU time to MAP completion:   25 secs 
+
+Mapping completed.
+See MAP report file "cru_map.mrp" for details.

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator M.81d
+# Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION M.81d
+DATE            02/24/2011 - 15:06
+SOURCE          \\aristoteles\kimei\MASTER\COMPET\sandbox\ROC_CRU_TEST\impact\Untitled.mcs
+DEVICE          XCF32P
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x25104ED8
+START_ADDRESS   0x00000000 END_ADDRESS 0x001ACD7F DIRECTION_UP   "M:/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.bit" 5vlx50tff1136

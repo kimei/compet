@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Par" num="282" delta="unknown" >No user timing constraints were detected or you have set the option to ignore timing constraints (&quot;par -x&quot;). Place and Route will run in &quot;Performance Evaluation Mode&quot; to automatically improve the performance of all internal clocks in this design. The PAR timing summary will list the performance achieved for each clock. Note: For the fastest runtime, set the effort level to &quot;std&quot;.  For best performance, set the effort level to &quot;high&quot;. For a balance between the fastest runtime and best performance, set the effort level to &quot;med&quot;.
+</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;clk_gen_pll/CLKOUT1_BUF&quot; derived from
+ Autotimespec constraint for clock net clk_gen_pll/CLKIN1_IBUFG
+ divided by 5.00  to 2 nS  
+</arg>&quot;
+ fails the minimum period check for clock &quot;<arg fmt="%s" index="2">fe_clk_i_0</arg>&quot; because the period constraint value (<arg fmt="%d" index="3">2000</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">2500</arg> ps  on pin &quot;<arg fmt="%s" index="5">/cru/PACKED/cru/fe_clk_mux/fe_clk_mux/I0</arg>&quot;.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;Inst_DCM2PLL/CLKOUT1_BUF&quot; derived from
+ Autotimespec constraint for clock net Inst_DCM2PLL/CLKIN_IBUFGDS_OUT
+ divided by 5.00  to 2 nS  
+</arg>&quot;
+ fails the minimum period check for clock &quot;<arg fmt="%s" index="2">fe_clk_i_1</arg>&quot; because the period constraint value (<arg fmt="%d" index="3">2000</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">2500</arg> ps  on pin &quot;<arg fmt="%s" index="5">/cru/PACKED/cru/fe_clk_mux/fe_clk_mux/I1</arg>&quot;.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;Inst_DCM2PLL/CLKOUT1_BUF&quot; derived from
+ Autotimespec constraint for clock net Inst_DCM2PLL/CLK0_BUF
+ divided by 5.00  to 2 nS  
+</arg>&quot;
+ fails the minimum period check for clock &quot;<arg fmt="%s" index="2">fe_clk_i_1</arg>&quot; because the period constraint value (<arg fmt="%d" index="3">2000</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">2500</arg> ps  on pin &quot;<arg fmt="%s" index="5">/cru/PACKED/cru/fe_clk_mux/fe_clk_mux/I1</arg>&quot;.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="info" file="Timing" num="2761" delta="unknown" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+<msg type="info" file="Timing" num="2761" delta="unknown" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+</messages>
+

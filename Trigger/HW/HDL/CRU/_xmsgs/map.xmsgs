@@ -30,7 +30,11 @@
 <msg type="info" file="Map" num="215" delta="unknown" >The Interim Design Summary has been generated in the MAP Report (.mrp).
 </msg>
 
-<msg type="info" file="Pack" num="1650" delta="unknown" >Map created a placed design.
+<msg type="error" file="Place" num="910" delta="unknown" >It appears that the specified pin locations for differential pair &quot;<arg fmt="%s" index="1">mclk</arg>&quot; (LOC=&quot;<arg fmt="%s" index="2">AB15</arg>&quot;) and &quot;<arg fmt="%s" index="3">mclk_b</arg>&quot; (LOC=&quot;<arg fmt="%s" index="4">AB16</arg>&quot;) are reversed and can not be placed without changing the functionality (polarity) of the signal. To correct this error, either modify the LOC values or change the buffer connections in the code so that the P-side of the differential buffer is LOCed to the pin location &quot;<arg fmt="%s" index="5">AB16</arg>&quot; and the N-side of the buffer is LOCed to the pin location &quot;<arg fmt="%s" index="6">AB15</arg>&quot;.
+It is possible   to allow location constraints to override this rule by setting the environment variable XIL_PAR_ALLOW_LVDS_LOC_OVERRIDE.
+</msg>
+
+<msg type="error" file="Pack" num="1654" delta="unknown" >The timing-driven packing phase encountered an error.
 </msg>
 
 </messages>

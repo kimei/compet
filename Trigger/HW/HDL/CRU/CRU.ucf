@@ -1,9 +1,9 @@
-NET "mclk" LOC = J20;
-NET "mclk_b" LOC = J21;
-NET "fpga_100m_clk" LOC = AH15;
-NET "fpga_cpu_reset_b" LOC = V8;
-NET "gclk" LOC = AF13;
-NET "lrst" LOC = AG12;
-NET "mrst" LOC = AG23;
+NET "mclk" LOC = AB15;
+NET "mclk_b" LOC = AB16;
+NET "fpga_100m_clk" LOC = E18;
+NET "fpga_cpu_reset" LOC = AF20;
+#NET "gclk" LOC = AF13;
+#NET "lrst" LOC = AG12;
+#NET "mrst" LOC = AG23;
 NET "mclk_b" IOSTANDARD = "LVDS_25";
 NET "mclk" IOSTANDARD = "LVDS_25";

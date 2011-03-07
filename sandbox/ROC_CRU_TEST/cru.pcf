@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map K.39 on Thu Feb 24 11:33:37 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "fpga_100m_clk" LOCATE = SITE "H17" LEVEL 1;
+COMP "clk100m_ctu_out_b" LOCATE = SITE "AK6" LEVEL 1;
+COMP "clk100m_ctu_b" LOCATE = SITE "H20" LEVEL 1;
+COMP "clk100m_ctu_out_test" LOCATE = SITE "V10" LEVEL 1;
+COMP "clk100m_ctu_out" LOCATE = SITE "AK7" LEVEL 1;
+COMP "clk100m_ctu" LOCATE = SITE "H19" LEVEL 1;
+COMP "cru_reset" LOCATE = SITE "R34" LEVEL 1;
+COMP "using_ext_clock_led" LOCATE = SITE "H13" LEVEL 1;
+COMP "fpga_cpu_reset" LOCATE = SITE "AN34" LEVEL 1;
+COMP "clk100m_ctu_out_b_test" LOCATE = SITE "V9" LEVEL 1;
+SCHEMATIC END;
+

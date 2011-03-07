@@ -1,6 +1,6 @@
 iMPACT Version: 10.1.03
 
-iMPACT log file Started on Thu Feb 03 15:03:10 2011
+iMPACT log file Started on Mon Feb 14 16:45:55 2011
 
 // *** BATCH CMD : loadProjectFile -file"M:\MASTER\COMPET\Trigger\HW\HDL\CRU/CRU.ipf"
 Connecting to cable (Usb Port - USB21).
@@ -72,8 +72,7 @@ INFO:iMPACT:501 - '2': Added Device xc5vlx50t successfully.
 ----------------------------------------------------------------------
 '1': Added Device xcf32p successfully.
 ----------------------------------------------------------------------
-Active mode is PFF
-// *** BATCH CMD : setMode -bs
+Active mode is BS
 // *** BATCH CMD : setMode -ss
 // *** BATCH CMD : setMode -sm
 // *** BATCH CMD : setMode -hw140
@@ -81,6 +80,7 @@ Active mode is PFF
 // *** BATCH CMD : setMode -acecf
 // *** BATCH CMD : setMode -acempm
 // *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -pff
@@ -93,8 +93,6 @@ getMultiBootSelected(): FALSE
 getSPISelected(): FALSE
 ------------------------  GUI: End PFFView Report  ------------------------
 // *** BATCH CMD : setMode -pff
-// *** BATCH CMD : setMode -pff
-// *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -pff
 // *** BATCH CMD : setMode -pff
@@ -111,53 +109,13 @@ getSPISelected(): FALSE
 // *** BATCH CMD : setCurrentDeviceChain -index 0
 // *** BATCH CMD : setMode -bs
 // *** BATCH CMD : setMode -bs
-GUI --- Auto connect to cable...
-// *** BATCH CMD : setCable -port auto
-AutoDetecting cable. Please wait.
-PROGRESS_START - Starting Operation.
-Connecting to cable (Parallel Port - LPT1).
-Checking cable driver.
- Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
- LPT base address = 0378h.
- ECP base address = 0778h.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT2).
-Checking cable driver.
- Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT3).
-Checking cable driver.
- Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
-Cable connection failed.
-Connecting to cable (Parallel Port - LPT4).
-Checking cable driver.
- Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
-Cable connection failed.
-Connecting to cable (Usb Port - USB21).
-Checking cable driver.
- Driver file xusb_xlp.sys found.
- Driver version: src=1029, dest=1029.
- Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
- Cable PID = 0008.
- Max current requested during enumeration is 74 mA.
-Type = 0x0004.
- Cable Type = 3, Revision = 0.
- Setting cable speed to 6 MHz.
-Cable connection established.
-Firmware version = 1303.
-File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1303.
-Firmware hex file version = 1303.
-PLD file version = 0012h.
- PLD version = 0012h.
-PROGRESS_END - End Operation.
-Elapsed time =      2 sec.
 // *** BATCH CMD : Program -p 5 
 Maximum TCK operating frequency for this device chain: 10000000.
 Validating chain...
 Boundary-scan chain validated successfully.
-PROGRESS_START - Starting Operation.
-5: Device Temperature: Current Reading:   42.50 C, Min. Reading:   41.02 C, Max.Reading:   42.99 C
+5: Device Temperature: Current Reading:   32.16 C, Min. Reading:   24.29 C, Max.Reading:   32.66 C
 5: VCCINT Supply: Current Reading:   1.002 V, Min. Reading:   0.999 V, Max.Reading:   1.002 V
+PROGRESS_START - Starting Operation.
 5: VCCAUX Supply: Current Reading:   2.481 V, Min. Reading:   2.481 V, Max.Reading:   2.484 V
 '5': Programming device...
  Match_cycle = NoWait.
@@ -205,15 +163,20 @@ INFO:iMPACT - '5': Checking done pin....done.
 '5': Programmed successfully.
 PROGRESS_END - End Operation.
 Elapsed time =      4 sec.
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -pff
+Revision 0, Design  Device #1 is Selected.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
 Updating config file M:/MASTER/COMPET/Trigger/HW/HDL/CRU/cru.bit...
 // *** BATCH CMD : Program -p 5 
 Maximum TCK operating frequency for this device chain: 10000000.
 Validating chain...
 Boundary-scan chain validated successfully.
-PROGRESS_START - Starting Operation.
-5: Device Temperature: Current Reading:   41.52 C, Min. Reading:   41.52 C, Max.Reading:   42.50 C
-5: VCCINT Supply: Current Reading:   1.002 V, Min. Reading:   1.002 V, Max.Reading:   1.002 V
+5: Device Temperature: Current Reading:   38.07 C, Min. Reading:   37.58 C, Max.Reading:   38.56 C
+5: VCCINT Supply: Current Reading:   0.999 V, Min. Reading:   0.999 V, Max.Reading:   1.002 V
 5: VCCAUX Supply: Current Reading:   2.481 V, Min. Reading:   2.481 V, Max.Reading:   2.484 V
+PROGRESS_START - Starting Operation.
 '5': Programming device...
  Match_cycle = NoWait.
 Match cycle: NoWait
@@ -260,3 +223,98 @@ INFO:iMPACT - '5': Checking done pin....done.
 '5': Programmed successfully.
 PROGRESS_END - End Operation.
 Elapsed time =      5 sec.
+// *** BATCH CMD : Program -p 5 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_START - Starting Operation.
+5: Device Temperature: Current Reading:   39.05 C, Min. Reading:   39.05 C, Max.Reading:   39.55 C
+5: VCCINT Supply: Current Reading:   0.999 V, Min. Reading:   0.999 V, Max.Reading:   1.002 V
+5: VCCAUX Supply: Current Reading:   2.481 V, Min. Reading:   2.481 V, Max.Reading:   2.484 V
+'5': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+done.
+'5': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+End of startup signal from Startup block          :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         0
+value of MODE pin M1                              :         0
+Value of MODE pin M2                              :         0
+Internal signal indicates when housecleaning is completed:         1
+Value driver in from INIT pad                     :         1
+Internal signal indicates that chip is configured :         1
+Value of DONE pin                                 :         1
+Indicates when ID value written does not match chip ID:         0
+Decryptor error Signal                            :         0
+System Monitor Over-Temperature Alarm             :         0
+startup_state[18] CFG startup state machine       :         0
+startup_state[19] CFG startup state machine       :         0
+startup_state[20] CFG startup state machine       :         1
+E-fuse program voltage available                  :         0
+SPI Flash Type[22] Select                         :         1
+SPI Flash Type[23] Select                         :         1
+SPI Flash Type[24] Select                         :         1
+CFG bus width auto detection result               :         0
+CFG bus width auto detection result               :         0
+Reserved                                          :         0
+BPI address wrap around error                     :         0
+IPROG pulsed                                      :         0
+read back crc error                               :         0
+Indicates that efuse logic is busy                :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 0001 1110 0000 1011 1000 0000 
+INFO:iMPACT:579 - '5': Completed downloading bit file to device.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+INFO:iMPACT - '5': Checking done pin....done.
+'5': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      4 sec.
+// *** BATCH CMD : saveProjectFile -file"M:\MASTER\COMPET\Trigger\HW\HDL\CRU/CRU.ipf"
+// *** BATCH CMD : saveProjectFile -file"M:/MASTER/COMPET/Trigger/HW/HDL/CRU/CRU.ipf"
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : deletePromDevice -position 1
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : deleteDesign -version 0
+// *** BATCH CMD : setCurrentDesign -version -1
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs

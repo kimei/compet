@@ -62,10 +62,10 @@ prop_109_val
 "38"
 s
 prop_10_name
-PROP_PostSynthSimTop
+PROP_PostFitSimTop
 s
 prop_10_val
-"Architecture|CRU_tb|TB"
+""
 s
 prop_110_name
 PROP_xcpldFitDesInputLmt_xbr
@@ -128,10 +128,10 @@ prop_119_val
 "false"
 s
 prop_11_name
-PROP_UseSmartGuide
+PROP_PostSynthSimTop
 s
 prop_11_val
-"false"
+"Architecture|CRU_tb|TB"
 s
 prop_120_name
 PROP_xilxNgdbldUnexpBlks
@@ -194,10 +194,10 @@ prop_129_val
 "false"
 s
 prop_12_name
-PROP_PartitionCreateDelete
+PROP_UseSmartGuide
 s
 prop_12_val
-""
+"false"
 s
 prop_130_name
 PROP_MapGlobalOptimization
@@ -260,7 +260,7 @@ prop_139_val
 ""
 s
 prop_13_name
-PROP_PartitionForceSynth
+PROP_PartitionCreateDelete
 s
 prop_13_val
 ""
@@ -326,7 +326,7 @@ prop_149_val
 "false"
 s
 prop_14_name
-PROP_PartitionForceTranslate
+PROP_PartitionForceSynth
 s
 prop_14_val
 ""
@@ -392,7 +392,7 @@ prop_159_val
 ""
 s
 prop_15_name
-PROP_PartitionForcePlacement
+PROP_PartitionForceTranslate
 s
 prop_15_val
 ""
@@ -458,10 +458,10 @@ prop_169_val
 "false"
 s
 prop_16_name
-PROP_DesignName
+PROP_PartitionForcePlacement
 s
 prop_16_val
-"CRU"
+""
 s
 prop_170_name
 PROP_xstReadCores
@@ -524,10 +524,10 @@ prop_179_val
 "Yes"
 s
 prop_17_name
-PROP_Dummy
+PROP_DesignName
 s
 prop_17_val
-"dum1"
+"CRU"
 s
 prop_180_name
 PROP_SynthShiftRegExtract
@@ -590,10 +590,10 @@ prop_189_val
 "false"
 s
 prop_18_name
-PROP_LastAppliedGoal
+PROP_Dummy
 s
 prop_18_val
-"Balanced"
+"dum1"
 s
 prop_190_name
 PROP_xstLUTCombining_virtex5
@@ -656,10 +656,10 @@ prop_199_val
 "6"
 s
 prop_19_name
-PROP_LastAppliedStrategy
+PROP_LastAppliedGoal
 s
 prop_19_val
-"Xilinx Default (unlocked)"
+"Balanced"
 s
 prop_1_name
 PROP_SteCreatedBy
@@ -728,10 +728,10 @@ prop_209_val
 "Pull Up"
 s
 prop_20_name
-PROP_LastUnlockStatus
+PROP_LastAppliedStrategy
 s
 prop_20_val
-"false"
+"Xilinx Default (unlocked)"
 s
 prop_210_name
 PROP_xilxBitgCfg_M0_virtex5
@@ -794,10 +794,10 @@ prop_219_val
 "Pull Up"
 s
 prop_21_name
-PROP_UserBrowsedStrategyFiles
+PROP_LastUnlockStatus
 s
 prop_21_val
-""
+"false"
 s
 prop_220_name
 PROP_xilxBitgCfg_TCK_virtex5
@@ -860,10 +860,10 @@ prop_229_val
 "1"
 s
 prop_22_name
-PROP_SimUseCustom_postXlate
+PROP_UserBrowsedStrategyFiles
 s
 prop_22_val
-"false"
+""
 s
 prop_230_name
 PROP_xilxBitgCfg_PwrDown_Safe_Temp_virtex5
@@ -1328,10 +1328,10 @@ prop_29_val
 "$XILINX/<language>/<simulator>"
 s
 prop_2_name
-PROP_Parse_Target
+PROP_SimUseCustom_postXlate
 s
 prop_2_val
-"synthesis"
+"false"
 s
 prop_300_name
 PROP_xcpldFitDesInReg_xbr
@@ -1553,7 +1553,7 @@ prop_333_name
 PROP_DevDevice
 s
 prop_333_val
-"xc5vlx50t"
+"xc5vlx30t"
 s
 prop_334_name
 PROP_CompxlibSimPath
@@ -1625,7 +1625,7 @@ prop_344_name
 PROP_DevPackage
 s
 prop_344_val
-"ff1136"
+"ff665"
 s
 prop_345_name
 PROP_Synthesis_Tool
@@ -1946,10 +1946,10 @@ prop_39_val
 "true"
 s
 prop_3_name
-PROP_Top_Level_Module_Type
+PROP_Parse_Target
 s
 prop_3_val
-"HDL"
+"synthesis"
 s
 prop_40_name
 PROP_xstLibSearchOrder
@@ -2012,10 +2012,10 @@ prop_49_val
 ""
 s
 prop_4_name
-PROP_SynthTop
+PROP_Top_Level_Module_Type
 s
 prop_4_val
-"Architecture|CRU|Behavioral"
+"HDL"
 s
 prop_50_name
 PROP_xstGenerateRTLNetlist
@@ -2078,10 +2078,10 @@ prop_59_val
 "false"
 s
 prop_5_name
-PROP_BehavioralSimTop
+PROP_SynthTop
 s
 prop_5_val
-"Architecture|CRU_tb|TB"
+"Architecture|CRU|Behavioral"
 s
 prop_60_name
 PROP_ImpactProjectFile
@@ -2144,7 +2144,7 @@ prop_69_val
 "Default"
 s
 prop_6_name
-PROP_PostXlateSimTop
+PROP_BehavioralSimTop
 s
 prop_6_val
 "Architecture|CRU_tb|TB"
@@ -2210,7 +2210,7 @@ prop_79_val
 "HTML"
 s
 prop_7_name
-PROP_PostMapSimTop
+PROP_PostXlateSimTop
 s
 prop_7_val
 "Architecture|CRU_tb|TB"
@@ -2276,7 +2276,7 @@ prop_89_val
 "false"
 s
 prop_8_name
-PROP_PostParSimTop
+PROP_PostMapSimTop
 s
 prop_8_val
 "Architecture|CRU_tb|TB"
@@ -2342,8 +2342,8 @@ prop_99_val
 ""
 s
 prop_9_name
-PROP_PostFitSimTop
+PROP_PostParSimTop
 s
 prop_9_val
-""
+"Architecture|CRU_tb|TB"
 s

@@ -1,0 +1,79 @@
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net mcl | SETUP   |         N/A|     2.530ns|     N/A|           0
+  k_i_1                                     | HOLD    |     0.664ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net REF | SETUP   |         N/A|     1.421ns|     N/A|           1
+  CLK_125MHz_OBUF                           | HOLD    |     0.769ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net Ins | SETUP   |         N/A|     1.355ns|     N/A|           0
+  t_DCM2PLL/CLKIN_IBUFGDS_OUT               | HOLD    |     0.401ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net up_ | SETUP   |         N/A|     1.434ns|     N/A|           0
+  clk_OBUF                                  | HOLD    |     0.775ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net mcl | SETUP   |         N/A|     1.608ns|     N/A|           0
+  k_OBUF                                    | HOLD    |     0.948ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net REF | SETUP   |         N/A|     1.415ns|     N/A|           0
+  CLK_200MHz_OBUF                           | HOLD    |     0.774ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net fe_ | SETUP   |         N/A|     1.556ns|     N/A|           0
+  clk_OBUF                                  | HOLD    |     0.923ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for clk_gen_pll/CLKIN1_IBUFG
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|clk_gen_pll/CLKIN1_IBUFG       |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| clk_gen_pll/CLKOUT2_BUF       |      6.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| clk_gen_pll/CLKOUT3_BUF       |      8.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| clk_gen_pll/CLKOUT4_BUF       |      5.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| clk_gen_pll/CLKOUT1_BUF       |      2.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| clk_gen_pll/CLKOUT0_BUF       |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for Inst_DCM2PLL/CLKIN_IBUFGDS_OUT
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|Inst_DCM2PLL/CLKIN_IBUFGDS_OUT |      1.410ns|      1.355ns|          N/A|            0|            0|            3|            0|
+| Inst_DCM2PLL/CLK0_BUF         |      1.410ns|          N/A|          N/A|            0|            0|            0|            0|
+|  Inst_DCM2PLL/CLKOUT2_BUF     |      0.846ns|          N/A|          N/A|            0|            0|            0|            0|
+|  Inst_DCM2PLL/CLKOUT3_BUF     |      1.128ns|          N/A|          N/A|            0|            0|            0|            0|
+|  Inst_DCM2PLL/CLKOUT4_BUF     |      0.705ns|          N/A|          N/A|            0|            0|            0|            0|
+|  Inst_DCM2PLL/CLKOUT1_BUF     |      0.282ns|          N/A|          N/A|            0|            0|            0|            0|
+|  Inst_DCM2PLL/CLKOUT0_BUF     |      1.410ns|          N/A|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for Inst_DCM2PLL/CLK0_BUF
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|Inst_DCM2PLL/CLK0_BUF          |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| Inst_DCM2PLL/CLKOUT2_BUF      |      6.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| Inst_DCM2PLL/CLKOUT3_BUF      |      8.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| Inst_DCM2PLL/CLKOUT4_BUF      |      5.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| Inst_DCM2PLL/CLKOUT1_BUF      |      2.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| Inst_DCM2PLL/CLKOUT0_BUF      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+

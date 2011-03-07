@@ -31,17 +31,25 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
+Setup/Hold to clock fpga_100m_clk
+--------------+------------+------------+------------------+--------+
+              |  Setup to  |  Hold to   |                  | Clock  |
+Source        | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------------+--------+
+fpga_cpu_reset|    0.943(R)|    1.130(R)|fpga_100m_clk_s   |   0.000|
+--------------+------------+------------+------------------+--------+
+
 Clock fpga_100m_clk to Pad
 ------------+------------+------------------+--------+
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-lrst        |   11.101(R)|gclk_OBUF         |   0.000|
-mclk        |    7.571(R)|mclk_s            |   0.000|
-            |    7.571(F)|mclk_s            |   0.000|
-mclk_b      |    7.571(R)|mclk_s            |   0.000|
-            |    7.571(F)|mclk_s            |   0.000|
-mrst        |   11.237(R)|gclk_OBUF         |   0.000|
+lrst        |    8.859(R)|fpga_100m_clk_s   |   0.000|
+mclk        |    9.689(R)|mclk_s            |   0.000|
+            |    9.689(F)|mclk_s            |   0.000|
+mclk_b      |    9.689(R)|mclk_s            |   0.000|
+            |    9.689(F)|mclk_s            |   0.000|
+mrst        |    8.850(R)|fpga_100m_clk_s   |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock fpga_100m_clk
@@ -49,25 +57,25 @@ Clock to Setup on destination clock fpga_100m_clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-fpga_100m_clk  |    3.235|         |         |         |
+fpga_100m_clk  |    3.414|         |    1.248|         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-fpga_100m_clk  |gclk           |    9.252|
+fpga_100m_clk  |gclk           |   11.370|
 ---------------+---------------+---------+
 
 
-Analysis completed Thu Feb 03 15:17:17 2011 
+Analysis completed Tue Feb 15 12:15:39 2011 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 227 MB
+Peak Memory Usage: 226 MB
 
 
 

@@ -5,7 +5,7 @@ run
 -ifmt mixed
 -ofn CRU
 -ofmt NGC
--p xc5vlx50t-1-ff1136
+-p xc5vlx30t-1-ff665
 -top CRU
 -opt_mode Speed
 -opt_level 1

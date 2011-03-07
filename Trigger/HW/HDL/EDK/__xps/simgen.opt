@@ -1,0 +1,1 @@
+ -p virtex5 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT)   TestApp_Memory_ppc440_0/executable.elf -msg __xps/ise/xmsgprops.lst -s mti -X M:/MASTER/COMPET/Trigger/HW/HDL/EDK/

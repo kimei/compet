@@ -1,0 +1,6 @@
+CommandLine
+xst -globOptFlow -finalclean 1 -intstyle silent -ofn C:/DOCUME~1/kimei/LOCALS~1/Temp/xil_3824_9.gopt
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

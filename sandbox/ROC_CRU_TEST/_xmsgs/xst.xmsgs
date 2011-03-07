@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">//aristoteles/kimei/MASTER/COMPET/sandbox/ROC_CRU_TEST/cru.vhd</arg>&quot; line <arg fmt="%d" index="2">183</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFGDS_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM2PLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">fpga_cpu_reset_b</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clk_stable</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="unknown" >Instance <arg fmt="%s" index="1">up_clk_mux</arg> in unit <arg fmt="%s" index="2">cru</arg> of type <arg fmt="%s" index="3">BUFGMUX</arg> has been replaced by <arg fmt="%s" index="4">BUFGCTRL</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="unknown" >Instance <arg fmt="%s" index="1">fe_clk_mux</arg> in unit <arg fmt="%s" index="2">cru</arg> of type <arg fmt="%s" index="3">BUFGMUX</arg> has been replaced by <arg fmt="%s" index="4">BUFGCTRL</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="unknown" >Instance <arg fmt="%s" index="1">mclk_mux</arg> in unit <arg fmt="%s" index="2">cru</arg> of type <arg fmt="%s" index="3">BUFGMUX</arg> has been replaced by <arg fmt="%s" index="4">BUFGCTRL</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="unknown" >Instance <arg fmt="%s" index="1">REFCLK_125MHz_mux</arg> in unit <arg fmt="%s" index="2">cru</arg> of type <arg fmt="%s" index="3">BUFGMUX</arg> has been replaced by <arg fmt="%s" index="4">BUFGCTRL</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="unknown" >Instance <arg fmt="%s" index="1">REFCLK_200MHz_mux</arg> in unit <arg fmt="%s" index="2">cru</arg> of type <arg fmt="%s" index="3">BUFGMUX</arg> has been replaced by <arg fmt="%s" index="4">BUFGCTRL</arg>
+</msg>
+
+</messages>
+

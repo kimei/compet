@@ -1,0 +1,11 @@
+NET "clk100m_ctu" LOC = H19;
+NET "clk100m_ctu_b" LOC = H20;
+NET "clk100m_ctu_out" LOC = AK7;
+NET "clk100m_ctu_out_b" LOC = AK6;
+NET "fpga_100m_clk" LOC = H17;
+NET "cru_reset" LOC = R34;
+NET "using_ext_clock_led" LOC = H13;
+NET "fpga_cpu_reset" LOC = AN34;
+
+NET "clk100m_ctu_out_test" LOC = V10;
+NET "clk100m_ctu_out_b_test" LOC = V9;

@@ -1,0 +1,2 @@
+vhdl jtagppc_cntlr_v2_01_c "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\jtagppc_cntlr_v2_01_c\synhdl\vhdl\jtagppc_cntlr.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\Trigger\HW\HDL\EDK\hdl\jtagppc_cntlr_inst_wrapper.vhd"

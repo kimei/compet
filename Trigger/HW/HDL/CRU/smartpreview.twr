@@ -5,21 +5,20 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
                                             |         |    Slack   | Achievable | Errors |    Score   
 ------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net gcl | SETUP   |         N/A|     3.323ns|     N/A|           0
-  k_OBUF                                    | HOLD    |     0.485ns|            |       0|           0
+  Autotimespec constraint for clock net fpg | SETUP   |         N/A|     3.516ns|     N/A|           0
+  a_100m_clk_s                              | HOLD    |     0.420ns|            |       0|           0
 ------------------------------------------------------------------------------------------------------
 
 
 Derived Constraint Report
-Derived Constraints for Inst_PLL_ALL/CLKIN1_IBUFG
+Derived Constraints for fpga_100m_clk_s
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 |                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|Inst_PLL_ALL/CLKIN1_IBUFG      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
-| Inst_PLL_ALL/CLKOUT1_BUF      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
-| Inst_PLL_ALL/CLKOUT0_BUF      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
+|fpga_100m_clk_s                |      3.668ns|      3.516ns|          N/A|            0|            0|         1461|            0|
+| Inst_PLL_ALL/CLKOUT0_BUF      |      3.668ns|          N/A|          N/A|            0|            0|            0|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.

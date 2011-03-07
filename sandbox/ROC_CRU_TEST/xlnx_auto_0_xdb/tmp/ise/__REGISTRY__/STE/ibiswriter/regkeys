@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ibiswriter.exe -intstyle ise cru.ncd cru.ibs
+s
+FormatString
+ibiswriter [-allmodels] {-g <option_value_pair>} [-intstyle ise|xflow|silent] [-ml] [-pin]<infile> <outfile[.ibs]>
+s

@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 10.1.03
 --  \   \         Application : xaw2vhdl
 --  /   /         Filename : PLL_ALL.vhd
--- /___/   /\     Timestamp : 01/27/2011 13:47:22
+-- /___/   /\     Timestamp : 02/14/2011 15:41:09
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -37,7 +37,6 @@ end PLL_ALL;
 
 architecture BEHAVIORAL of PLL_ALL is
    signal CLKFBOUT_CLKFBIN : std_logic;
-   signal CLKIN1_IBUFG     : std_logic;
    signal CLKOUT0_BUF      : std_logic;
    signal CLKOUT1_BUF      : std_logic;
    signal GND_BIT          : std_logic;
@@ -49,10 +48,6 @@ begin
    GND_BUS_5(4 downto 0) <= "00000";
    GND_BUS_16(15 downto 0) <= "0000000000000000";
    VCC_BIT <= '1';
-   CLKIN1_IBUFG_INST : IBUFG
-      port map (I=>CLKIN1_IN,
-                O=>CLKIN1_IBUFG);
-   
    CLKOUT0_BUFG_INST : BUFG
       port map (I=>CLKOUT0_BUF,
                 O=>CLKOUT0_OUT);
@@ -78,7 +73,7 @@ begin
             REF_JITTER => 0.000000)
       port map (CLKFBIN=>CLKFBOUT_CLKFBIN,
                 CLKINSEL=>VCC_BIT,
-                CLKIN1=>CLKIN1_IBUFG,
+                CLKIN1=>CLKIN1_IN,
                 CLKIN2=>GND_BIT,
                 DADDR(4 downto 0)=>GND_BUS_5(4 downto 0),
                 DCLK=>GND_BIT,

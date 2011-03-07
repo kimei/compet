@@ -1,0 +1,7 @@
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\sandbox\ROC_CRU_TEST\constants.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\Compet_readout\shared\types.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\sandbox\ROC_CRU_TEST\pll_all.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\sandbox\ROC_CRU_TEST\DCM2PLL.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\sandbox\ROC_CRU_TEST\components.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\sandbox\ROC_CRU_TEST\a2s.vhd"
+vhdl work "\\aristoteles\kimei\MASTER\COMPET\sandbox\ROC_CRU_TEST\cru.vhd"
