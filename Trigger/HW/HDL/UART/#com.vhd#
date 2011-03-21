@@ -1,0 +1,73 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_ARITH.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
+
+library UNISIM;
+use UNISIM.VComponents.all;
+
+library work;
+use work.components.all;
+use work.constants.all;
+
+entity com is
+  
+  port (
+    mclk  : in  std_logic;
+    rst_b : in  std_logic;
+    rx    : in  std_logic;
+    tx    : out std_logic);
+end com;
+
+architecture Behavioral of com is
+signal rst,rst_uart,tx_req, tx_end, rx_ready, par_en : std_logic;
+signal rx_data, tx_data : std_logic_vector(7 downto 0);
+
+
+
+type state is (INIT,LOAD,SEND, WAIT_SENT);
+signal fsm_state : state;
+
+begin  -- Behavioral
+rst <=  not rst_b;
+
+  uart_1: uart
+    port map (
+      clk      => clk,
+      rst      => rst_uart,
+      rx       => rx,
+      tx       => tx,
+      par_en   => par_en,
+      tx_req   => tx_req,
+      tx_end   => tx_end,
+      tx_data  => tx_data,
+      rx_ready => rx_ready,
+      rx_data  => rx_data);
+end Behavioral;
+
+send_shit : process(clk)
+  if rst = '1' then 
+    rst_uart <=  '0';
+    fsm_state <= INIT;
+  elsif clk'event and clk = '1' then
+    rst_uart <= '0';
+    tx_req <= '0';
+    case fsm_state is
+      when INIT =>
+        
+        rst_uart <= '1';
+        par_en <=  '0';
+        fsm_state <= LOAD;
+      when LOAD =>
+        tx_data <= x"41";
+        fsm_state <= SEND;
+      when SEND =>
+        tx_req <= '1';
+      when WAIT_SENT =>
+        if tx_end = '1' then
+          fsm_state <= INIT;
+       else
+         fsm_state <= WAIT_SENT;
+      when others => null;
+    end case;
+  end if;

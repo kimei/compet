@@ -29,7 +29,7 @@ entity cru is
     -- added by
     clk100m_ctu         : in  std_logic;  -- differential clk input from CTU
     clk100m_ctu_b       : in  std_logic;
-    cru_reset           : in  std_logic;
+    cru_reset_b         : in  std_logic;
     clk100m_ctu_out     : out  std_logic;  -- differential clk input from CTU
     clk100m_ctu_out_b   : out  std_logic;
     using_ext_clock_led : out std_logic;
@@ -154,9 +154,12 @@ begin
 --! Use a PLL to create internal clocks based on the same 100MHz board clock source.
 --! This should ease adaption to dynamic switch of source clock..
   fpga_cpu_reset      <= not fpga_cpu_reset_b;
-  cru_OR_fpga_rst     <= fpga_cpu_reset or cru_reset;
+  
+  cru_OR_fpga_rst     <= fpga_cpu_reset or (not cru_reset_b);
+  
   rst_DCM2PLL         <= cru_OR_fpga_rst and (not DCM2PLL_lock_uf);
   cru_OR_fpga_rst_b   <= not cru_OR_fpga_rst;
+  
   using_ext_clock_led <= DCM2PLL_lock;
 
   clk_gen_pll : pll_all port map(

@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map K.39 on Fri Mar 11 11:30:44 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "RESET_ROC" LOCATE = SITE "A12" LEVEL 1;
+COMP "MCLK100_b" LOCATE = SITE "AC16" LEVEL 1;
+COMP "MCLK100" LOCATE = SITE "AB15" LEVEL 1;
+COMP "tx" LOCATE = SITE "L8" LEVEL 1;
+COMP "test_led" LOCATE = SITE "AF22" LEVEL 1;
+COMP "FPGA100M" LOCATE = SITE "E18" LEVEL 1;
+COMP "test_led2" LOCATE = SITE "AF23" LEVEL 1;
+COMP "RESET" LOCATE = SITE "AF20" LEVEL 1;
+SCHEMATIC END;
+

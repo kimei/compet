@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_6.6d\examples
+T_opt
+Z1 V[NM^U0J;L<nVc7mGE3XE61
+Z2 04 14 7 work edge_detect_tb stimuli 1
+Z3 =1-001aa0e92aad-4d8336ab-2e3-17f0
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dC:\modeltech_6.6d\examples
+T_opt1
+Z8 VhBA35MMgGYzgH7[hE3dEL0
+Z9 04 11 6 work edge_detect behave 1
+Z10 =1-001aa0e92aad-4d833472-5-15bc
+R4
+Z11 n@_opt1
+R6
+R7
+Eedge_detect
+Z12 w1300444728
+Z13 DPx6 unisim 11 vcomponents 0 22 ^aPg^g8R`383Ij9LHKGf]3
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z15 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z16 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z17 dM:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\sim\edge_detect
+Z18 8M:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\edge_detect.vhd
+Z19 FM:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\edge_detect.vhd
+l0
+L37
+Z20 VXoCA<O7@`A>VSam[hZUGP2
+Z21 OE;C;6.6d;45
+32
+Z22 o-work work -2002 -explicit
+Z23 tExplicit 1
+Z24 !s100 9I7:T9QSC6UC7?ozm[>=B0
+Abehave
+R13
+R14
+R15
+R16
+Z25 DEx4 work 11 edge_detect 0 22 XoCA<O7@`A>VSam[hZUGP2
+l48
+L46
+Z26 VHbf;eImGa0UEEX:6XISKb0
+R21
+32
+Z27 Mx4 4 ieee 14 std_logic_1164
+Z28 Mx3 4 ieee 15 std_logic_arith
+Z29 Mx2 4 ieee 18 std_logic_unsigned
+Z30 Mx1 6 unisim 11 vcomponents
+R22
+R23
+Z31 !s100 m?So?g8Sf@cWX_Y??NLem1
+Eedge_detect_tb
+Z32 w1300444038
+Z33 DPx22 C:\modeltech_6.6d\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R17
+Z34 8M:/MASTER/COMPET/Trigger/HW/HDL/Sync_Trigger/sim/edge_detect/edge_detect_tb.vhd
+Z35 FM:/MASTER/COMPET/Trigger/HW/HDL/Sync_Trigger/sim/edge_detect/edge_detect_tb.vhd
+l0
+L27
+Z36 Vi>Mh1;`>mKE??N]8LK@630
+R21
+R22
+R23
+Z37 !s100 MEW<ChiDd0b=:Fg`7DAj82
+Astimuli
+DPx37 C:\Xilinx\10.1\ISE\vhdl\mti_se\unisim 11 vcomponents 0 22 ^aPg^g8R`383Ij9LHKGf]3
+DPx22 C:\modeltech_6.6d\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+DPx22 C:\modeltech_6.6d\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+DEx65 M:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\sim\edge_detect\work 11 edge_detect 0 22 XoCA<O7@`A>VSam[hZUGP2
+R33
+DEx65 M:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\sim\edge_detect\work 14 edge_detect_tb 0 22 i>Mh1;`>mKE??N]8LK@630
+32
+Mx4 22 C:\modeltech_6.6d\ieee 14 std_logic_1164
+Mx3 22 C:\modeltech_6.6d\ieee 15 std_logic_arith
+Mx2 22 C:\modeltech_6.6d\ieee 18 std_logic_unsigned
+Mx1 37 C:\Xilinx\10.1\ISE\vhdl\mti_se\unisim 11 vcomponents
+l52
+L33
+Z38 VEeJCCcBVRBXRIfOm[iPCe2
+R21
+R22
+R23
+Z39 !s100 LMgNe@QD`]AHADohA:i2?2

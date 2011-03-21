@@ -1,10 +1,44 @@
+######################
+#for V5FXT EVAL board#
+######################
+#NET "MCLK100" LOC = AB15;
+#NET "MCLK100_b" LOC = AC16;
+#
+#
+#NET "FPGA100M" LOC = E18;
+#NET "RESET" LOC = AF20;
+#NET "RESET_ROC" LOC = A12;
+#
+## PlanAhead Generated IO constraints 
+#
+#NET "RESET_ROC" DRIVE = 24;
+#NET "RESET_ROC" SLEW = FAST;
+
+##########################
+#END for V5FXT EVAL board#
+##########################
 
 
-NET "MCLK100" LOC = AB15;
-NET "MCLK100_b" LOC = AC16;
+######################
+#for ML505 board#
+######################
+NET "MCLK100" LOC = J20;
+NET "MCLK100_b" LOC = J21;
+
+
+NET "FPGA100M" LOC = AH15;
+NET "RESET" LOC = U8;
+
+
+
+#NET "RESET_ROC" LOC = A12;
+#NET "RESET_ROC" DRIVE = 24;
+#NET "RESET_ROC" SLEW = FAST;
+
+##########################
+#END for ML505 board#
+##########################ÿÿÿÿ
 
 # PlanAhead Generated physical constraints 
 
-NET "FPGA100M" LOC = E18;
-NET "RESET" LOC = AF20;
-NET "RESET_ROC" LOC = A12;
+#NET "SYNC_TRIGGER_IN[0]" LOC = W1;

@@ -1,0 +1,42 @@
+-----------------------------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+package fun_pkg is
+
+
+  function all_ones(s1 : std_logic_vector) return std_logic;
+  --This function returns if the input vector has all ones and no zeros
+
+  function all_zeros(s1 : std_logic_vector) return std_logic;
+
+
+end fun_pkg;
+package body fun_pkg is
+--Function Declaration Section
+
+  function all_ones(s1 : std_logic_vector) return std_logic is
+    --returns z='1' if all bits in a vector are '1'
+    variable Z : std_logic;
+  begin
+    Z := s1(s1'low);
+    for i in (s1'low+1) to s1'high loop
+      Z := Z and s1(i);
+    end loop;
+    return Z;
+  end all_ones;  -- end function
+
+  function all_zeros(s1 : std_logic_vector) return std_logic is
+    --returns z='1' if all bits in a vector are '0'
+    variable Z : std_logic;
+  begin
+    Z := '0';
+    for i in (s1'low) to s1'high loop
+      Z := Z or s1(i);
+    end loop;
+    return not(Z);
+  end all_zeros;  -- end function
+
+
+end fun_pkg;

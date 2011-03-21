@@ -1,0 +1,132 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_6.6d\examples
+T_opt
+Z1 V[NM^U0J;L<nVc7mGE3XE61
+Z2 04 14 7 work edge_detect_tb stimuli 1
+Z3 =1-001aa0e92aad-4d8336ab-2e3-17f0
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dC:\modeltech_6.6d\examples
+T_opt1
+Z8 VhBA35MMgGYzgH7[hE3dEL0
+Z9 04 11 6 work edge_detect behave 1
+Z10 =1-001aa0e92aad-4d833472-5-15bc
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+Z12 V96i?VK=V<cI]ZL<EE_RT33
+Z13 04 14 2 work edge_detect_tb tb 1
+Z14 =1-001aa0e92aad-4d833e38-72-660
+Z15 o-quiet -auto_acc_if_foreign -work work +acc
+Z16 n@_opt2
+R6
+R7
+Eedge_detect
+Z17 w1300446358
+Z18 DPx6 unisim 11 vcomponents 0 22 ^aPg^g8R`383Ij9LHKGf]3
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z20 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z21 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z22 dM:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\sim\edge_detect
+Z23 8../../edge_detect.vhd
+Z24 F../../edge_detect.vhd
+l0
+L37
+Z25 VfG=[acUA^_HL?ChScdM3h3
+Z26 OE;C;6.6d;45
+31
+Z27 o-work work -93 -explicit
+Z28 tExplicit 1
+Z29 !s100 9I7:T9QSC6UC7?ozm[>=B0
+Abehave
+Z30 DPx37 C:\Xilinx\10.1\ISE\vhdl\mti_se\unisim 11 vcomponents 0 22 ^aPg^g8R`383Ij9LHKGf]3
+Z31 DPx22 C:\modeltech_6.6d\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z32 DPx22 C:\modeltech_6.6d\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z33 DPx22 C:\modeltech_6.6d\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z34 DEx65 M:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\sim\edge_detect\work 11 edge_detect 0 22 fG=[acUA^_HL?ChScdM3h3
+31
+Z35 Mx4 22 C:\modeltech_6.6d\ieee 14 std_logic_1164
+Z36 Mx3 22 C:\modeltech_6.6d\ieee 15 std_logic_arith
+Z37 Mx2 22 C:\modeltech_6.6d\ieee 18 std_logic_unsigned
+Z38 Mx1 37 C:\Xilinx\10.1\ISE\vhdl\mti_se\unisim 11 vcomponents
+l48
+L46
+Z39 VB@8j;GeVgYB1mgdC=ZBa03
+R26
+R27
+R28
+Z40 !s100 ^blcWHnVR?PMX?k8nc^ZP0
+Eedge_detect_tb
+Z41 w1300446767
+R33
+31
+R22
+Z42 8edge_detect_tb.vhd
+Z43 Fedge_detect_tb.vhd
+l0
+L27
+Z44 V<?[Qd2[FK1PM;5RO`B<zY2
+R26
+Z45 o-93 -explicit
+R28
+Z46 !s100 MEW<ChiDd0b=:Fg`7DAj82
+Atb
+R34
+R33
+Z47 DEx65 M:\MASTER\COMPET\Trigger\HW\HDL\Sync_Trigger\sim\edge_detect\work 14 edge_detect_tb 0 22 <?[Qd2[FK1PM;5RO`B<zY2
+31
+Z48 Mx1 22 C:\modeltech_6.6d\ieee 14 std_logic_1164
+l52
+L33
+Z49 V5Vedjj=zB6__F0^[4Kg2X3
+R26
+R45
+R28
+Z50 !s100 fUP;=@G4=1e8B;iZKGZaP0
+Astimuli
+R21
+Z51 DEx4 work 14 edge_detect_tb 0 22 i>Mh1;`>mKE??N]8LK@630
+l52
+L33
+Z52 VEeJCCcBVRBXRIfOm[iPCe2
+R26
+32
+Z53 Mx1 4 ieee 14 std_logic_1164
+Z54 o-work work -2002 -explicit
+R28
+Z55 FM:/MASTER/COMPET/Trigger/HW/HDL/Sync_Trigger/sim/edge_detect/edge_detect_tb.vhd
+Z56 w1300444038
+Z57 8M:/MASTER/COMPET/Trigger/HW/HDL/Sync_Trigger/sim/edge_detect/edge_detect_tb.vhd
+Z58 !s100 LMgNe@QD`]AHADohA:i2?2
+Cedge_detect_tb_tb_cfg
+atb
+Z59 eedge_detect_tb
+R20
+R19
+R18
+Z60 DEx4 work 11 edge_detect 0 22 fG=[acUA^_HL?ChScdM3h3
+Z61 DAx4 work 14 edge_detect_tb 2 tb 22 5Vedjj=zB6__F0^[4Kg2X3
+R21
+Z62 DEx4 work 14 edge_detect_tb 0 22 <?[Qd2[FK1PM;5RO`B<zY2
+R41
+R22
+R42
+R43
+l0
+L100
+Z63 VjlY@Ib=AR>dHMdEF;96L80
+R26
+31
+Z64 Mx4 4 ieee 14 std_logic_1164
+Z65 Mx3 6 unisim 11 vcomponents
+Z66 Mx2 4 ieee 18 std_logic_unsigned
+Z67 Mx1 4 ieee 15 std_logic_arith
+R45
+R28
+Z68 !s100 >I@ZNcJ2LD[=3AS9Ch`d^1
